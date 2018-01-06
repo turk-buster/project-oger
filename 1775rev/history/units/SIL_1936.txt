@@ -1,0 +1,106 @@
+﻿division_template = {
+	name = "Pesi Divize"					# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Horská Divize"					# Mountain Division
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Jezdecká Brigáda"				# Cavalry Brigade -- precursor to Fast Divisions. Fast Divisions add 2nd regiment of 2x L tank, 2x mot 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
+	}
+}
+
+units = {
+	#### Èeskoslovenská Vojenská Hednotka #####
+	# directly subordinate
+	division = {
+		name = "1. Jezdecká Brigáda"
+		location = 9570  # Prague
+		division_template = "Jezdecká Brigáda"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "4. Divize"
+		location = 9570  # Prague
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "12. Divize"
+		location = 9570  # Prague
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "16. Divize"
+		location = 9570 # Brno
+		division_template = "Horská Divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	# VIII Sbor
+	division = {
+		name = "9. Divize"
+		location = 9570 # Brno
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "16. Divize"
+		location = 11467 # Brno
+		division_template = "Horská Divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	# VIII Sbor
+	division = {
+		name = "9. Divize"
+		location = 11467 # Brno
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+}

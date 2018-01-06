@@ -1,0 +1,26 @@
+
+state={
+	id=745
+	name="Central Albania"
+	manpower = 303000
+	resources={
+		aluminium=9
+	}
+	
+	state_category = town
+	
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1 
+			air_base = 3
+		}
+		add_core_of = ALB
+		add_core_of = TUR
+	}
+
+	provinces={
+		9875 11762 3896 
+	}
+}

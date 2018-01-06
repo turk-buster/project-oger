@@ -1,0 +1,33 @@
+
+state={
+	id=752
+	name="Genoa"
+	manpower = 4765476
+	
+	state_category = metropolis
+	resources={
+		steel=40
+	}
+
+	history={
+		owner = GEN
+		victory_points = {
+			6788 10 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 7
+			industrial_complex = 1
+			dockyard = 2
+			air_base = 8
+			6788 = {
+				naval_base = 8
+			}
+		}
+		add_core_of = GEN
+	}
+
+	provinces={
+		6788 3772 
+	}
+}

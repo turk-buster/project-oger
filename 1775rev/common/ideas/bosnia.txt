@@ -1,0 +1,453 @@
+ideas = {
+
+	theorist = {
+
+		BOS_ljubomir_maric = {
+					
+					
+			allowed = {
+				original_tag = BOS
+			}
+			
+			picture = generic_army_europe_5
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		BOS_marijan_polic = {
+					
+					
+			allowed = {
+				original_tag = BOS
+			}
+			
+			picture = generic_political_advisor_europe_2
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		BOS_milutin_nedic = {
+			
+			picture = generic_army_europe_6
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BOS_draza_mihailovic = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BOS_josip_broz_tito = {
+			
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+
+			
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+
+		BOS_dusan_simovic = {
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BOS_petar_vukcevic = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+
+		BOS_bogoljub_ilic = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BOS_petar_kosic = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		BOS_arso_jovanovic = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		BOS_mihajlo_lukic = {
+			
+			picture = generic_army_europe_2
+
+			allowed = {
+				original_tag = BOS
+			}
+			
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BOS_danilo_kalafatovic = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+			
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BOS_borivoje_mirkovic = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+
+			traits = { air_bomber_interception_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	# TECHNOLOGY
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		jadransko_brodogradiliste = {
+			
+			picture = generic_naval_manufacturer_2
+
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				# generic shipyard?
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	
+	aircraft_manufacturer = { 
+		
+		designer = yes
+		
+		ikarus = {
+			
+			picture = generic_air_manufacturer_3
+
+			allowed = {
+				original_tag = BOS
+				NOT = { has_dlc = "Death or Dishonor" }		
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# produced under licence: Hawker Fury, Potez 25, Avia BH-33, own flying boats and recon aircrafts
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BOS_ikarus = {
+		
+			picture = generic_air_manufacturer_3
+			
+			available = {
+				has_completed_focus = BOS_ikarus
+			}
+
+			allowed = {
+				original_tag = BOS
+				has_dlc = "Death or Dishonor"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# produced under licence: Hawker Fury, Potez 25, Avia BH-33, own flying boats and recon aircrafts
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		rogozarski = {
+			
+			picture = generic_air_manufacturer_2
+
+			allowed = {
+				original_tag = BOS
+				NOT = { has_dlc = "Death or Dishonor" }
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# trainers and fighter airplanes Rogozarski PVT
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BOS_rogozarski = {
+
+			picture = generic_air_manufacturer_2
+			
+			available = {
+				has_completed_focus = BOS_rogozarski
+			}
+
+			allowed = {
+				original_tag = BOS
+				has_dlc = "Death or Dishonor"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# trainers and fighter airplanes Rogozarski PVT
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		zmaj = {
+			
+			picture = generic_air_manufacturer_1
+
+			allowed = {
+				original_tag = BOS
+				NOT = { has_dlc = "Death or Dishonor" }
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# trainers and bombers
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BOS_zmaj = {
+
+			picture = generic_air_manufacturer_1
+			
+			available = {
+				has_completed_focus = BOS_zmaj				
+			}			
+
+			allowed = {
+				original_tag = BOS
+				has_dlc = "Death or Dishonor"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# trainers and bombers
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		zastava_arms = {
+			
+			picture = generic_infantry_equipment_manufacturer_3
+
+			
+			allowed = {
+				original_tag = BOS
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			equipment_bonus = {
+				# trainers and bombers
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=779
+	name="Mullhouse" # Alsace-Lorraine
+	manpower = 1015600
+	
+	state_category = large_town
+	resources={
+		steel=20
+	}
+
+	history={
+		owner = AUS
+		victory_points = { 678 5 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			anti_air_building = 5
+
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		678 
+	}
+}

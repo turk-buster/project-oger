@@ -1,0 +1,449 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"		
+	# Represents: Division d'Infanterie (Series A and B), Div. d'Inf. Coloniale, 
+	#	Div. d'Inf. Nord-Africaine, Div. d'Inf. de Forteresse
+	# Difference is their equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Alpine"	# Division d'Infanterie Alpine
+	# Note: trimmed to 3x Rgts w/ arty bn added, 1939
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	# Regular mountain infantry (Infanterie Alpine)
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 2 y = 1 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 2 y = 2 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 3 y = 0 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 3 y = 1 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 3 y = 2 }	# Chasseurs Alpins (HOI3 elites)
+	}
+}
+division_template = {
+	name = "Division de Cavalerie" 	# Division de Cavalerie
+	# Note: Transformed to DLC, DLM divisions, 1936-39 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+	}
+}
+division_template = {
+	name = "Brigade Coloniale"			# Represents: 2xRgt colonial forces and , usually with old equipment
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+##### OOB #####
+units = {
+	##### Northern France Region #####
+	# VIe Corps d'Armée (Région Militaire in 1936) -- Metz
+	division= {	
+		name = "Sarreguimines Div. d'Inf. de Forteresse"
+		location = 9490
+		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Strassbourg Div. d'Inf. de Forteresse"
+		location = 512
+		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Mulhouse Div. d'Inf. de Forteresse"
+		location = 512
+		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	### Southern France Region
+	# XIIIe Corps d'Armée (Région Militaire in 1936) -- Clermont-Ferrand
+	division= {	
+		name = "4ème Division d'Infanterie"
+		location = 512
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "18ème Division d'Infanterie"
+		location = 512
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "25ème Div. d'Infanterie Motorisée"
+		location = 512
+		division_template = "Division d'Infanterie"  	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+	}
+
+	# XVIIe Corps d'Armée (Région Militaire in 1936) -- Toulouse
+	division= {	
+		name = "22ème Division d'Infanterie"
+		location = 512
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "4ème Div. d'Inf. Coloniale"
+		location = 3768
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# XVIIIe Corps d'Armée (Région Militaire in 1936) -- Bordeaux
+	division= {	
+		name = "36ème Division d'Infanterie"
+		location = 3768
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1ère Div. d'Inf. Coloniale"
+		location = 3768
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# XIVe Corps d'Armée (Région Militaire in 1936) -- Lyon
+	division= {	
+		name = "27ème Division d'Infanterie Alpine"
+		location = 3768
+		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "30ème Division d'Infanterie Alpine"
+		location = 3768
+		division_template = "Division d'Infanterie Alpine" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "1ère Div. d'Inf. Nord-Africaine"
+		location = 3768
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "1ère Brigade de Chars de Combat"
+		location = 6766
+		division_template = "Division d'Infanterie"  			# FT-17s
+		start_experience_factor = 0.2
+		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
+	}
+
+
+	# XVe Corps d'Armée (Région Militaire in 1936) -- Marseille
+	division= {	
+		name = "29ème Division d'Infanterie Alpine"
+		location = 6766
+		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2ème Div. d'Inf. Coloniale"
+		location = 6766
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# XVIe Corps d'Armée (Région Militaire in 1936) -- Montpellier
+	division= {	
+		name = "31ème Division d'Infanterie Alpine"
+		location = 6766
+		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+
+	# Division d'Inf. Forteresse -- Nice
+	division= {	
+		name = "Nice Div. d'Inf. de Forteresse"
+		location = 6766
+		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+
+	##### North African Theatre #####
+	### Army: Troupes de Alger ###
+	# XIXe Corps d'Armée (Région Militaire in 1936) -- Alger
+	division= {	
+		name = "1ère Bge. d'Infanterie Algérienne"
+		location = 6766
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "2ème Bge. d'Infanterie Algérienne"
+		location = 11713
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "4ème Bge. d'Infanterie Algérienne"
+		location = 11713
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "5ème Bge. d'Infanterie Algérienne"
+		location = 11713
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	# attached directly to Army
+	division= {	
+		name = "3ème Bge. d'Infanterie Algérienne"
+		location = 11713
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "7ème Bge. d'Infanterie Algérienne"
+		location = 11713
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Groupement Cavalerie d'Algérienne"
+		location = 11713
+		division_template = "Division de Cavalerie" 	
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+	### Army: Protectorat de Tunisie ### -- Tunis
+	division= {	
+		name = "Division de Tunis"
+		location = 9523
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Division de Sousse"
+		location = 9523
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	### Army: Protectorat du Maroc ### -- Casablanca
+	division= {	
+		name = "Division de Meknès"
+		location = 9523
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Division de Casablanca"	
+		location = 9523
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Division de Fès"
+		location = 9523
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Division de Marrakech"	
+		location = 9534
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Groupement de Maroc"
+		location = 9534
+		division_template = "Division de Cavalerie" 	
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+
+	##### Eastern Mediterranean Theatre #####
+	### Army: Mandat du Levant ### -- Beirut
+	division= {	
+		name = "Mandat du Levant"
+		location = 9534
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	# Troupes de Madagascar
+	division= {	
+		name = "Troupes de Madagascar"	
+		location = 9534
+		division_template = "Brigade Coloniale" 	# Miltia unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.15
+
+	}
+
+
+	##### Far Seas Theatre ##### -- Dakar
+	division= {	
+		name = "Troupes de Sénégalais"
+		location = 9534
+		division_template = "Brigade Coloniale" 	# Miltia unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Troupes de Afrique Equatoriale Française"	
+		location = 9534
+		division_template = "Brigade Coloniale" 	# Miltia unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.15
+
+	}
+
+	navy = {				
+		name = "Force d'Attaque Légère"			
+		base = 6657 
+		location = 6657 # Bizerte, Tunisia	
+		ship = { name = "La Galissonnière" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FRA } } }	# La Galissonnière variant
+		ship = { name = "Émile Bertin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		# 1e Division des Contre-Torpilleurs
+		ship = { name = "Lion" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Vauban" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Bison" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		# 3e Division des Contre-Torpilleurs
+		ship = { name = "Guépard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Valmy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Verdun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		# 6e Division des Contre-Torpilleurs
+		ship = { name = "Aigle" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Milan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Épervier" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+	}				
+	navy = {				
+		name = "Flotte du Afrique de l'Ouest"			
+		base = 6657 
+		location = 6657 # Dakar			
+		ship = { name = "Jeanne d'Arc" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Duguay-Trouin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Primauguet" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+	}
+	navy = {				
+		name = "2ème Escadron Sous-Marins" 			
+		base = 6657 
+		location = 6657 # Oran			
+		# 4e Division des Sous-Marins
+		ship = { name = "Le Centaure" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Argo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Pascal" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Henri Poincaré" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 12e Division des Sous-Marins
+		ship = { name = "Orion" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Ondine" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Méduse" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Amphitrite" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Oréade" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "La Psyché" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		# 14e Division des Sous-Marins
+		ship = { name = "Diane" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Ariane" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Eurydice" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Danaé" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+	}				
+}

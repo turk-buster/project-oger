@@ -1,0 +1,23 @@
+
+state={
+	id=767
+	name="Anjou"
+	manpower = 388400
+
+	state_category = town
+
+	history={
+		owner = FRA
+		
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		3659 11596 
+	}
+}

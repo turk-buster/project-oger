@@ -1,0 +1,152 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Divisione di Fanteria"		
+	# Represents nearly all infantry divisions
+	# In later years, CCNN Brigade added to Inf Division (1x2 militia/inf regiment)
+	# Also represent semi-mountain divisions (1st, 2nd, 3rd, 4th, 6th Divisions)
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Divisione Alpina"					# Divisione Alpina
+	regiments = {
+		mountaineers = { x = 0 y = 0 }			# Elite Alpina Regiments
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Divisione Coloniale"		
+	# Represents lesser-equipped colonial units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Raggruppamento Celere" 			# Raggruppamento Celere
+	# Note: these groups were gradually expanded to army-level supprt of cavalry rgts, bersaglieri rgts, and tankette bns.
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+##### OOB #####
+units = {
+	# IV Corpo d'Armata dell'A.O.I. #
+	division= {	
+		name = "5a Divisione di Fanteria 'Cosseria'"
+		location = 9907
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "2a Divisione CC.NN. '28 Ottobre'"
+		location = 9907
+		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "5a Divisione CC.NN. '1 Febbraio'"
+		location = 9907
+		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+
+	# Corpo d'Armata Eritreo #
+	division= {	
+		name = "1a Divisione Coloniale 'Eritrea'"
+		location = 9907
+		division_template = "Divisione Coloniale"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+	division= {	
+		name = "2a Divisione Coloniale 'Eritrea'"
+		location = 9907
+		division_template = "Divisione Coloniale"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+
+	# Corpo d'Armata Libico #
+	division= {	
+		name = "29a Divisione di Fanteria 'Peloritana'"
+		location = 9907
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1a Divisione Coloniale 'Libia'"
+		location = 9907
+		division_template = "Divisione Coloniale"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+	division= {	
+		name = "1a Divisione Coloniale 'Somalia'"
+		location = 9907
+		division_template = "Divisione Coloniale"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+	division= {	
+		name = "6a Divisione CC.NN. 'Tevere'"
+		location = 9907
+		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+	}
+
+
+	##### NAVAL UNITS #####
+	### 1st FLEET ###
+	navy = {					
+		name = "1a Squadra Navale"				
+		base = 6946
+		location = 6946 # Taranto		
+		ship = { name = "RM Zara" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
+		ship = { name = "RM Gorizia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
+		ship = { name = "RM Fiume" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
+		# 9a Squadriglia Cacciatorpedindiere
+		ship = { name = "RM Nicoloso da Recco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
+		ship = { name = "RM Emanuele Pessagno" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
+		ship = { name = "RM Luca Tarigo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
+		ship = { name = "RM Antoniotto Usodimare" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
+	}					
+	navy = {					
+		name = "4a Squadra Navale"				
+		base = 6946
+		location = 6946 # Taranto			
+		ship = { name = "RM Luigi Cadorna" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
+		ship = { name = "RM Armando Diaz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
+		ship = { name = "RM Alberico da Barbiano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
+		ship = { name = "RM Alberto da Giussano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
+		# 6a Squadriglia Cacciatorpedindiere
+		ship = { name = "RM Bettino Ricasoli" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "RM Giovanni Nicotera" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+	}															
+}

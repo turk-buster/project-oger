@@ -1,0 +1,25 @@
+
+state={
+	id=757
+	name="Montferrat"
+	manpower = 165476
+	
+	state_category = town
+	resources={
+		aluminium=28
+	}
+
+	history={
+		owner = MOT
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = MOT
+	}
+
+	provinces={
+		771 9741 11723 
+	}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=763
+	name="Salzburg"
+	manpower = 575377
+	
+	state_category = town
+	
+	resources={
+		aluminium=1
+	}
+
+	history={
+		owner = SLZ
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			688 10 
+		}
+		add_core_of = SLZ
+	}
+
+	provinces={
+		688 3675 
+	}
+}

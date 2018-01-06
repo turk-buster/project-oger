@@ -1,0 +1,218 @@
+﻿division_template = {
+	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+units = {
+	#Aldershot Command
+	division= {	
+		name = "1st Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2nd Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	#Scottish Command
+	division= {	
+		name = "51st 'Highland' Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "52nd 'Lowland' Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Northern Command
+	division= {	
+		name = "5th Cavalry Brigade"
+		location = 9392
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "5th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "50th 'Northumbrian' Motorized Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "49th 'West Riding' Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Eastern Command
+	division= {	
+		name = "4th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "44th 'Home Counties' Infantry Division"
+		location = 11218
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "54th 'East Anglia' Infantry Division"
+		location = 11218
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Western Command	
+	division= {	
+		name = "6th Cavalry Brigade"
+		location = 9314
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "42nd 'East Lancashire' Infantry Division"
+		location = 9314
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "53rd 'Welsh' Infantry Division"
+		location = 11378
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "55th 'West Lancashire' Infantry Division"
+		location = 11378
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	##### NAVAL UNITS ##### ALL HAIL SCOOOOOOOOOOOOOOOOOOOOOOOOOTLAND!
+	### HOME COMMAND ###
+	navy = {				
+		name = "Home Fleet"			
+		base = 11064
+		location = 11064 # Scapa Flow
+		ship = { name = "HMS Furious" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "ENG" amount = 9 }
+				cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 12 }
+			}
+		}
+		ship = { name = "HMS Nelson" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }			
+		ship = { name = "HMS Rodney" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }				
+		ship = { name = "HMS Royal Oak" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }				
+		ship = { name = "HMS Royal Sovereign" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "HMS Ramillies" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }				
+		ship = { name = "HMS Hood" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "Admiral Class" } } }	
+		ship = { name = "HMS Repulse" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }					
+		ship = { name = "HMS Renown" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }				
+		ship = { name = "HMS Norfolk" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+		ship = { name = "HMS Calcutta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Emerald" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+		ship = { name = "HMS Enterprise" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+		ship = { name = "HMS Sabre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "HMS Shikari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		### 6th Destroyer Flotilla
+		ship = { name = "HMS Keith" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		# Destroyer Division 11
+		ship = { name = "HMS Venetia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Vanessa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Viscount" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Wessex" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 12
+		ship = { name = "HMS Vesper" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Vivacious" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Wakeful" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Windsor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		### 8th Destroyer Flotilla
+		ship = { name = "HMS Faulknor" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 15
+		ship = { name = "HMS Foxhound" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }						# to RCN as Qu'Appelle, 1943	
+		ship = { name = "HMS Fury" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Fearless" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Forester" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 16
+		ship = { name = "HMS Fame" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Firedrake" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Foresight" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }							# to RCN as Saskatchewan, 1943	
+	}																					
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=764
+	name="Navarra"
+	manpower = 794880
+	
+	state_category = town
+	
+	resources={
+		steel=2
+	}
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			3737 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		3737 3931 9857 3933 932 
+	}
+}

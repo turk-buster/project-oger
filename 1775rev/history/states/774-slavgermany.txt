@@ -1,0 +1,23 @@
+
+state={
+	id=774
+	name="Luzice"
+	manpower = 1592576
+
+	state_category = large_town
+
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		3514 573 9535 478 11415 
+	}
+}

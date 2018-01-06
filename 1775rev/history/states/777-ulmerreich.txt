@@ -1,0 +1,25 @@
+state={
+	id=777
+	name="Ulm"
+	resources={
+		steel=69
+	}
+
+	state_category = large_town
+	history={
+		owner = ULM
+		buildings = {
+			infrastructure = 10
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 3
+		}
+		add_core_of = ULM
+	}
+
+	provinces={
+		11499 
+	}
+	manpower=696969
+	buildings_max_level_factor=1.000
+}

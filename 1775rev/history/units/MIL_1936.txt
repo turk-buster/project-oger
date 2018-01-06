@@ -1,0 +1,199 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Divisione di Fanteria"		
+	# Represents nearly all infantry divisions
+	# In later years, CCNN Brigade added to Inf Division (1x2 militia/inf regiment)
+	# Also represent semi-mountain divisions (1st, 2nd, 3rd, 4th, 6th Divisions)
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Divisione Alpina"					# Divisione Alpina
+	regiments = {
+		mountaineers = { x = 0 y = 0 }			# Elite Alpina Regiments
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Divisione Coloniale"		
+	# Represents lesser-equipped colonial units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Raggruppamento Celere" 			# Raggruppamento Celere
+	# Note: these groups were gradually expanded to army-level supprt of cavalry rgts, bersaglieri rgts, and tankette bns.
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+##### OOB #####
+units = {
+	## Armata dell'Africa Orientale Italiana ##
+	# I Corpo d'Armata dell'A.O.I. #
+	division= {	
+		name = "26a Divisione di Fanteria 'Assietta'"
+		location = 3780
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "30a Divisione di Fanteria 'Sabauda'"
+		location = 3780
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "5a Divisione Alpina 'Pusteria'"
+		location = 3780
+		division_template = "Divisione Alpina"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4a Divisione CC.NN. '3 Gennaio'"
+		location = 3780
+		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+
+	# II Corpo d'Armata dell'A.O.I. #
+	division= {	
+		name = "19a Divisione di Fanteria 'Gavinana'"
+		location = 3776
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "24a Divisione di Fanteria 'Gran Sasso'"
+		location = 3776
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "3a Divisione CC.NN. '21 Aprile'"
+		location = 3776
+		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+
+	# III Corpo d'Armata dell'A.O.I. #
+	division= {	
+		name = "27a Divisione di Fanteria 'Sila'"
+		location = 9752
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1a Divisione CC.NN. '23 Marzo'"
+		location = 9752
+		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+
+	# IV Corpo d'Armata dell'A.O.I. #
+	division= {	
+		name = "5a Divisione di Fanteria 'Cosseria'"
+		location = 9752
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "2a Divisione CC.NN. '28 Ottobre'"
+		location = 9752
+		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "5a Divisione CC.NN. '1 Febbraio'"
+		location = 9752
+		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+
+	# Corpo d'Armata Eritreo #
+	division= {	
+		name = "1a Divisione Coloniale 'Eritrea'"
+		location = 3773
+		division_template = "Divisione Coloniale"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+	division= {	
+		name = "2a Divisione Coloniale 'Eritrea'"
+		location = 3773
+		division_template = "Divisione Coloniale"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+
+	# Corpo d'Armata Libico #
+	division= {	
+		name = "29a Divisione di Fanteria 'Peloritana'"
+		location = 3773
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1a Divisione Coloniale 'Libia'"
+		location = 3773
+		division_template = "Divisione Coloniale"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+	division= {	
+		name = "1a Divisione Coloniale 'Somalia'"
+		location = 3773
+		division_template = "Divisione Coloniale"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+	division= {	
+		name = "6a Divisione CC.NN. 'Tevere'"
+		location = 3773
+		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "26a Divisione di Fanteria 'Assietta'"
+		location = 3780
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "30a Divisione di Fanteria 'Sabauda'"
+		location = 3780
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.2
+	}									
+}

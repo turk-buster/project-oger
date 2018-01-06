@@ -1,0 +1,22 @@
+
+state={
+	id=772
+	name="Rethel"
+	manpower = 870800
+	
+	state_category = city
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		3560 3546 9472 
+	}
+}

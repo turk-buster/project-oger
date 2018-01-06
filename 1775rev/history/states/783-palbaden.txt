@@ -1,0 +1,21 @@
+state={
+	id=783
+	name="Heidelburg"
+
+	state_category = large_town
+	history={
+		owner = PAI
+		buildings = {
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+		}
+		add_core_of = PAI
+	}
+
+	provinces={
+		6568 6581 3574 
+	}
+	manpower=4086854
+	buildings_max_level_factor=1.000
+}

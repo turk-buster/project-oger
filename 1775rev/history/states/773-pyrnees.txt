@@ -1,0 +1,26 @@
+
+state={
+	id=773
+	name="pyrenees"
+	manpower = 111344
+	
+	
+	state_category = wasteland
+	impassable = yes
+	
+	resources={
+		steel=24
+	}
+
+	history={
+		owner = WAS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = WAS
+	}
+
+	provinces={
+		11838 915 899 3899 3898 11779 
+	}
+}

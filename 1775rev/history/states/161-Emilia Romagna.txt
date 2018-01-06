@@ -1,0 +1,30 @@
+
+state={
+	id=161
+	name="STATE_161"
+	manpower = 2202401
+	
+	state_category = large_city
+	
+	resources={
+		aluminium=10
+	}
+
+	history={
+		owner = FER
+		victory_points = {
+			6606 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 2
+		}
+		add_core_of = FER
+	}
+
+	provinces={
+		3976 6606 6793 
+	}
+}

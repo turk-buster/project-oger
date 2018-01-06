@@ -1,0 +1,26 @@
+
+state={
+	id=743
+	name="Northern Epirus"
+	manpower = 503000
+	resources={
+		aluminium=3
+		chromium=3
+	}
+	
+	state_category = town
+	
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1 
+		}
+		add_core_of = ALB
+		add_core_of = TUR
+	}
+
+	provinces={
+		6900 3448 914 11767 
+	}
+}

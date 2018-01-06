@@ -1,0 +1,22 @@
+
+state={
+	id=765
+	name="Augsburg"
+	manpower = 679413
+	
+	state_category = town
+
+	history={
+		owner = AUG
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = AUG
+	}
+
+	provinces={
+		11638 9666 
+	}
+}

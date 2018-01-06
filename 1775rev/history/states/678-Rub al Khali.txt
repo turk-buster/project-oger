@@ -1,0 +1,20 @@
+
+state={
+	id=678
+	name="Arabian Deserts"
+	manpower=420
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = WAS
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = WAS
+	}
+
+	provinces={
+		5081 8030 8118 10870 12740 12768 5027 5099 4968 12749 5058 2057 7970 4974 10901 12455 10815 8101 8060 
+	}
+}

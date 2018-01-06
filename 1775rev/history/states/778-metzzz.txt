@@ -1,0 +1,28 @@
+
+state={
+	id=778
+	name="Metz"
+	manpower = 915600
+	
+	state_category = city
+	resources={
+		steel=100
+	}
+
+	history={
+		owner = FRA
+		victory_points = { 9559 10 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			anti_air_building = 5
+			air_base = 5
+
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		9559 11502 3629 
+	}
+}

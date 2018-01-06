@@ -1,0 +1,22 @@
+
+state={
+	id=787
+	name="Namur"
+	manpower = 481300
+	
+	state_category = large_town
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		9536 13081 
+	}
+}

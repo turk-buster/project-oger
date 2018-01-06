@@ -1,0 +1,101 @@
+add_namespace = historical
+
+country_event = {
+	id = historical.1
+	title = historical.1.t
+	desc = historical.1.d
+	#picture = historical
+
+	fire_only_once = yes
+
+	trigger = {
+
+		is_ai = no
+
+		date > 1444.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = historical.1.a
+
+		FRA = {
+			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
+		}
+
+		ENG = {
+			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
+		}
+
+		SPR = {
+			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
+		}
+
+		TUR = {
+			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
+		}
+
+		AUS = {
+			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
+		}
+
+		HUN = {
+			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
+		}
+
+		PAP = {
+			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
+		}
+
+		ARA = {
+			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
+		}
+
+		BOH = {
+			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = historical.1.b
+	}
+}

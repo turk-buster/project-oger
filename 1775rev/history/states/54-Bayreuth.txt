@@ -1,0 +1,22 @@
+
+state={
+	id=54
+	name="STATE_54"
+	manpower = 1308159
+
+	state_category = city
+
+	history={
+		owner = WRZ
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		add_core_of = WRZ
+	}
+
+	provinces={
+		3474 6421 11404 13116 11417 11445 
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=766
+	name="Barrois"
+	manpower = 1370800
+	
+	state_category = town
+
+	history={
+		owner = FRA
+		
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		9505 6545 11488 5291 
+	}
+}

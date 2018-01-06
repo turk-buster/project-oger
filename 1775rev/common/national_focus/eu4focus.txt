@@ -1,0 +1,677 @@
+focus_tree = {
+	id = EU4_generic_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	focus = {
+		id = EU4_conquest_effort
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 4
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {									
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EU4_focus_on_cavalry
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_conquest_effort }
+		mutually_exclusive = { focus = EU4_focus_on_infantry }
+		x = 3
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.25
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = EU4_focus_on_cavalry1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_focus_on_cavalry }
+		x = 3
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.25
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = EU4_focus_on_cavalry2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_focus_on_cavalry1 }
+		x = 3
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.25
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = EU4_cav_xp
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_focus_on_cavalry1 }
+		x = 1
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 40
+		}
+	}
+
+	focus = {
+		id = EU4_cav_ADD
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_focus_on_cavalry2 }
+		prerequisite = { focus = EU4_cav_xp }
+		x = 2
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = "Create a 20 combat width cavalry division"
+			hidden_effect = {
+				division_template = {
+					name = "Cavalry FOC Division"
+					priority = 1
+		
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 0 y = 2 }
+						cavalry = { x = 0 y = 3 }
+						cavalry = { x = 0 y = 4 }
+				
+		    	   		cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+						cavalry = { x = 1 y = 2 }
+						cavalry = { x = 1 y = 3 }
+						cavalry = { x = 1 y = 4 }
+					}
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = EU4_focus_on_infantry
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_conquest_effort }
+		mutually_exclusive = { focus = EU4_focus_on_cavalry }
+		x = 5
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = EU4_focus_on_infantry1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_focus_on_infantry }
+		x = 5
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = EU4_focus_on_infantry2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_focus_on_infantry1 }
+		x = 5
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = EU4_focus_on_xp_INF
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = EU4_focus_on_infantry1 }
+		x = 7
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 40
+		}
+	}
+
+	focus = {
+		id = EU4_INF_ADD
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = EU4_focus_on_xp_INF }
+		prerequisite = { focus = EU4_focus_on_infantry2 }
+		x = 6
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = "Create a 40 combat width infantry division"
+			hidden_effect = {
+				division_template = {
+					name = "Infantry FOC Division"
+					priority = 1
+		
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 0 y = 4 }
+				
+		    	   		infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						infantry = { x = 1 y = 4 }
+				
+		    	   		infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+						infantry = { x = 2 y = 3 }
+						infantry = { x = 2 y = 4 }
+
+		    	   		infantry = { x = 3 y = 0 }
+						infantry = { x = 3 y = 1 }
+						infantry = { x = 3 y = 2 }
+						infantry = { x = 3 y = 3 }
+						infantry = { x = 3 y = 4 }
+					}
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy
+		icon = GFX_goal_generic_small_arms
+		##prerequisite = { focus = EU4_what_if_the_towers_hit_the_planes? }
+		x = 33
+		y = -1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = "We need to extend our diplomatic influence"
+
+			hidden_effect = { add_political_power = 120 }
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy }
+		x = 24
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			any_owned_state = { is_on_continent = europe }
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = "MUST HAVE A STATE IN EUROPE"
+
+			hidden_effect = { add_political_power = 120 }
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_condemn_france
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_austria }
+		x = 16
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			NOT = { tag = FRA }
+		}
+
+		completion_reward = {
+			add_opinion_modifier = { target = FRA modifier = medium_decrease } 
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_trade_with_austria
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_condemn_france }
+		x = 17
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			NOT = { tag = AUS }
+		}
+
+		completion_reward = {
+			add_opinion_modifier = { target = AUS modifier = unholy_alliance_trade } 
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_embargo_france
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_condemn_france }
+		x = 15
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = FRA modifier = sanctions } 
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_approach_the_austrians
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_embargo_france }
+		prerequisite = { focus = EU4_diplomacy_EU_trade_with_austria }
+		x = 16
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			date > 1448.1.1
+		}
+
+		completion_reward = {
+			give_guarantee = AUS
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_condemn_austria
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_france }
+		x = 20
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			NOT = { tag = AUS }
+		}
+
+		completion_reward = {
+			add_opinion_modifier = { target = AUS modifier = medium_decrease } 
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_trade_with_france
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_condemn_austria }
+		x = 19
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			NOT = { tag = FRA }
+		}
+
+		completion_reward = {
+			add_opinion_modifier = { target = FRA modifier = unholy_alliance_trade } 
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_embargo_austria
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_condemn_austria }
+		x = 21
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = AUS modifier = sanctions } 
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_approach_the_french
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_embargo_austria }
+		prerequisite = { focus = EU4_diplomacy_EU_trade_with_france }
+		x = 20
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			date > 1448.1.1
+		}
+
+		completion_reward = {
+			give_guarantee = FRA
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_france
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_west }
+		mutually_exclusive = { focus = EU4_diplomacy_EU_austria }
+		x = 20
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			NOT = { tag = AUS }
+		}
+
+		bypass = {
+			tag = FRA
+		}
+
+		completion_reward = {
+			add_opinion_modifier = { target = FRA modifier = medium_increase } 
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_austria
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_west }
+		mutually_exclusive = { focus = EU4_diplomacy_EU_france }
+		x = 16
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			NOT = { tag = FRA }
+		}
+
+		bypass = {
+			tag = AUS
+		}
+
+		completion_reward = {
+			add_opinion_modifier = { target = AUS modifier = medium_increase } 
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_east
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU }
+		x = 29
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect = { add_political_power = 120 }
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_west
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU }
+		x = 18
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect = { add_political_power = 120 }
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_HRE
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_west }
+		x = 26
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = { has_idea = hre }
+
+		completion_reward = {
+			hidden_effect = { add_political_power = 120 }
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_support_reformation
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_HRE }
+		mutually_exclusive = { focus = EU4_diplomacy_EU_catholic_ways }
+		x = 24
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			NOT = {
+				tag = AUS
+			}
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = catholic
+				add_idea = prodestant
+			}
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_prodestant_military
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_support_reformation }
+		x = 24
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 40
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_prodestant_volunteers
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_prodestant_military }
+		x = 24
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = volunteer_corps_focus
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_EU_catholic_ways
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy_EU_HRE }
+		mutually_exclusive = { focus = EU4_diplomacy_EU_support_reformation }
+		x = 28
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			NOT = {
+				tag = AUS
+			}
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = "The protestants are getting out of hand. They must be dispatched."
+
+			hidden_effect = { add_political_power = 120 }
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_asia
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy }
+		x = 48
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			any_owned_state = { is_on_continent = asia }
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = "MUST HAVE A STATE IN ASIA"
+
+			hidden_effect = { add_political_power = 120 }
+		}
+	}
+
+	focus = {
+		id = EU4_diplomacy_middleeast
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EU4_diplomacy }
+		x = 33
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			any_owned_state = { is_on_continent = middle_east }
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = "MUST HAVE A STATE IN THE MIDDLE-EAST"
+
+			hidden_effect = { add_political_power = 120 }
+		}
+	}
+}

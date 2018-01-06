@@ -1,0 +1,25 @@
+
+state={
+	id=159
+	name="STATE_159"
+	manpower = 5597704
+	state_category = megalopolis
+
+	history={
+		owner = AUS
+		victory_points = {
+			3780 30 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 6
+			air_base = 10
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		607 773 969 3776 3780 9584 11726 776 6635 
+	}
+}

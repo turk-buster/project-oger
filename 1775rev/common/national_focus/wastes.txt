@@ -1,0 +1,14 @@
+focus_tree = {
+	id = waste_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WAS
+		}
+	}
+	
+	default = no
+}

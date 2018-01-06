@@ -1,0 +1,25 @@
+
+state={
+	id=784
+	name="Kosovo"
+	manpower = 195500
+	
+	state_category = rural
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9809 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SER
+		add_core_of = TUR
+	}
+
+	provinces={
+		9874 9849 6940 9890 6953 
+	}
+}

@@ -1,0 +1,27 @@
+state=
+{
+	id=750
+	name="Dubrovnik"
+	manpower = 108000
+	
+	state_category = large_city
+	
+	history={
+		owner = RAG
+		victory_points = {
+			6889 35
+		}
+		buildings = {
+			infrastructure = 9
+			6889 = {
+				naval_base = 10
+			}
+			industrial_complex = 4
+			arms_factory = 4
+		}
+		add_core_of = RAG
+	} 
+	provinces={	
+		6889 
+	}
+}

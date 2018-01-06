@@ -1,0 +1,28 @@
+
+state={
+	id=34
+	name="Liege"
+	manpower = 3381300
+	
+	state_category = city
+
+	history={
+		owner = LIE
+		victory_points = {
+			3516 15
+		}
+		victory_points = {
+			11519 25
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 5
+		}
+		add_core_of = LIE
+	}
+
+	provinces={
+		3516 6537 9444 11519 13068 9574 
+	}
+}

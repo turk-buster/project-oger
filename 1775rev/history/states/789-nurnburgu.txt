@@ -1,0 +1,25 @@
+
+state={
+	id=789
+	name="Nurnberg"
+	manpower = 1208159
+
+	state_category = city
+
+	history={
+		owner = NUR
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			11544 20 
+		}
+		add_core_of = NUR
+	}
+
+	provinces={
+		11544 9416 
+	}
+}

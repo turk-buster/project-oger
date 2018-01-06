@@ -1,0 +1,21 @@
+
+state={
+	id=759
+	name="Mantua"
+	manpower = 997704
+	state_category = city
+
+	history={
+		owner = MNA
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = MNA
+	}
+
+	provinces={
+		11734 
+	}
+}

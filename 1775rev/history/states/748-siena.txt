@@ -1,0 +1,29 @@
+
+state={
+	id=748
+	name="Siena"
+	manpower = 1084933
+	
+	state_category = city
+
+	history={
+		owner = SIE
+		victory_points = {
+			11833 1 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			11833 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = SIE
+	}
+
+	provinces={
+		3885 9750 910 6875 11833 
+	}
+}

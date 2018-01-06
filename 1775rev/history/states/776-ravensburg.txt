@@ -1,0 +1,21 @@
+state={
+	id=776
+	name="Ravensburg"
+
+	state_category = town
+	history={
+		owner = RAV
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 5
+		}
+		add_core_of = RAV
+	}
+
+	provinces={
+		6934 3679 694 
+	}
+	manpower=786854
+	buildings_max_level_factor=1.000
+}

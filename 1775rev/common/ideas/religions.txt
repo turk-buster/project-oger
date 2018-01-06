@@ -1,0 +1,143 @@
+ideas = {
+
+	country = {
+		sunni = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				unity_factor = -0.10
+				political_power_cost = -0.05
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		
+		shia = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				unity_factor = -0.10
+				consumer_goods_factor = -0.07
+				production_speed_buildings_factor = -0.03
+			}
+		}
+
+		catholic = {
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				political_power_cost = -0.05
+			}
+		}
+		
+		prodestant = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				political_power_cost = 0.05
+				unity_factor = 0.10
+				consumer_goods_factor = -0.05
+			}
+		}	
+
+		reformed = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_democratic_drift_bonus
+	
+			modifier = {
+				political_power_cost = 0.10
+				unity_factor = 0.25
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		orthodox = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_democratic_drift_bonus
+	
+			modifier = {
+				political_power_cost = -0.05
+				unity_factor = 0.05
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = -0.03
+			}
+		}
+
+		confucian = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				unity_factor = -0.10
+				political_power_cost = 0.10
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
+}

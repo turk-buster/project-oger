@@ -1,0 +1,28 @@
+
+state={
+	id=771
+	name="Charolais"
+	manpower = 1973200
+	resources={
+		steel=128
+	}
+
+	state_category = city
+
+	history={
+		owner = FRA
+		victory_points = {
+			6613 10
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		6668 6639 3650 641 9590 11794 
+	}
+}

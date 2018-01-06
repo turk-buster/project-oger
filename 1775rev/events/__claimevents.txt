@@ -1,0 +1,60 @@
+add_namespace = eu4claims
+
+country_event = {
+	id = eu4claims.1
+	title = eu4claims.1.t
+	desc = eu4claims.1.d
+	#picture = eu4claims
+
+	fire_only_once = no
+
+	trigger = {
+
+		NOT = { tag = WAS }
+
+		NOT = { tag = CLD }
+
+		NOT = { has_idea = historical }
+
+		any_state = {
+			AND = {
+
+				NOT = { has_claim_by = ROOT }
+
+				NOT = { is_owned_by = ROOT }
+
+				any_neighbor_state = {
+					is_owned_by = ROOT
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	option = {
+		name = eu4claims.1.a
+			every_state = {
+				limit = {
+					AND = {
+
+						NOT = { has_claim_by = ROOT }
+
+						NOT = { is_owned_by = ROOT }
+
+						NOT = { is_owned_by = CLD }
+
+						NOT = { is_owned_by = WAS }
+
+						any_neighbor_state = {
+							is_owned_by = ROOT
+						}
+					}
+				}
+				add_claim_by = ROOT
+			}
+		}
+	}
+}

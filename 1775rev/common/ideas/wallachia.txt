@@ -1,0 +1,826 @@
+ideas = {
+
+	political_advisor = {
+
+		WAL_iuliu_maniu = {
+
+			picture = generic_democratic_europe
+
+			allowed = {
+				original_tag = WAL
+			}
+			
+			traits = { democratic_reformer }
+		}
+
+		WAL_gheorghe_gheorghiu_dej = {
+
+			picture = generic_communist_europe
+
+			allowed = {
+				original_tag = WAL
+			}
+			
+			traits = { communist_revolutionary }
+		}
+
+		WAL_gheorghe_argeseanu = {
+
+			picture = generic_army_europe_4
+
+			allowed = {
+				original_tag = WAL
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		WAL_nicolae_malaxa = {
+
+			picture = idea_nicolae_malaxa
+
+			allowed = {
+				original_tag = WAL
+				has_dlc = "Death or Dishonor"
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		WAL_armand_calinescu = {
+
+			picture = generic_army_europe_5
+				
+			allowed = {
+				original_tag = WAL
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		WAL_petru_groza = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = WAL
+			}
+			
+			traits = { backroom_backstabber }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		WAL_mihail_sturdza = {
+
+			picture = generic_fascist_demagogue_eastern_european_2d
+
+			available = {
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+					has_completed_focus = WAL_appoint_german_friendly_government
+				}
+			}			
+
+			allowed = {
+				original_tag = WAL
+			}
+			
+			traits = { fascist_demagogue }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	theorist = {
+
+		WAL_gheorghe_potopeanu = {
+					
+					
+			allowed = {
+				original_tag = WAL
+			}
+			
+			picture = generic_army_europe_2
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		WAL_emanoil_ionescu = {
+					
+					
+			allowed = {
+				original_tag = WAL
+			}
+			
+			picture = generic_air_europe_1
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		WAL_constantin_sanatescu = {
+			
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		WAL_ion_antonescu = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		WAL_ermil_gheorghiu = {
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		WAL_gheorghe_jienescu = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+
+		WAL_nicolae_sova = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		WAL_horia_macellariu = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+
+			
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		WAL_gheorghe_avramescu = {
+			
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+			picture = generic_army_europe_2
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		WAL_gheorghe_mihail = {
+			
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+			picture = generic_army_europe_3
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		WAL_paul_teodorescu = {
+			
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+			picture = generic_air_europe_3
+			
+			traits = { air_strategic_bombing_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		WAL_gheorghe_vasiliu = {
+			
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+			picture = generic_air_europe_1
+			
+			traits = { air_airborne_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		pzinz_WAL = {
+			
+			picture = generic_tank_manufacturer_3
+
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+
+			equipment_bonus = {
+				light_tank_equipment = {
+					reliability = -0.02
+					armor_value = 0.05			
+				}
+			}
+			
+			modifier = {
+				# heavily armored light tanks 7TP, weak vs air ,diesel powered
+			}
+		}
+
+		WAL_leonidas_works = {
+			
+			picture = generic_tank_manufacturer_3
+
+			cost = 50
+
+			available = {
+				has_completed_focus = WAL_mobile_tank_destroyers
+			}
+			
+			allowed = {
+				original_tag = WAL
+				has_dlc = "Death or Dishonor"
+			}
+			
+			research_bonus = {
+				armor = 0.05
+			}
+			
+			traits = { tank_manufacturer }
+
+			equipment_bonus = {
+				light_tank_destroyer_equipment = {
+					reliability = 0.2
+					hard_attack = 0.05
+					ap_attack = 0.05
+				}
+				medium_tank_destroyer_equipment = {
+					reliability = 0.2
+					hard_attack = 0.05
+					ap_attack = 0.05
+				}
+				heavy_tank_destroyer_equipment = {
+					reliability = 0.2
+					hard_attack = 0.05
+					ap_attack = 0.05
+				}				
+			}
+			
+			modifier = {
+				equipment_conversion_speed = 0.1
+			}
+		}
+	}
+
+	industrial_concern = {
+		
+		
+		WAL_WALLOC = {
+		
+			picture = industrial_concern_1
+			
+			allowed = {
+				original_tag = WAL
+				has_dlc = "Death or Dishonor"
+			}
+			
+			research_bonus = {
+				industry = 0.10
+				
+			}
+			
+			traits = { industrial_concern }
+		}
+
+				
+	}
+
+	naval_manufacturer = { 			
+		
+		designer = yes
+		
+		constanta_shipyard = {
+			
+			picture = generic_naval_manufacturer_2
+
+			
+			allowed = {
+				original_tag = WAL
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				# cant find enough info 
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		WAL_coastal_defense_navy_designer = {
+			
+			picture = generic_coastal_navy
+
+			cost = 75
+
+			allowed = {
+				original_tag = WAL
+			}
+
+			available = {
+				has_completed_focus = WAL_coastal_defense_navy
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				destroyer = {
+					attack = 0.1
+					naval_range = -0.5
+					build_cost_ic = -0.20
+				}
+				light_cruiser = {
+					attack = 0.1
+					naval_range = -0.5
+					build_cost_ic = -0.20
+				}
+				heavy_cruiser = {					
+					shore_bombardment = 0.1
+				}
+				battle_cruiser = {					
+					shore_bombardment = 0.1
+				}
+				battleship = { 					
+					shore_bombardment = 0.1
+				}
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		WAL_black_sea_dominance_designer = {
+			
+			picture = generic_sea_focused_navy
+
+			cost = 75
+
+			allowed = {		
+				original_tag = WAL
+			}
+
+			available = {
+				has_completed_focus = WAL_black_sea_dominance
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				heavy_cruiser = {
+					attack = 0.2
+					naval_range = -0.5
+					armor_value = 0.2
+				}
+				battle_cruiser = {
+					attack = 0.2
+					naval_range = -0.5
+					armor_value = 0.2
+				}
+				battleship = {
+					attack = 0.2
+					naval_range = -0.5
+					armor_value = 0.2
+				}
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		
+		WAL_vauxhall = {
+			
+			picture = vauxhall
+
+			allowed = {
+				original_TAG = WAL
+				has_dlc = "Death or Dishonor"
+			}
+			cost = 75
+
+			available = {
+				has_country_flag = ENG_mot_chosen
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+
+			equipment_bonus = {
+				motorized_equipment = {
+					maximum_speed = 0.05
+				}
+				mechanized_equipment = {
+					maximum_speed = 0.05
+				}
+			}
+			
+		}
+
+		WAL_ford = {
+			
+			picture = ford_motor_company
+
+			cost = 75
+
+			allowed = {
+				original_TAG = WAL
+				has_dlc = "Death or Dishonor"
+			}
+			
+
+			available = {
+				has_country_flag = USA_mot_chosen
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.05
+				}
+				mechanized_equipment = {
+					build_cost_ic = -0.05
+				}
+			}
+
+			modifier = {
+
+			}
+			
+		}
+
+		WAL_malaxa = {
+			
+			picture = generic_motorized_equipment_manufacturer_1
+
+
+			allowed = {
+				original_TAG = WAL
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+		}
+
+		WAL_cugir = {
+			
+			picture = idea_WAL_cugir #used with permission fWAL Turning Point mod
+
+
+			allowed = {
+				original_TAG = WAL
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+		}
+
+		WAL_resita = {
+			
+			picture = generic_artillery_manufacturer_1
+
+
+			allowed = {
+				original_TAG = WAL
+			}
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+			
+		}
+	
+		WAL_opel = {
+			
+			picture = opel
+
+			cost = 75
+
+			allowed = {
+				original_tag = WAL
+				has_dlc = "Death or Dishonor"
+			}
+
+			available = {
+				has_country_flag = GER_mot_chosen
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+
+			equipment_bonus = {
+				motorized_equipment = {
+					reliability = 0.1
+				}
+				mechanized_equipment = {
+					reliability = 0.1
+				}
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+	
+	aircraft_manufacturer = { 		
+			
+		designer = yes
+		
+		iar = {
+			
+			picture = generic_air_manufacturer_2
+
+			cost = 150
+
+			allowed = {
+				original_tag = WAL
+				NOT = {
+					has_dlc = "Death or Dishonor"
+				}
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# produced the IAR-80 fighter/ground attack aircraft around 350 of them during 36-44
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		WAL_iar = {
+			
+			picture = generic_air_manufacturer_2
+
+			available = {
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+					has_completed_focus = WAL_invest_in_the_iar
+				}
+			}
+
+			cost = 50
+
+			allowed = {
+				original_tag = WAL
+				has_dlc = "Death or Dishonor"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.05
+			}			
+			
+			equipment_bonus = {
+				# produced the IAR-80 fighter/ground attack aircraft around 350 of them during 36-44
+				fighter_equipment = {
+					air_attack = 0.1
+				}
+				cv_fighter_equipment = {
+					air_attack = 0.1
+				}
+				CAS_equipment = {
+					air_ground_attack = 0.1
+				}
+				cv_CAS_equipment = {
+					air_ground_attack = 0.1
+				}
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		WAL_ICAR = {
+			
+			picture = generic_air_manufacturer_1
+
+			allowed = {
+				original_tag = WAL
+				has_dlc = "Death or Dishonor"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.1
+			}			
+			
+			equipment_bonus = {
+				
+				fighter_equipment = {
+					air_agility = 0.15
+				}
+				cv_fighter_equipment = {
+					air_agility = 0.15
+				}
+				heavy_fighter_equipment = {
+					air_agility = 0.15
+				}
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		WAL_SET = {
+			
+			picture = generic_air_manufacturer_2
+
+			allowed = {
+				original_tag = WAL
+				has_dlc = "Death or Dishonor"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.1
+			}			
+			
+			equipment_bonus = {
+				
+				tac_bomber_equipment = {
+					air_ground_attack = 0.1
+					build_cost_ic = -0.1
+				}
+				nav_bomber_equipment = {
+					naval_strike_attack = 0.1
+					build_cost_ic = -0.1
+				}
+				cv_nav_bomber_equipment = {
+					naval_strike_attack = 0.1
+					build_cost_ic = -0.1
+				}
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

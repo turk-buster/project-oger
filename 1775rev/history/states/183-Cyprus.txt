@@ -1,0 +1,28 @@
+state= {
+	id=183
+	name="STATE_183"
+	manpower = 347959
+	
+	state_category = city
+	resources={
+		chromium=4
+	}
+
+	history=
+	{
+		owner = TUR
+		add_core_of = CYP
+		add_core_of = TUR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 3
+			infrastructure = 4
+			air_base = 1
+			11984 = {
+				naval_base = 2
+			}
+		}
+
+	}
+	provinces= { 7193 11984 }
+}

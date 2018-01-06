@@ -1,0 +1,30 @@
+
+state={
+	id=788
+	name="Pale" # Leinster
+	manpower = 1000000
+	
+	state_category = town
+	
+	history={
+		owner = ENG
+		victory_points = {
+			11293 20 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 3
+			11293 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = ENG
+		add_core_of = IRE
+	}
+
+	provinces={
+		11293 3359 
+	}
+}

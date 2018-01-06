@@ -1,0 +1,26 @@
+
+state={
+	id=753
+	name="Caffa"
+	manpower = 261607
+	
+	state_category = city
+
+	history={
+		owner = GEN
+		buildings = {
+			infrastructure = 7
+			dockyard = 2
+			air_base = 2
+			9680 ={
+				naval_base = 5
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = GEN
+	}
+
+	provinces={
+		9680
+	}
+}

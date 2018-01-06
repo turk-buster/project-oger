@@ -1,0 +1,22 @@
+
+state={
+	id=751
+	name="Urbino"
+	manpower = 2084933
+	
+	state_category = large_city
+
+	history={
+		owner = URB
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = URB
+	}
+
+	provinces={
+		11861 9924 
+	}
+}

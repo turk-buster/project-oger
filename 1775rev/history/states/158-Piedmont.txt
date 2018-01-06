@@ -1,0 +1,30 @@
+
+state={
+	id=158
+	name="STATE_158"
+	manpower = 4765476
+	
+	state_category = large_city
+	resources={
+		chromium = 4
+		tungsten = 2
+	}
+
+	history={
+		owner = SAV
+		victory_points = {
+			6780 15 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 8
+		}
+		add_core_of = SAV
+	}
+
+	provinces={
+		611 770 3782 6780 9738 11570 11721 11730 11891 
+	}
+}

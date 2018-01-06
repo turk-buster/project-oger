@@ -1,0 +1,56 @@
+idea_categories = {
+
+	hidden_ideas = {
+		hidden = yes
+	
+		cost = 0
+		removal_cost = -1
+	}
+
+	country = {
+		national_spirit = yes
+		
+		cost = 0
+		removal_cost = -1
+	}
+	
+	government = {
+		slot = mobilization_laws
+		slot = trade_laws
+		slot = economy
+		slot = political_advisor
+		slot = political_advisor
+		slot = political_advisor
+		
+		cost = 250
+		removal_cost = 0
+	}
+
+
+	dip_ideas = {
+		slot = dip_ideas_
+		slot = dip_ideas_
+		slot = dip_ideas_
+		
+		cost = 250
+		removal_cost = 0
+	}
+
+	mil_ideas = {
+		slot = mil_ideas_
+		slot = mil_ideas_
+		slot = mil_ideas_
+		
+		cost = 250
+		removal_cost = 0
+	}
+
+	adm_ideas = {
+		slot = adm_ideas_
+		slot = adm_ideas_
+		slot = adm_ideas_
+		
+		cost = 250
+		removal_cost = 0
+	}
+}

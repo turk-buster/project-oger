@@ -1,0 +1,43 @@
+add_namespace = eu4independence
+
+#country_event = {
+	#id = eu4independence.1
+	#title = eu4independence.1.t
+	#desc = eu4independence.1.d
+	#picture = eu4independence
+
+	#fire_only_once = yes
+
+	#trigger = {
+
+	#	tag = NAP
+
+	#	date > 1936.4.1
+	#}
+
+	#mean_time_to_happen = {
+	#	days = 1
+	#}
+
+	#option = {
+		#ai_chance = {
+		#	factor = 10
+		#}
+		#name = eu4independence.1.a
+		#ARA = {
+		#	end_puppet = NAP
+		#	declare_war_on = {
+		#		target = NAP
+		#		type = take_state_focus
+		#		generator = { 156 117 } 
+		#	}
+		#}
+	#}
+
+	#option = {
+	#	ai_chance = {
+	#		factor = 90
+	#	}
+	#	name = eu4independence.1.b
+	#}
+#}

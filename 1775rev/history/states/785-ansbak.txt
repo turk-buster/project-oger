@@ -1,0 +1,22 @@
+state={
+	id=785
+	name="Ansbach"
+
+	state_category = town
+	history={
+		owner = ANS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+
+		}
+		add_core_of = ANS
+	}
+
+	provinces={
+		9572 11529 9557 6555 9545 561 
+	}
+	manpower=2086854
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,50 @@
+add_namespace = eu4cores 
+
+country_event = {
+	id = eu4cores.1
+	title = eu4cores.1.t
+	desc = eu4cores.1.d
+	#picture = eu4cores
+
+	fire_only_once = no
+
+	trigger = {
+
+		NOT = { tag = WAS }
+
+		NOT = { tag = CLD }
+
+		any_state = {
+			AND = {
+
+				NOT = { is_core_of = ROOT }
+
+				is_owned_by = ROOT 
+
+				any_neighbor_state = {
+					is_core_of = ROOT
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 150
+	}
+
+	option = {
+		name = eu4cores.1.a
+			random_owned_state = {
+				limit = {
+					AND = {
+
+						NOT = { is_core_of = ROOT }
+
+						is_owned_by = ROOT
+					}
+				}
+				add_core_of = ROOT
+			}
+		}
+	}
+}

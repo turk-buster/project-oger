@@ -1,0 +1,20 @@
+
+state={
+	id=744
+	name="Kocali"
+	manpower = 27660
+	
+	state_category = rural
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		11829 
+	}
+}
