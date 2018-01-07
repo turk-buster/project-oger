@@ -488,8 +488,8 @@ PAP = {
 }
 #
 NAP = {
-	color = rgb { 88  58  96 }
-	color_ui = rgb { 88  58  96 }
+	color = rgb { 200  204  197 }
+	color_ui = rgb { 200  204  197 }
 }
 #
 ARA = {
@@ -518,8 +518,8 @@ GEN = {
 }
 #
 FLO = {
-	color = rgb { 186  83  76 }
-	color_ui = rgb { 186  83  76 }
+	color = rgb { 70  62  255 }
+	color_ui = rgb { 70  62  255 }
 }
 #
 LUC = {
@@ -735,6 +735,11 @@ MAI = {
 FRK = {
 	color = rgb { 173  140  71 }
 	color_ui = rgb { 173  140  71 }
+}
+#
+SAR = {
+	color = rgb { 0  89  145 }
+	color_ui = rgb { 0  89  145 }
 }
 #
 # N O T    C O U N T R I E S

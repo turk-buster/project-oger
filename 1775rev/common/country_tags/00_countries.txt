@@ -165,6 +165,7 @@ AAC = "countries/Aachen.txt"
 WRZ = "countries/Wurzburg.txt"
 MAI = "countries/Mainz.txt"
 FRK = "countries/Frankfurt.txt"
+SAR = "countries/Sardinia-Piedmont.txt"
 #
 #  N O T C O U N T R I E S 
 #

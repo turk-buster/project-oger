@@ -71,7 +71,7 @@ units = {
 	# VIe Corps d'Armée (Région Militaire in 1936) -- Metz
 	division= {	
 		name = "Crusader"
-		location = 10007
+		location = 12003
 		division_template = "Division d'Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -79,7 +79,7 @@ units = {
 	}
 	division= {	
 		name = "Crusader"
-		location = 10007
+		location = 12003
 		division_template = "Division d'Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -88,8 +88,8 @@ units = {
 
 	navy = {				
 		name = "2ème Escadron Sous-Marins" 			
-		base = 10007 
-		location = 10007 # cypriosu			
+		base = 12003 
+		location = 12003 # cypriosu			
 		# 4e Division des Sous-Marins
 		ship = { name = "Le Centaure" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
 		ship = { name = "Argo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }

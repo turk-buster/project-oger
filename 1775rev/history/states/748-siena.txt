@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SIE
+		owner = FLO
 		victory_points = {
 			11833 1 
 		}
@@ -20,7 +20,7 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = SIE
+		add_core_of = FLO
 	}
 
 	provinces={

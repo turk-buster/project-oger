@@ -1,0 +1,23 @@
+state={
+	id=794
+	name="Savoie"
+
+	state_category = town
+
+	history={
+		owner = SAR
+		add_core_of = SAR
+		victory_points = {
+			778 1 
+		}
+		buildings = {
+			infrastructure = 4	
+		}
+	}
+
+	provinces={
+		9745 6609 778 11573 9603 
+	}
+	manpower=107500
+	buildings_max_level_factor=1.000
+}

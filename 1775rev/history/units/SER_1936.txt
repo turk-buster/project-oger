@@ -67,42 +67,6 @@ units = {
 
 	}
 
-	### Obalnim Armija ###
-	division = {
-		name = "12. 'Jadranska' Pesadijska Div."  			# Peadijska if we get font support
-		location = 11586
-		division_template = "Pesadijska Divizija"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-
-	### 5. Armija ###
-	division = {
-		name = "8. 'Krajinska' Pesadijska Div."  			# Peadijska if we get font support
-		location = 11586
-		division_template = "Pesadijska Divizija"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-	division = {
-		name = "9. 'Timocka' Pesadijska Div."  				# Peadijska if we get font support
-		location = 11586
-		division_template = "Pesadijska Divizija"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-	division = {
-		name = "2. Konjička Divizija"
-		location = 11586
-		division_template = "Konjička Divizija"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-
 
 	##### NAVAL UNITS #####
 	###### Kraljevska Jugoslovenska Ratna Mornarica (KJRM) ######

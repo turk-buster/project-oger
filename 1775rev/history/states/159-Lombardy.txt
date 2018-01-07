@@ -17,9 +17,10 @@ state={
 			air_base = 10
 		}
 		add_core_of = AUS
+		add_core_of = MIL
 	}
 
 	provinces={
-		607 773 969 3776 3780 9584 11726 776 6635 
+		607 773 969 3776 3780 9584 
 	}
 }

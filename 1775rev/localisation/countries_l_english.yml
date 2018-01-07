@@ -1035,10 +1035,10 @@
  EGY_democratic_DEF:0 "Egypt"
  EGY_neutrality:0 "Kingdom of Egypt"
  EGY_neutrality_DEF:0 "The Kingdom of Egypt"
- EGY_fascism:0 "Imperial Kemet"
- EGY_fascism_DEF:0 "Imperial Kemet"
- EGY_communism:0 "Soviet Nile State"
- EGY_communism_DEF:0 "The Soviet Nile State"
+ EGY_fascism:0 "Egypt"
+ EGY_fascism_DEF:0 "Egypt"
+ EGY_communism:0 "Revloutionary Egypt"
+ EGY_communism_DEF:0 "Revloutionary Egypt"
  EGY_fascism_ADJ:0 "Egyptian"
  EGY_communism_ADJ:0 "Egyptian"
  EGY_neutrality_ADJ:0 "Egyptian"
@@ -1370,12 +1370,12 @@
  PAP_fascism_ADJ:0 "Papal"
  PAP_communism_ADJ:0 "Papal"
  #
- NAP_fascism:0 "Naples"
- NAP_fascism_DEF:0 "Naples"
- NAP_communism:2 "Revolutionary Naples"
- NAP_communism_DEF:1 "Revolutionary Naples"
- NAP_fascism_ADJ:0 "Neapolitan"
- NAP_communism_ADJ:0 "Neapolitan"
+ NAP_fascism:0 "Two Sicilies"
+ NAP_fascism_DEF:0 "Two Sicilies"
+ NAP_communism:2 "Revolutionary Sicilies"
+ NAP_communism_DEF:1 "Revolutionary Sicilies"
+ NAP_fascism_ADJ:0 "Sicilian"
+ NAP_communism_ADJ:0 "Sicilian"
  #
  ARA_fascism:0 "Aragon"
  ARA_fascism_DEF:0 "Aragon"
@@ -1412,10 +1412,10 @@
  GEN_fascism_ADJ:0 "Genoese"
  GEN_communism_ADJ:0 "Genoese"
  #
- FLO_fascism:0 "Florence"
- FLO_fascism_DEF:0 "Florence"
- FLO_communism:2 "Revolutionary Florence"
- FLO_communism_DEF:1 "Revolutionary Florence"
+ FLO_fascism:0 "Tuscany"
+ FLO_fascism_DEF:0 "Tuscany"
+ FLO_communism:2 "Revolutionary Tuscany"
+ FLO_communism_DEF:1 "Revolutionary Tuscany"
  FLO_fascism_ADJ:0 "Tuscan"
  FLO_communism_ADJ:0 "Tuscan"
  #
@@ -1726,6 +1726,13 @@
  FRK_communism_DEF:1 "Revolutionary Frankfurt"
  FRK_fascism_ADJ:0 "Frankfurter"
  FRK_communism_ADJ:0 "Frankfurter"
+ #
+ SAR_fascism:0 "Sardinia-Piedmont"
+ SAR_fascism_DEF:0 "Sardinia-Piedmont"
+ SAR_communism:2 "Revolutionary Sardinia-Piedmont"
+ SAR_communism_DEF:1 "Revolutionary Sardinia-Piedmont"
+ SAR_fascism_ADJ:0 "Sardinian-Piedmontese"
+ SAR_communism_ADJ:0 "Sardinian-Piedmontese"
  #
  # N O T   C O U N T R I E S
  #

@@ -1,7 +1,7 @@
 
 state={
 	id=779
-	name="Mullhouse" # Alsace-Lorraine
+	name="Breisgau" # Alsace-Lorraine
 	manpower = 1015600
 	
 	state_category = large_town
@@ -11,7 +11,6 @@ state={
 
 	history={
 		owner = AUS
-		victory_points = { 678 5 }
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
@@ -22,6 +21,6 @@ state={
 	}
 
 	provinces={
-		678 
+		11640 3692 6712 
 	}
 }

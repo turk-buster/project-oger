@@ -59,55 +59,6 @@ division_template = {
 
 ##### OOB #####
 units = {
-	## Armata dell'Africa Orientale Italiana ##
-	# I Corpo d'Armata dell'A.O.I. #
-	division= {	
-		name = "26a Divisione di Fanteria 'Assietta'"
-		location = 9417
-		division_template = "Divisione di Fanteria"	
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "30a Divisione di Fanteria 'Sabauda'"
-		location = 9417
-		division_template = "Divisione di Fanteria"	
-		start_experience_factor = 0.2
-	}
-	division= {	
-		name = "5a Divisione Alpina 'Pusteria'"
-		location = 9417
-		division_template = "Divisione Alpina"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "4a Divisione CC.NN. '3 Gennaio'"
-		location = 9417
-		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
-		start_experience_factor = 0.2
-
-	}
-
-	# II Corpo d'Armata dell'A.O.I. #
-	division= {	
-		name = "19a Divisione di Fanteria 'Gavinana'"
-		location = 3838
-		division_template = "Divisione di Fanteria"	
-		start_experience_factor = 0.2
-	}
-	division= {	
-		name = "24a Divisione di Fanteria 'Gran Sasso'"
-		location = 3838
-		division_template = "Divisione di Fanteria"	
-		start_experience_factor = 0.2
-	}
-	division= {	
-		name = "3a Divisione CC.NN. '21 Aprile'"
-		location = 3838
-		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
-		start_experience_factor = 0.2
-
-	}
-
 	# III Corpo d'Armata dell'A.O.I. #
 	division= {	
 		name = "27a Divisione di Fanteria 'Sila'"
@@ -163,31 +114,6 @@ units = {
 	### 1st FLEET ###
 	navy = {					
 		name = "1a Squadra Navale"				
-		base = 9417
-		location = 9417 # Taranto		
-		ship = { name = "RM Zara" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
-		ship = { name = "RM Gorizia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
-		ship = { name = "RM Fiume" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
-		# 9a Squadriglia Cacciatorpedindiere
-		ship = { name = "RM Nicoloso da Recco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
-		ship = { name = "RM Emanuele Pessagno" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
-		ship = { name = "RM Luca Tarigo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
-		ship = { name = "RM Antoniotto Usodimare" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
-	}					
-	navy = {					
-		name = "4a Squadra Navale"				
-		base = 9417
-		location = 9417 # Taranto			
-		ship = { name = "RM Luigi Cadorna" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
-		ship = { name = "RM Armando Diaz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
-		ship = { name = "RM Alberico da Barbiano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
-		ship = { name = "RM Alberto da Giussano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
-		# 6a Squadriglia Cacciatorpedindiere
-		ship = { name = "RM Bettino Ricasoli" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-		ship = { name = "RM Giovanni Nicotera" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-	}	
-	navy = {					
-		name = "1a Squadra Navale"				
 		base = 6788
 		location = 6788 # Taranto		
 		ship = { name = "RM Zara" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
@@ -203,31 +129,6 @@ units = {
 		name = "4a Squadra Navale"				
 		base = 6788
 		location = 6788 # Taranto			
-		ship = { name = "RM Luigi Cadorna" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
-		ship = { name = "RM Armando Diaz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
-		ship = { name = "RM Alberico da Barbiano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
-		ship = { name = "RM Alberto da Giussano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
-		# 6a Squadriglia Cacciatorpedindiere
-		ship = { name = "RM Bettino Ricasoli" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-		ship = { name = "RM Giovanni Nicotera" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-	}	
-	navy = {					
-		name = "1a Squadra Navale"				
-		base = 9417
-		location = 9417 # Taranto		
-		ship = { name = "RM Zara" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
-		ship = { name = "RM Gorizia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
-		ship = { name = "RM Fiume" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
-		# 9a Squadriglia Cacciatorpedindiere
-		ship = { name = "RM Nicoloso da Recco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
-		ship = { name = "RM Emanuele Pessagno" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
-		ship = { name = "RM Luca Tarigo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
-		ship = { name = "RM Antoniotto Usodimare" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
-	}					
-	navy = {					
-		name = "4a Squadra Navale"				
-		base = 9417
-		location = 9417 # Taranto			
 		ship = { name = "RM Luigi Cadorna" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
 		ship = { name = "RM Armando Diaz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
 		ship = { name = "RM Alberico da Barbiano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
