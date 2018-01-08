@@ -13,12 +13,12 @@ state={
 
 
 	history={
-		owner = CLD
+		owner = NSP
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		add_core_of = CLD
+		add_core_of = NSP
 	}
 
 	provinces={

@@ -13,13 +13,13 @@ state={
 
 
 	history={
-		owner = CLD
+		owner = NSP
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			air_base = 2
 		}
-		add_core_of = CLD
+		add_core_of = NSP
 		victory_points = {
 			1806 1 
 		}

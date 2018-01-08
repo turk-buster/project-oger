@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = CLD
+		owner = HOL
 		buildings = {
 			infrastructure = 2
 			4982 = {

@@ -166,6 +166,8 @@ WRZ = "countries/Wurzburg.txt"
 MAI = "countries/Mainz.txt"
 FRK = "countries/Frankfurt.txt"
 SAR = "countries/Sardinia-Piedmont.txt"
+NSP = "countries/NewSpain.txt"
+NGR = "countries/NewGranada.txt"
 #
 #  N O T C O U N T R I E S 
 #

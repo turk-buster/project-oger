@@ -7,14 +7,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = CLD
+		owner = NSP
 		buildings = {
 			infrastructure = 3
 			4908 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = CLD
+		add_core_of = NSP
 	}
 
 	provinces={

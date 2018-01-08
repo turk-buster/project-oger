@@ -742,6 +742,16 @@ SAR = {
 	color_ui = rgb { 0  89  145 }
 }
 #
+NSP = {
+	color = rgb { 242  186  0 }
+	color_ui = rgb { 242  186  0 }
+}
+#
+NGR = {
+	color = rgb { 255  231  155 }
+	color_ui = rgb { 255  231  155 }
+}
+#
 # N O T    C O U N T R I E S
 #
 WAS = {

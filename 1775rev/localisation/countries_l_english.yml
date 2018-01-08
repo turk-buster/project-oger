@@ -1734,6 +1734,20 @@
  SAR_fascism_ADJ:0 "Sardinian-Piedmontese"
  SAR_communism_ADJ:0 "Sardinian-Piedmontese"
  #
+ NSP_fascism:0 "New Spain"
+ NSP_fascism_DEF:0 "New Spain"
+ NSP_communism:2 "New Spain"
+ NSP_communism_DEF:1 "New Spain"
+ NSP_fascism_ADJ:0 "Spanish"
+ NSP_communism_ADJ:0 "Spanish"
+ #
+ NGR_fascism:0 "New Granada"
+ NGR_fascism_DEF:0 "New Granada"
+ NGR_communism:2 "New Granada"
+ NGR_communism_DEF:1 "New Granada"
+ NGR_fascism_ADJ:0 "Spanish"
+ NGR_communism_ADJ:0 "Spanish"
+ #
  # N O T   C O U N T R I E S
  #
  CLD_fascism:0 ""

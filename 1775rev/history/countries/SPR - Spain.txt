@@ -52,8 +52,18 @@ set_politics = {
 set_convoys = 150
 set_national_unity = 0.8
 
+set_autonomy = {
+	target = NSP
+	autonomous_state = autonomy_dominion
+}
+
+set_autonomy = {
+	target = NGR
+	autonomous_state = autonomy_dominion
+}
+
 create_country_leader = {
-	name = "Juan II de Trastamara"
+	name = "Carlos III de Bourbon"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
@@ -63,38 +73,92 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Alejandro Lerroux"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+NSP = {
+	set_politics = {
+
+	parties = {
+			democratic = { 
+				popularity = 0
+			}
+
+			fascism = {
+				popularity = 100
+			}
+		
+			communism = {
+				popularity = 0
+			}
+		
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		ruling_party = fascism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+	name = "Carlos III de Bourbon"
+	desc = ""
+	picture = ""
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
+
+	add_ideas = {
+		catholic
+	}
+
+	capital = 277
+
+	oob = "NSP_1936"
 }
 
+NGR = {
+	set_politics = {
 
-### Ship Variants ###
+	parties = {
+			democratic = { 
+				popularity = 0
+			}
 
-create_equipment_variant = {
-	name = "C Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
+			fascism = {
+				popularity = 100
+			}
+		
+			communism = {
+				popularity = 0
+			}
+		
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		ruling_party = fascism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-}
 
-create_equipment_variant = {
-	name = "Príncipe Alfonso Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 1
-		ship_anti_air_upgrade = 1
+	create_country_leader = {
+	name = "Carlos III de Bourbon"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
 	}
+
+	add_ideas = {
+		catholic
+	}
+
+	capital = 307
+
+	oob = "NGR_1936"
 }
