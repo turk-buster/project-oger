@@ -17,8 +17,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 0 0 219 }
+	color_ui = rgb { 0 0 219 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -38,8 +38,8 @@ POL = {
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 216 216 216 }
+	color_ui = rgb { 216 216 216 }
 }
 LIT = {
 	color = rgb { 219 219 119 }
@@ -70,8 +70,8 @@ YUG = {
 	color_ui = rgb { 94 95 164 }
 }
 SWI = {
-	color = rgb { 224 5 5 }
-	color_ui = rgb { 193 81 81 }
+	color = rgb { 99 39 0 }
+	color_ui = rgb { 99 39 0 }
 }
 TUR = {
 	color = rgb { 171 190 152 }
@@ -488,8 +488,8 @@ PAP = {
 }
 #
 NAP = {
-	color = rgb { 200  204  197 }
-	color_ui = rgb { 200  204  197 }
+	color = rgb { 55  0  142 }
+	color_ui = rgb { 55  0  142 }
 }
 #
 ARA = {
@@ -518,8 +518,8 @@ GEN = {
 }
 #
 FLO = {
-	color = rgb { 70  62  255 }
-	color_ui = rgb { 70  62  255 }
+	color = rgb { 55  66  116 }
+	color_ui = rgb { 55  66  116 }
 }
 #
 LUC = {
@@ -738,8 +738,8 @@ FRK = {
 }
 #
 SAR = {
-	color = rgb { 0  89  145 }
-	color_ui = rgb { 0  89  145 }
+	color = rgb { 59  122  41 }
+	color_ui = rgb { 84  175  59 }
 }
 #
 NSP = {
@@ -748,8 +748,8 @@ NSP = {
 }
 #
 NGR = {
-	color = rgb { 255  231  155 }
-	color_ui = rgb { 255  231  155 }
+	color = rgb { 229  206  0 }
+	color_ui = rgb { 229  206  0 }
 }
 #
 # N O T    C O U N T R I E S
