@@ -36,7 +36,7 @@ set_politics = {
 set_convoys = 5
 
 add_ideas = {
-	catholic
+	sunni
 	albania
 }
 

@@ -4,7 +4,7 @@ state={
 	name="STATE_370"
 	manpower = 2009820
 	
-	state_category = city
+	state_category = town
 
 	history={
 		owner = CLD
@@ -19,7 +19,6 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = CLD
 	}
 
 	provinces={

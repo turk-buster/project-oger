@@ -2975,10 +2975,14 @@
  historical.1.b:0 "Yes!"
  # claimzzzz
  eu4claims.1.t:0 "Claiming territory"
- eu4claims.1.d:0 "We are claiming our neighbour's territory"
- eu4claims.1.a:0 "Okay"
+ eu4claims.1.d:0 "Do we want to claim this state?"
+ eu4claims.1.a:0 "Claim this State"
+ eu4claims.1.b:0 "How about another state"
+ eu4claims.1.c:0 "Claim this State"
+ eu4claims.1.f:0 "Claim this State"
  #corezzzzzz
  eu4cores.1.t:0 "Coring States"
  eu4cores.1.d:0 "Parts of our country are integrating into our culture nicely"
  eu4cores.1.a:0 "Perfect"
+ eu4cores.1.b:0 "Lets core a differnt state"
 

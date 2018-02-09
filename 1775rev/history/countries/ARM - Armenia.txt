@@ -1,6 +1,6 @@
 ﻿capital = 230 #Yerevan, Armenia
 
-oob = "AZR_1936"
+oob = "GEO_1936"
 
 set_research_slots = 3
 
@@ -37,6 +37,8 @@ set_technology = {
 	fleet_in_being = 1
 }
 
+add_ideas = { orthodox }
+
 set_politics = {
 
 	parties = {
@@ -63,33 +65,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Drastamat Kanayan"
+	name = "Tribal Council"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_ss5.dds"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Hovhannes Kajaznuni"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Grigor Harutyunyan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
 	traits = {
 		
 	}

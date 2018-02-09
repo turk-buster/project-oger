@@ -7,20 +7,20 @@ state={
 		oil=18
 	}
 	
-	state_category = large_city
+	state_category = large_town
 
 	history={
-		owner = NGR
+		owner = SPP
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 6
+			industrial_complex = 3
 			air_base = 3
 			12997 = {
 				naval_base = 5
 			}
 		}
-		add_core_of = NGR
+		add_core_of = SPP
 		victory_points = {
 			12997 5 
 		}

@@ -4,7 +4,7 @@ state={
 	name="STATE_378"
 	manpower = 5677248
 	
-	state_category = metropolis
+	state_category = large_town
 	
 	resources={
 		oil=350
@@ -15,10 +15,8 @@ state={
 		owner = NSP
 		buildings = {
 			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 6
-			dockyard = 2
-			air_base = 10
+			arms_factory = 1
+			industrial_complex = 1
 			1562 = {
 				naval_base = 10
 			}
@@ -44,11 +42,6 @@ state={
 		}
 		victory_points = {
 			9713 1 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 7
-			}
 		}
 	}
 

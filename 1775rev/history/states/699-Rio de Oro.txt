@@ -6,7 +6,8 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = CLD
+		owner = ALA
+		add_core_of = ALA
 		buildings = {
 			infrastructure = 1
 			8038 = {

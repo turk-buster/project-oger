@@ -4,7 +4,7 @@ state={
 	name="STATE_360"
 	manpower = 9631346
 	
-	state_category = megalopolis
+	state_category = large_city
 	
 	resources={
 		steel=80
@@ -15,26 +15,18 @@ state={
 		owner = CLD
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 5
-			dockyard = 7
-			air_base = 2
+			industrial_complex = 3
+			dockyard = 1
 			6845 = {
 				naval_base = 8
 
 			}
 		}
-		add_core_of = CLD
 		victory_points = {
 			6845 20
 		}
 		victory_points = {
 			11800 15
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-				dockyard = 8
-			}
 		}
 
 	}

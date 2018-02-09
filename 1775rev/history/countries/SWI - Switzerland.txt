@@ -49,9 +49,9 @@ set_politics = {
 set_national_unity = 0.85
 
 create_country_leader = {
-	name = "Dr. Max Leo Keller"
-	desc = "POLITICS_MAX_LEO_KELLER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
+	name = "United Cantons"
+	desc = "POLITICS_MAX_LEO_KELLER_DddfgESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Gefgfffneric_land_1.dds" 
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {

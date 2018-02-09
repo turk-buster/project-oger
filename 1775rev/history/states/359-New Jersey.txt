@@ -4,7 +4,7 @@ state={
 	name="STATE_359"
 	manpower = 4041332
 	
-	state_category = large_city
+	state_category = town
 
 	history={
 		owner = CLD
@@ -13,11 +13,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 7
-			air_base = 4
+			industrial_complex = 2
 
 		}
-		add_core_of = CLD
 	}
 
 	provinces={

@@ -9,8 +9,8 @@ ENG = {
 	color_ui = rgb { 132 35 35 }
 }
 SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 60 109 80 }
+	color_ui = rgb { 60 109 80 }
 }
 SWE = {
 	color = rgb { 36 132 247 }
@@ -34,8 +34,8 @@ CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
 }
 POL = {
-	color = rgb { 197 92 106 }
-	color_ui = rgb { 255 120 138 }
+	color = rgb { 158 30 55 }
+	color_ui = rgb { 158 30 55 }
 }
 AUS = {
 	color = rgb { 216 216 216 }
@@ -62,8 +62,8 @@ ITA = {
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
-	color = rgb { 215 196 72 }
-	color_ui = rgb { 255 255 120 }
+	color = rgb { 145 142 68 }
+	color_ui = rgb { 145 142 68 }
 }
 YUG = {
 	color = rgb { 72 73 126 }
@@ -379,13 +379,13 @@ AZR = {
 }
 
 GEO = {
-	color = rgb { 255  150  150 }
-	color_ui = rgb { 255  204  204 }
+	color = rgb { 255  38  38 }
+	color_ui = rgb { 255  38  38 }
 }
 
 ARM = {
-	color = rgb { 176  102  180 }
-	color_ui = rgb { 176  102  180 }
+	color = rgb { 255  38  38 }
+	color_ui = rgb { 255  38  38 }
 }
 
 LAO = {
@@ -423,8 +423,8 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
+	color = rgb { 250 201 106 }
+	color_ui = rgb { 250 201 106 }
 }
 ANG = {
 	color = rgb { 37 140 61 }
@@ -751,16 +751,44 @@ NGR = {
 	color = rgb { 229  206  0 }
 	color_ui = rgb { 229  206  0 }
 }
+SPP = {
+	color = rgb { 255  213  74 }
+	color_ui = rgb { 255  213  74 }
+}
+PRS = {
+	color = rgb { 0  55  91 }
+	color_ui = rgb { 0  55  91 }
+}
+CRI = {
+	color = rgb { 63  155  255 }
+	color_ui = rgb { 63  155  255 }
+}
+ALA = {
+	color = rgb { 114  51  0 }
+	color_ui = rgb { 114  51  0 }
+}
+EZE = {
+	color = rgb { 65  70  160 }
+	color_ui = rgb { 65  70  160 }
+}
+SAX = {
+	color = rgb { 102  47  205 }
+	color_ui = rgb { 102  47  205 }
+}
+JUL = {
+	color = rgb { 0  107  26 }
+	color_ui = rgb { 0  107  26 }
+}
 #
 # N O T    C O U N T R I E S
 #
 WAS = {
-	color = rgb { 0  0  0 }
-	color_ui = rgb { 0  0  0 }
+	color = rgb { 40  40  40 }
+	color_ui = rgb { 40  40  40 }
 }
 CLD = {
-	color = rgb { 89  89  89 }
-	color_ui = rgb { 89  89  89 }
+	color = rgb { 98  98  98 }
+	color_ui = rgb { 98  98  98 }
 }
 # mod
 D01 = {

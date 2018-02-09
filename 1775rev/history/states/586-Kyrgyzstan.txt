@@ -10,10 +10,10 @@ state={
 	}
 
 
-	state_category = city
+	state_category = town
 
 	history={
-		owner = SOV
+		owner = CLD
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -21,13 +21,6 @@ state={
 		}
 		victory_points = {
 			1591 3 
-		}
-		add_core_of = SOV
-		#add_core_of = KAZ
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
 		}
 
 	}

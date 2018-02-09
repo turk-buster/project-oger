@@ -8,11 +8,11 @@ state={
 	
 
 	history={
-		owner = NGR
+		owner = SPP
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = NGR
+		add_core_of = SPP
 	}
 
 	provinces={

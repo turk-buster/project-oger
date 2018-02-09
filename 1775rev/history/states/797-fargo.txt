@@ -1,0 +1,19 @@
+
+state={
+	id=797
+	name="Fargo"
+	manpower = 80844
+	state_category = rural
+
+	history={
+		owner = CLD
+		buildings = {
+			infrastructure = 1 ### 2075 
+		}
+
+	}
+
+	provinces={
+		11667 1870 3719 1752 12685 10709 4759 
+	}
+}

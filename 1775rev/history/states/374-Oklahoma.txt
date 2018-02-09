@@ -4,7 +4,7 @@ state={
 	name="STATE_374"
 	manpower = 2396039
 	
-	state_category = city
+	state_category = town
 	
 	resources={
 		oil=100
@@ -13,26 +13,18 @@ state={
 
 
 	history={
-		owner = NSP
+		owner = SPR
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
-			air_base = 2
+			industrial_complex = 1
 		}
-		add_core_of = NSP
 		victory_points = {
 			1806 1 
-		}
-
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
 		}
 
 	}
 
 	provinces={
-		1618 1806 2043 4919 5103 6803 7762 7904 7945 8025 9822 10702 10798 11743 11802 12624 
+		1618 1806 2043 4919 5103 6803 7762 7904 7945 8025 9822 10702 10798 11743 11802 3972 2055 12624 9908 12893 2102 
 	}
 }

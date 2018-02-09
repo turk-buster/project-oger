@@ -7,14 +7,14 @@ state={
 		oil=2
 	}
 	
-	state_category = city
+	state_category = large_town
 
 	history={
 		owner = NGR
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 4
+			industrial_complex = 2
 			air_base = 1
 			8252 = {
 				naval_base = 4

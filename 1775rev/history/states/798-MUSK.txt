@@ -1,0 +1,22 @@
+
+state={
+	id=798
+	name="Mosquito Coast"
+	manpower = 80844
+	state_category = rural
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1 ### 2075 
+			2075 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		2075
+	}
+}

@@ -1,4 +1,4 @@
-﻿capital = 374
+﻿capital = 523
 
 oob = "gaggagagaga_1936"
 
@@ -34,13 +34,12 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = " natives"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	name = "Native Tribes"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Genericdfsdfaaaaaa_land_4.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = { 
-		prince_of_terror
-		
-			}
+		#
+	}
 }
 

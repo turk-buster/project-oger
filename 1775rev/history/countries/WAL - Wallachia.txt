@@ -55,8 +55,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Vlad II Draculesti"
-	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
+	name = "Alexander Ypsilantis"
+	desc = ""
 	picture = "Portrait_Romania_Octavian_Goga.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

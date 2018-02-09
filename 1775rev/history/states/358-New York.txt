@@ -5,16 +5,15 @@ state={
 		steel=24.000
 	}
 	
-	state_category = megalopolis
+	state_category = large_city
 
 	history={
 		owner = CLD
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
-			industrial_complex = 7
-			dockyard = 3
-			air_base = 10
+			industrial_complex = 4
+			dockyard = 2
 			3878 = {
 				naval_base = 6
 

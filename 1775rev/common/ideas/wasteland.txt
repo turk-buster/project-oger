@@ -48,6 +48,7 @@ ideas = {
 			
 			modifier = {
 				training_time_army_factor = 1000000
+				enemy_justify_war_goal_time = 100000000
 			}
 		}
 	}

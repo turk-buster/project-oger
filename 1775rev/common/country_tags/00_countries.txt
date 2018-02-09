@@ -168,6 +168,13 @@ FRK = "countries/Frankfurt.txt"
 SAR = "countries/Sardinia-Piedmont.txt"
 NSP = "countries/NewSpain.txt"
 NGR = "countries/NewGranada.txt"
+PRS = "countries/prussia.txt"
+SPP = "countries/spainperu.txt"
+CRI = "countries/crimea.txt"
+ALA = "countries/Morocco.txt"
+EZE = "countries/essen.txt"
+SAX = "countries/Saxony.txt"
+JUL = "countries/Julich.txt"
 #
 #  N O T C O U N T R I E S 
 #

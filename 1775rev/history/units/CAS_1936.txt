@@ -141,6 +141,260 @@ units = {
 		start_equipment_factor = 0.8
 
 	}			
+	division = {			
+		name = "2a División de Infantería"		
+		location = 3816  # Sevilla
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "3a División de Infantería"		
+		location = 3816  # Valencia
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "4a División de Infantería"		
+		location = 3816  # Barcelona
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "5a División de Infantería"		
+		location = 9764  # Zaragosa
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "6a División de Infantería"		
+		location = 9764  # Burgos
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "7a División de Infantería"		
+		location = 9764  # Valladolid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "8a División de Infantería"		
+		location = 9764  # La Coruña
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "1a División de Caballería"		
+		location = 758  # Barcelona
+		division_template = "División de Caballería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "1a Brigada Montaña"		
+		location = 758  # Canary Islands
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "2a Brigada Montaña"		
+		location = 758  #Bilbao
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}	
+	division = {			
+		name = "1a División de Caballería"		
+		location = 758  # Barcelona
+		division_template = "División de Caballería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "1a Brigada Montaña"		
+		location = 758  # Canary Islands
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "2a Brigada Montaña"		
+		location = 758  #Bilbao
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Brigada Mixta Montaña"		
+		location = 875  #Oviedo
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "Brigada de Arma de Infantería"		
+		location = 875  #Cádiz
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}	
+	division = {			
+		name = "Brigada Mixta Montaña"		
+		location = 875  #Oviedo
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "Brigada de Arma de Infantería"		
+		location = 875  #Cádiz
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}				
+
+
+	### Island Garrisons ###
+	division = {			
+		name = "Comandancia de Baleares"		
+		location = 885  #Mallorca
+		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CAS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division = {			
+		name = "Comandancia de Canarias"		
+		location = 885  # Canary Islands
+		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CAS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+
+	### Ejército de África ###
+	division = {			
+		name = "Circunscripción Occidental"		
+		location = 885  #Ceuta
+		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Circunscripción Oriental"		
+		location = 885  #Melilla
+		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}		
+		division = {			
+		name = "1a División de Infantería"		
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "2a División de Infantería"		
+		location = 3938  # Sevilla
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "3a División de Infantería"		
+		location = 3938  # Valencia
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "4a División de Infantería"		
+		location = 3938  # Barcelona
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "5a División de Infantería"		
+		location = 3938  # Zaragosa
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "6a División de Infantería"		
+		location = 7183  # Burgos
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "7a División de Infantería"		
+		location = 7183  # Valladolid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "8a División de Infantería"		
+		location = 7183  # La Coruña
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "1a División de Caballería"		
+		location = 758  # Barcelona
+		division_template = "División de Caballería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
 
 	division = {			
 		name = "1a Brigada Montaña"		
@@ -494,83 +748,364 @@ units = {
 		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
 		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
 	}
-}
-
-### Air Wings
-air_wings = {
-	# Arma de Aviación -- Madrid (Getafe)
-	115 = { 
-		# Grupo n.1 de Caza FARE 'Alas Rojas'
-		fighter_equipment_0 = {
-			owner = "CAS" 
-			amount = 36
-		}
+	navy = {
+		name = "Base Naval El Ferrol"
+		base = 740
+		location = 740  # Ferrol/Coruna
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		# Flotilla de Destructores de El Ferrol
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
 	}
-	# Arma de Aviación -- Sevilla (and Barcelona)
-	115 = {
-		# Grupo n.3 de Caza FARE 'Malraux'
-		fighter_equipment_0 = {
-			owner = "CAS" 
-			amount = 24
-		}
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 740
+		location = 740  #Cádiz
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
 	}
-	# Aeronáutica Naval -- Murcia
-	115 = {
-		nav_bomber_equipment_1 = {
-			owner = "CAS" 
-			amount = 27
-		}
+	navy = {
+		name = "Base Naval Cartagena"
+		base = 740
+		location = 740  #Cartagena/Murcia
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
 	}
-}
-
-
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "CAS"
-		}
-		requested_factories = 2
-		progress = 0.42
-		efficiency = 100
+	navy = {
+		name = "Base Naval El Ferrol"
+		base = 740
+		location = 740  # Ferrol/Coruna
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		# Flotilla de Destructores de El Ferrol
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
 	}
-	add_equipment_production = {
-		equipment = {
-			type = support_equipment_1
-			creator = "CAS"
-		}
-		requested_factories = 1
-		progress = 0.24
-		efficiency = 100
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 740
+		location = 740  #Cádiz
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
 	}
-	add_equipment_production = {
-		equipment = {
-			type = artillery_equipment_1
-			creator = "CAS"
-		}
-		requested_factories = 1
-		progress = 0.24
-		efficiency = 100
+	navy = {
+		name = "Base Naval Cartagena"
+		base = 740
+		location = 740  #Cartagena/Murcia
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
 	}
-	### Under Contruction Notes ###
-	# DD: Churucca class (x3) ("ARE Almirante Miranda" "ARE Gravina" "ARE Escaño" "ARE Císcar" "ARE Jorge Juan" "ARE Ulloa")
-	add_equipment_production = {
-		equipment = {
-			type = destroyer_2
-			creator = "CAS"
-		}
-		requested_factories = 1
-		progress = 0.80
-		amount = 3
+	navy = {
+		name = "Base Naval El Ferrol"
+		base = 740
+		location = 740  # Ferrol/Coruna
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		# Flotilla de Destructores de El Ferrol
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
 	}
-	# CA: ARE Canarias (Canarias class, comm. 1-Oct, 1936), ARE Baleares (Canarias class, comm. 28-Dec, 1936)
-	add_equipment_production = {
-		equipment = {
-			type = heavy_cruiser_2
-			creator = "CAS"
-		}
-		requested_factories = 2
-		progress = 0.85
-		amount = 2
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 740
+		location = 740  #Cádiz
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cartagena"
+		base = 740
+		location = 740  #Cartagena/Murcia
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval El Ferrol"
+		base = 740
+		location = 740  # Ferrol/Coruna
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		# Flotilla de Destructores de El Ferrol
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 740
+		location = 740  #Cádiz
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cartagena"
+		base = 740
+		location = 740  #Cartagena/Murcia
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval El Ferrol"
+		base = 740
+		location = 740  # Ferrol/Coruna
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		# Flotilla de Destructores de El Ferrol
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 740
+		location = 740  #Cádiz
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cartagena"
+		base = 740
+		location = 740  #Cartagena/Murcia
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval El Ferrol"
+		base = 740
+		location = 740  # Ferrol/Coruna
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		# Flotilla de Destructores de El Ferrol
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 740
+		location = 740  #Cádiz
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cartagena"
+		base = 740
+		location = 740  #Cartagena/Murcia
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval El Ferrol"
+		base = 740
+		location = 740  # Ferrol/Coruna
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		# Flotilla de Destructores de El Ferrol
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 740
+		location = 740  #Cádiz
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cartagena"
+		base = 740
+		location = 740  #Cartagena/Murcia
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval El Ferrol"
+		base = 740
+		location = 740  # Ferrol/Coruna
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		# Flotilla de Destructores de El Ferrol
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 740
+		location = 740  #Cádiz
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cartagena"
+		base = 740
+		location = 740  #Cartagena/Murcia
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval El Ferrol"
+		base = 740
+		location = 740  # Ferrol/Coruna
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		# Flotilla de Destructores de El Ferrol
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 740
+		location = 740  #Cádiz
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cartagena"
+		base = 740
+		location = 740  #Cartagena/Murcia
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval El Ferrol"
+		base = 740
+		location = 740  # Ferrol/Coruna
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS version_name = "Príncipe Alfonso Class" } } }
+		# Flotilla de Destructores de El Ferrol
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 740
+		location = 740  #Cádiz
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAS } } }
+	}
+	navy = {
+		name = "Base Naval Cartagena"
+		base = 740
+		location = 740  #Cartagena/Murcia
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CAS } } }
 	}
 }

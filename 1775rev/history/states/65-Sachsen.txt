@@ -2,20 +2,20 @@
 state={
 	id=65
 	name="STATE_65"
-	manpower = 5592576
+	manpower = 5492576
 	resources={
 		steel=90
 	}
 
-	state_category = metropolis
+	state_category = large_city
 
 
 	history={
-		owner = GER
+		owner = SAX
 		buildings = {
 			infrastructure = 7
 			arms_factory = 3
-			industrial_complex = 7
+			industrial_complex = 5
 		}
 		victory_points = {
 			514 5 
@@ -23,17 +23,10 @@ state={
 		victory_points = {
 			3535 5 
 		}
-		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 2
-				arms_factory = 5
-				industrial_complex = 10
-			}
-		}
+		add_core_of = SAX
 	}
 
 	provinces={
-		514 3535 6441 6559 9441 9471 11481 11545 
+		514 3535 6559 9441 9471 11481 573 3514 6441 11545 
 	}
 }

@@ -19,7 +19,7 @@ set_technology = {
 }
 
 add_ideas = {
-	orthodox
+	sunni
 	bosnia
 }
 

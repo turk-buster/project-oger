@@ -24,7 +24,6 @@ add_ideas = {
 	historical
 }
 
-set_convoys = 50
 set_politics = {
 
 	parties = {
@@ -53,11 +52,75 @@ set_politics = {
 set_convoys = 100
 set_national_unity = 0.8
 
+set_autonomy = {
+	target = BRA
+	autonomous_state = autonomy_dominion
+}
+
+
 
 create_country_leader = {
-	name = "António de Oliveira Salazar"
-	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
-	picture = "Portrait_Portugal_Antonio_de_Oliveira_Salazar.dds"
+	name = "John VI"
+	desc = ""
+	picture = "Portrait_Portugal_Antonio_de_Oliveira_Salassszar.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+BRA = {
+	set_politics = {
+
+	parties = {
+			democratic = { 
+				popularity = 0
+			}
+
+			fascism = {
+				popularity = 100
+			}
+		
+			communism = {
+				popularity = 0
+			}
+		
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		ruling_party = fascism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+	name = "John VI"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+
+	add_ideas = {
+		catholic
+	}
+
+	capital = 500
+
+	oob = "BRA_1936"
+}
+
+
+
+create_country_leader = {
+	name = "Jose I de Braganca"
+	desc = ""
+	picture = "Portrait_Brazil_boiss.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

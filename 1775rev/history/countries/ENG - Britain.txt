@@ -80,10 +80,11 @@ add_ideas = {
 create_country_leader = {
 	name = "King George III"
 	desc = ""
-	picture = "ogerbama niger"
+	picture = "portrait_england_georgey.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		
+		warmonger
+		inexperienced_imperialist
 	}
 }

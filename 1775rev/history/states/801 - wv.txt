@@ -1,0 +1,20 @@
+
+state={
+	id=801
+	name="West Virginia"
+	manpower = 751054
+	
+	state_category = town
+
+	history={
+		owner = CLD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		6850 801 9923 3975 6958 11888 3941 7646 7588 10441 7466 4627 6971  
+	}
+}

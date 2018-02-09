@@ -8,14 +8,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = NGR
+		owner = SPP
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
 
 		}
-		add_core_of = NGR
+		add_core_of = SPP
 		victory_points = {
 			2210 1 
 		}

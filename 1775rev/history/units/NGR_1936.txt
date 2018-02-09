@@ -99,39 +99,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
-	}			
-	division = {			
-		name = "5a División de Infantería"		
-		location = 12997  # Zaragosa
-		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = {			
-		name = "6a División de Infantería"		
-		location = 12997  # Burgos
-		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = {			
-		name = "7a División de Infantería"		
-		location = 12997  # Valladolid
-		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = {			
-		name = "8a División de Infantería"		
-		location = 12997  # La Coruña
-		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
+	}				
 
 	division = {			
 		name = "1a División de Caballería"		

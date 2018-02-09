@@ -3284,4 +3284,56 @@ spriteTypes = {
 		name = "GFX_idea_historical"
 		texturefile = "gfx/interface/ideas/historical.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_prussia"
+		texturefile = "gfx/interface/ideas/prussia11.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_france"
+		texturefile = "gfx/interface/ideas/france11.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_turkey"
+		texturefile = "gfx/interface/ideas/kebab11.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_secular"
+		texturefile = "gfx/interface/ideas/secular.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religious_identity"
+		texturefile = "gfx/interface/ideas/religious_identity.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_somewhat_tolerant"
+		texturefile = "gfx/interface/ideas/somewhat_tolerant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_state_religion"
+		texturefile = "gfx/interface/ideas/state_religion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_duchy"
+		texturefile = "gfx/interface/ideas/duchy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_archduchy"
+		texturefile = "gfx/interface/ideas/archduchy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kingdom"
+		texturefile = "gfx/interface/ideas/kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_empire"
+		texturefile = "gfx/interface/ideas/empire.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_claimant"
+		texturefile = "gfx/interface/ideas/claimant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_core"
+		texturefile = "gfx/interface/ideas/core.dds"
+	}
 }

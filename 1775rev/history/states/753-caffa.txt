@@ -4,10 +4,10 @@ state={
 	name="Caffa"
 	manpower = 261607
 	
-	state_category = city
+	state_category = town
 
 	history={
-		owner = GEN
+		owner = CRI
 		buildings = {
 			infrastructure = 7
 			dockyard = 2
@@ -17,7 +17,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = GEN
+		add_core_of = CRI
 	}
 
 	provinces={

@@ -1,0 +1,20 @@
+state={
+	id=795
+	name="Bydgoszcz"
+	manpower = 580100
+	
+	state_category = town
+	history={
+		owner = PRS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = PRS
+		add_core_of = POL
+	}
+
+	provinces={
+		3324 334 389 3295 279 243 
+	}
+}

@@ -39,7 +39,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_national_unity = 0.50
+set_national_unity = 0.70
 
 give_guarantee = NUR
 
@@ -61,9 +61,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Hapsburg Dynasty"
-	desc = "The Hapsburg Dynasty"
-	picture = "Portrait"
+	name = "Maria Theresa"
+	desc = "part of the Hapsburg Dynasty"
+	picture = "portrait_austria_mariatheresa.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {

@@ -4,14 +4,13 @@ state={
 	name="STATE_366"
 	manpower = 1468210
 	
-	state_category = city
+	state_category = rural
 
 	history={
 		owner = CLD
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
-			air_base = 8
+			industrial_complex = 1
 			1572 = {
 				naval_base = 2
 			}
@@ -25,7 +24,6 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = CLD
 		victory_points = {
 			1843 5 
 		}

@@ -15,42 +15,30 @@ idea_categories = {
 	}
 	
 	government = {
+		slot = gov_type
 		slot = mobilization_laws
-		slot = trade_laws
 		slot = economy
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
+		slot = focuss
 		
-		cost = 250
+		cost = 150
 		removal_cost = 0
 	}
 
 
-	dip_ideas = {
-		slot = dip_ideas_
-		slot = dip_ideas_
-		slot = dip_ideas_
+	Religous = {
+		slot = religion
+		slot = re_pol
 		
-		cost = 250
+		cost = 200
 		removal_cost = 0
 	}
 
-	mil_ideas = {
-		slot = mil_ideas_
-		slot = mil_ideas_
-		slot = mil_ideas_
+	Foreign = {
+		slot = claims
+		slot = coress
+		slot = trade_laws
 		
-		cost = 250
-		removal_cost = 0
-	}
-
-	adm_ideas = {
-		slot = adm_ideas_
-		slot = adm_ideas_
-		slot = adm_ideas_
-		
-		cost = 250
+		cost = 150
 		removal_cost = 0
 	}
 }

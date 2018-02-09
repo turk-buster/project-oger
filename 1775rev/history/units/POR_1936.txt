@@ -65,14 +65,6 @@ units = {
 
 	# 1a Distrito Militar #
 	division = {
-		name = "1a Divisão de Infanteria"
-		location = 9945
-		division_template = "Divisão de Infanteria"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division = {
 		name = "2a Força de Caçadores"
 		location = 3798
 		division_template = "Força de Caçadores"

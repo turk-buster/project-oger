@@ -1,0 +1,25 @@
+
+state={
+	id=796
+	name="Denver"
+	manpower = 1030000
+	
+	state_category = town
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = SPR
+		victory_points = {
+			1827 5 
+		}
+
+	}
+
+	provinces={
+		10535 3869 7780 11772 1827 12642 12570 10588 1809 1738 
+	}
+}

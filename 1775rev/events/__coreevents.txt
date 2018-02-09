@@ -8,42 +8,33 @@ country_event = {
 
 	fire_only_once = no
 
-	trigger = {
-
-		NOT = { tag = WAS }
-
-		NOT = { tag = CLD }
-
-		any_state = {
-			AND = {
-
-				NOT = { is_core_of = ROOT }
-
-				is_owned_by = ROOT 
-
-				any_neighbor_state = {
-					is_core_of = ROOT
-				}
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 150
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = eu4cores.1.a
-			random_owned_state = {
-				limit = {
-					AND = {
-
-						NOT = { is_core_of = ROOT }
-
-						is_owned_by = ROOT
-					}
+		ai_chance = { factor = 10 }
+		random_owned_state = {
+			limit = {
+				AND = {
+					NOT = { is_core_of = ROOT }
+					any_neighbor_state = { is_core_of = ROOT }
 				}
-				add_core_of = ROOT
+			}
+			add_core_of = ROOT
+		}
+		add_political_power = -100
+		hidden_effect = {
+			remove_ideas = { core }
+		}
+	}
+
+	option = {
+		name = eu4claims.1.b
+		ai_chance = { factor = 90 }
+		ROOT = {
+			country_event = {
+				id = eu4cores.1
+				hours = 1
 			}
 		}
 	}

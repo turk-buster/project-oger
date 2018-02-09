@@ -60,8 +60,8 @@ set_national_unity = 0.55
 give_guarantee = RAG
 
 create_country_leader = {
-	name = "Mehmed II Fatih"
-	desc = "One of the most brilliant leaders of all time, mehmed II was an influential figure on 3 continents"
+	name = "Abdul Hamid I"
+	desc = ""
 	picture = "gfx/leaders/TUR/mehmed.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -70,15 +70,104 @@ create_country_leader = {
 	}
 }
 
-### Ship Variants ###
+set_autonomy = {
+	target = ROM
+	autonomous_state = autonomy_dominion
+}
 
-create_equipment_variant = {
-	name = "Dumlupinar Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		sub_engine_upgrade = 2
-		sub_stealth_upgrade = 2
-		sub_torpedo_upgrade = 2
+set_autonomy = {
+	target = WAL
+	autonomous_state = autonomy_dominion
+}
+
+ROM = {
+	set_politics = {
+
+	parties = {
+			democratic = { 
+				popularity = 0
+			}
+
+			fascism = {
+				popularity = 100
+			}
+		
+			communism = {
+				popularity = 0
+			}
+		
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		ruling_party = fascism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
+
+	create_country_leader = {
+		name = "Grigore III Ghica"
+		desc = ""
+		picture = "Portrait_Romania_grigoria.dds"
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {
+			#
+		}
+	}
+
+	add_ideas = {
+		orthodox
+	}
+
+	capital = 79
+
+	oob = "ROM_1936"
+}
+
+WAL = {
+	set_politics = {
+
+	parties = {
+			democratic = { 
+				popularity = 0
+			}
+
+			fascism = {
+				popularity = 100
+			}
+		
+			communism = {
+				popularity = 0
+			}
+		
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		ruling_party = fascism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Alexander Ypsilantis"
+		desc = ""
+		picture = "Portrait_Romania_Octavian_Goga.dds"
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {
+			#
+		}
+	}
+
+	add_ideas = {
+		orthodox
+	}
+
+	capital = 79
+
+	oob = "WAL_1936"
 }

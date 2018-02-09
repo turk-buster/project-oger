@@ -2,7 +2,7 @@
 state={
 	id=782
 	name="Oberpfalz"
-	manpower = 1453365
+	manpower = 93365
 	
 	state_category = large_town
 

@@ -1,19 +1,13 @@
 ideas = {
 
-	country = {
+	religion = {
 		sunni = {
-			
 			allowed = {
 				always = no
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-
+			cost = 150
 			removal_cost = -1
-
-			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				unity_factor = -0.10
@@ -23,18 +17,13 @@ ideas = {
 		}
 		
 		shia = {
-			
+
 			allowed = {
 				always = no
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-
+			cost = 150
 			removal_cost = -1
-			
-			picture = generic_democratic_drift_bonus
 
 			modifier = {
 				unity_factor = -0.10
@@ -44,17 +33,13 @@ ideas = {
 		}
 
 		catholic = {
-			
+		
 			allowed = {
 				always = no
 			}
+
+			cost = 150
 			removal_cost = -1
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				political_power_cost = -0.05
@@ -62,16 +47,12 @@ ideas = {
 		}
 		
 		prodestant = {
-			removal_cost = -1
 			allowed = {
 				always = no
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = generic_democratic_drift_bonus
+			cost = 150
+			removal_cost = -1
 
 			modifier = {
 				political_power_cost = 0.05
@@ -81,16 +62,12 @@ ideas = {
 		}	
 
 		reformed = {
-			removal_cost = -1
 			allowed = {
-				always = no # Unlocked via focus
+				always = no
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = generic_democratic_drift_bonus
+			cost = 150
+			removal_cost = -1
 	
 			modifier = {
 				political_power_cost = 0.10
@@ -100,16 +77,12 @@ ideas = {
 		}
 
 		orthodox = {
-			removal_cost = -1
 			allowed = {
-				always = no # Unlocked via focus
+				always = no
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = generic_democratic_drift_bonus
+			cost = 150
+			removal_cost = -1
 	
 			modifier = {
 				political_power_cost = -0.05
@@ -120,23 +93,75 @@ ideas = {
 		}
 
 		confucian = {
-			
 			allowed = {
 				always = no
 			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-
+			cost = 150
 			removal_cost = -1
-			
-			picture = generic_democratic_drift_bonus
 
 			modifier = {
-				unity_factor = -0.10
-				political_power_cost = 0.10
+				unity_factor = -0.05
+				political_power_cost = -0.10
 				consumer_goods_factor = -0.05
+			}
+		}
+	}
+
+	re_pol = {
+		state_religion = {
+			cost = 150
+			removal_cost = -1
+			level = 1
+			default = yes
+
+			modifier = {
+				unity_factor = 0.10
+				political_power_cost = 0.05
+				justify_war_goal_time = -0.10
+				army_morale_factor = 0.05
+				research_time_factor = 0.1
+			}
+		}
+
+		religious_identity = {
+			cost = 150
+			removal_cost = -1
+			level = 2
+
+			modifier = {
+				unity_factor = 0.05
+				political_power_cost = -0.05
+				justify_war_goal_time = -0.05		
+				army_morale_factor = 0.025	
+				research_time_factor = 0.05
+			}
+		}
+
+		somewhat_tolerant = {
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			modifier = {
+				unity_factor = -0.05
+				political_power_cost = -0.10
+				justify_war_goal_time = 0.05
+				army_morale_factor = -0.01
+				research_time_factor = -0.05
+			}
+		}
+
+		secular = {
+			cost = 150
+			removal_cost = -1
+			level = 4
+			modifier = {
+				unity_factor = -0.15
+				political_power_cost = -0.10
+				justify_war_goal_time = 0.15
+				army_morale_factor = -0.05
+				research_time_factor = -0.15
 			}
 		}
 	}

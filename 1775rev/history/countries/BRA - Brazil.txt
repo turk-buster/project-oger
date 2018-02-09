@@ -43,3 +43,16 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Jose I de Braganca"
+	desc = ""
+	picture = "Portrait_Brazil_boiss.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+add_ideas = { catholic }

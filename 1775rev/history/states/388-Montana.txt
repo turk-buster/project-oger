@@ -9,11 +9,10 @@ state={
 	}
 
 	history={
-		owner = CLD
+		owner = SPR
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = CLD
 		victory_points = {
 			4860 1 
 		}
