@@ -73,13 +73,3 @@ add_ideas = {
 	catholic
 	hre
 }
-
-create_country_leader = {
-	name = "HRE free city"
-	desc = "Free city of the HRE"
-	picture = "Portrait_Germanyddd_Adolf_Hitler.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-	}
-}

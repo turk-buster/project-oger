@@ -739,45 +739,9 @@ units = {
 	}
 
 	navy = {
-		name = "1 Sensui Sentai" # A part of "Dai 1 Kantai"
-
-		base = 9998
-		location = 9998  #Yokosuka
-		#Kaidai-class Submarines
-		ship = { name = "I-51" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-152" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }		
-		ship = { name = "I-153" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }			
-		ship = { name = "I-154" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-		ship = { name = "I-155" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-		ship = { name = "I-156" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-157" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-		ship = { name = "I-158" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-159" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-60" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-61" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-162" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-		ship = { name = "I-63" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-		ship = { name = "I-164" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-165" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-		ship = { name = "I-166" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-		ship = { name = "I-67" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-168" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-169" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-70" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-		ship = { name = "I-171" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
-	}
-
-	navy = {
 		name = "1 Koku Sentai" # A part of "Dai 1 Kantai"
 		base = 9998
 		location = 9998  #Yokosuka
-		ship = { name = "Ryujo" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
-			air_wings = { 
-				cv_fighter_equipment_0 =  { owner = "JAP" amount = 18 } # historical 24
-				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 } 	# historical 12
-
-			}
-		}
 		#Dai 5 Kuchikutai
 		ship = { name = "Asakaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Harukaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
@@ -820,14 +784,6 @@ units = {
 		ship = { name = "Aoba" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Kinugasa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
 		# Dai 2 Koku Sentai
-		ship = { name = "Kaga" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP version_name = "Akagi Class"} } 			
-
-			air_wings = { 
-				cv_fighter_equipment_0 =  { owner = "JAP" amount = 12 } # historical 16
-				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 } # historical 16
-				cv_nav_bomber_equipment_1 =  { owner = "JAP" amount = 21 } # historical 28
-			}
-		}
 	}
 	navy = {	
 		name = "2 Suirai Sentai" #A part of "Dai 2 Kantai"
@@ -855,20 +811,6 @@ units = {
 		ship = { name = "Asanagi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Yunagi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
 	}
-	navy = {	
-		name = "2 Sensui Sentai" #A part of "Dai 2 Kantai"
-		base = 9950
-		location = 9950  #Sasebo
-		#Flagship
-		ship = { name = "Kinu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }	
-		#Junsen-class Submarines
-		ship = { name = "I-1" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-		ship = { name = "I-2" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }		
-		ship = { name = "I-3" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-		ship = { name = "I-4" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }		
-		ship = { name = "I-5" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-		ship = { name = "I-6" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
-	}
 
 	navy = {
 		name = "Sasebo Yobikantai" # Patrol and reserve fleet, including ships under modernization
@@ -876,14 +818,7 @@ units = {
 		location = 9950  #Sasebo
 
 		ship = { name = "Kongo" definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP} } }
-		ship = { name = "Kirishima" definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP} } }
-		ship = { name = "Akagi" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP version_name = "Akagi Class"} } 				
-			air_wings = { 
-				cv_fighter_equipment_0 =  { owner = "JAP" amount = 9 } 	# historical 12
-				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 } 			# historical 18
-				cv_nav_bomber_equipment_1 =  { owner = "JAP" amount = 24 } 	# historical 36
-			}
-		}	
+		ship = { name = "Kirishima" definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP} } }	
 		ship = { name = "Natori" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
 		ship = { name = "Yura" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
 		ship = { name = "Kitakami" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
@@ -927,34 +862,6 @@ units = {
 		ship = { name = "Akebono" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }	
 		ship = { name = "Sazanami" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
 		ship = { name = "Ushio" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
-	}
-	navy = {
-		name = "3 Sensui Kantai"
-		base = 1092
-		location = 1092  # Hiroshima
-		#Kaichu-class Submarines
-		ship = { name = "Ro-26" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-27" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-28" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-30" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-31" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-32" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-33" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		#Type L-class Submarines
-		ship = { name = "Ro-51" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-56" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-57" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-58" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-59" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-60" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-61" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-62" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-63" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-64" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-65" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-66" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-67" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ro-68" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }	
 	}
 
 #Ominato
@@ -1097,133 +1004,4 @@ air_wings = {
 		}
 
 	}
-}
-
-
-#########################
-## STARTING PRODUCTION ##
-#########################
-instant_effect = 
-{
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "JAP"
-		}
-		requested_factories = 3
-		progress = 0.1
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = support_equipment_1
-			creator = "JAP" 
-		}
-		requested_factories = 1
-		progress = 0.3
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = artillery_equipment_1
-			creator = "JAP" 
-		}
-		requested_factories = 1
-		progress = 0.4
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = fighter_equipment_0
-			creator = "JAP" 
-		}
-		requested_factories = 1
-		progress = 0.15
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = cv_nav_bomber_equipment_1
-			creator = "JAP" 
-		}
-		requested_factories = 1
-		progress = 0.2
-		efficiency = 50
-	}
-
-
-### Ongoing Naval Production Jan 1 1936 ###
-		add_equipment_production = {				# "Hiei"
-			equipment = {
-				type = battleship_2
-				creator = "JAP"
-			}
-			requested_factories = 1
-			progress = 0.2
-			amount = 1
-		}
-		add_equipment_production = {				# "Soryu"
-			equipment = {
-				type = carrier_2
-
-				creator = "JAP" 
-			}
-			requested_factories = 1
-			progress = 0.66
-
-			amount = 1
-		}
-		add_equipment_production = {				# "Suzuya"
-			equipment = {
-				type = heavy_cruiser_2
-
-				creator = "JAP" 
-			}
-			requested_factories = 1
-			progress = 0.2
-			amount = 1
-		}		
-		add_equipment_production = {				# "Shiratsuyu" "Shigure" "Murasame" "Harusame" "Samidare"
-			equipment = {
-				type = destroyer_1
-				creator = "JAP" 
-				version_name = "Fubuki Class"
-			}
-			requested_factories = 3
-			progress = 0.7
-			amount = 5
-		}		
-		add_equipment_production = {				# "I-172" "I-73" "I-174" "I-175"
-			equipment = {
-				type = submarine_2
-				creator = "JAP" 
-			}
-			requested_factories = 2
-			progress = 0.7
-			amount = 4
-		}
-
-		add_equipment_production = {				# "I-7" "I-8"
-			equipment = {
-				type = submarine_1
-				creator = "JAP" 
-				version_name = "Kaidai III Class"
-			}
-			requested_factories = 1
-			progress = 0.7
-			amount = 1
-		}
-		add_equipment_production = {				# "Ro-34"
-			equipment = {
-				type = submarine_1
-				creator = "JAP" 
-			}
-			requested_factories = 1
-			progress = 0.8
-			amount = 1
-		}
 }

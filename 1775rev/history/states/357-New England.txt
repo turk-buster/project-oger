@@ -9,7 +9,8 @@ state={
 
 
 	history={
-		owner = CLD
+		owner = 13C
+		add_core_of = 13C
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -25,7 +26,6 @@ state={
 			}
 
 		}
-		add_core_of = CLD
 		victory_points = {
 			6732 20 
 		}

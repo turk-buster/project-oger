@@ -8,6 +8,10 @@ set_technology = {
 	
 }
 
+add_ideas = {
+	confucian
+}
+
 set_convoys = 50
 
 set_politics = {

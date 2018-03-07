@@ -175,6 +175,15 @@ ALA = "countries/Morocco.txt"
 EZE = "countries/essen.txt"
 SAX = "countries/Saxony.txt"
 JUL = "countries/Julich.txt"
+13C = "countries/13col.txt"
+HAN = "countries/Hanover.txt"
+MUN = "countries/Cleves.txt"
+HEK = "countries/hessekassel.txt"
+OLD = "countries/oldenburg.txt"
+#3/4/18
+HAM = "countries/hamburg.txt"
+LUB = "countries/lubeck.txt"
+MEC = "countries/mecklenburg.txt"
 #
 #  N O T C O U N T R I E S 
 #

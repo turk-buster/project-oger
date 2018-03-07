@@ -68,6 +68,12 @@ ideas = {
 
 			default = yes
 
+			available = {	
+				NOT = {
+					has_ideas = Republic
+				}
+			}
+
 			modifier = {
 				consumer_goods_factor = -0.01
 				local_resources_factor = 0.05
@@ -82,6 +88,9 @@ ideas = {
 
 			available = {	
 				num_of_factories > 15
+				NOT = {
+					has_ideas = Republic
+				}
 			}
 
 			modifier = {
@@ -99,6 +108,9 @@ ideas = {
 
 			available = {	
 				num_of_factories > 40
+				NOT = {
+					has_ideas = Republic
+				}
 			}
 			modifier = {
 				consumer_goods_factor = -0.04
@@ -114,11 +126,29 @@ ideas = {
 
 			available = {	
 				num_of_factories > 70
+				NOT = {
+					has_ideas = Republic
+				}
 			}
 			modifier = {
 				consumer_goods_factor = -0.08
 				local_resources_factor = 0.25
 				conscription = 0.08
+			}
+			
+		}
+
+		Republic = {
+			cost = 200
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.08
+				local_resources_factor = 0.15
+				conscription = 0.04
 			}
 			
 		}

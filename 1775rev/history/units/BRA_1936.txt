@@ -109,13 +109,7 @@ units = {
 		ship = { name = "NRB Sergipe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
 		ship = { name = "NRB Santa Catharina" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
 		ship = { name = "NRB Mato Grosso" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-	}				
-	navy = {				
-		name = "Flotilha de Submarinos"			
-		base = 10980 
-		location = 10980 # Rio de Janiero
-		ship = { name = "NRB Humaytá" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BRA } } }
-	}				
+	}							
 }
 
 

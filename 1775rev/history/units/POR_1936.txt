@@ -123,10 +123,6 @@ units = {
 		ship = { name = "NRP Lima" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
 		ship = { name = "NRP Vouga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
 		ship = { name = "NRP Tejo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
-		# Flotilha Delfim
-		ship = { name = "NRP Delfim" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }		
-		ship = { name = "NRP Espadarte" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }	
-		ship = { name = "NRP Golfinho" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }	
 	}
 
 	navy = {				
@@ -140,10 +136,6 @@ units = {
 		ship = { name = "NRP Lima" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
 		ship = { name = "NRP Vouga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
 		ship = { name = "NRP Tejo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
-		# Flotilha Delfim
-		ship = { name = "NRP Delfim" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }		
-		ship = { name = "NRP Espadarte" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }	
-		ship = { name = "NRP Golfinho" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }	
 	}
 
 	navy = {				
@@ -157,10 +149,6 @@ units = {
 		ship = { name = "NRP Lima" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
 		ship = { name = "NRP Vouga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
 		ship = { name = "NRP Tejo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
-		# Flotilha Delfim
-		ship = { name = "NRP Delfim" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }		
-		ship = { name = "NRP Espadarte" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }	
-		ship = { name = "NRP Golfinho" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }	
 	}
 
 	navy = {				
@@ -174,9 +162,5 @@ units = {
 		ship = { name = "NRP Lima" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
 		ship = { name = "NRP Vouga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
 		ship = { name = "NRP Tejo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
-		# Flotilha Delfim
-		ship = { name = "NRP Delfim" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }		
-		ship = { name = "NRP Espadarte" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }	
-		ship = { name = "NRP Golfinho" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POR create_if_missing = yes } } }	
 	}				
 }

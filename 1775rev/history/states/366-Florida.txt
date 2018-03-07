@@ -7,10 +7,15 @@ state={
 	state_category = rural
 
 	history={
-		owner = CLD
+		owner = ENG
+		add_claim_by = SPR
+
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+			7480 = {
+				naval_base = 3
+			}
 			1572 = {
 				naval_base = 2
 			}
@@ -23,15 +28,24 @@ state={
 			10352 = {
 				naval_base = 1
 			}
+			4464 = {
+				naval_base = 4
+			}
 		}
 		victory_points = {
 			1843 5 
+		}
+		victory_points = {
+			7480 1 
+		}
+		victory_points = {
+			4464 1 
 		}
 
 	}
 
 	provinces={
-		866 1556 1572 1584 1843 1913 7388 9834 10352 10380 10407 10489 12353 12381 12439 12752 
+		866 1556 1572 1584 1843 1913 7388 9834 10352 10380 10407 10489 12353 12381 12439 12752 10520 7480 7668 4464 
 	}
 	
 }

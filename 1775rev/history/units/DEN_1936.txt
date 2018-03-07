@@ -43,6 +43,47 @@ division_template = {
 units = {
 	##### Kongelige Danske Overkommando #####
 	division = {
+		name = "4. Sjællandske Division"
+		location = 6287  # Copenhagen
+		division_template = "Infanteri Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3. Sjællandske Division"
+		location = 3325  # Odense
+		division_template = "Infanteri Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "2. Jyske Division"
+		location = 394  # Aalborg
+		division_template = "Infanteri Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3. Jyske Division"
+		location = 11251  # Sonderborg
+		division_template = "Binær Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Gardehussar Regiment"
+		location = 6364  # Aarhus
+		division_template = "Kavaleri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
 		name = "1. Sjællandske Division"
 		location = 6287  # Copenhagen
 		division_template = "Infanteri Division"
@@ -82,6 +123,56 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
+	####
+	division = {
+		name = "1. norway Division"
+		location = 6115  # Aalborg
+		division_template = "Infanteri Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "2. norway Division"
+		location = 6115  # Sonderborg
+		division_template = "Binær Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3. norway Division"
+		location = 3022  # Aarhus
+		division_template = "Kavaleri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	###
+	division = {
+		name = "1. Shleswig Division"
+		location = 6389  # Aalborg
+		division_template = "Infanteri Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "2. Shleswig Division"
+		location = 6389  # Sonderborg
+		division_template = "Binær Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3. Shleswig Division"
+		location = 6389  # Aarhus
+		division_template = "Kavaleri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
 
 	##### NAVAL UNITS #####
 	navy = {				
@@ -90,11 +181,6 @@ units = {
 		location = 6287  # Copenhagen			
 		ship = { name = "HDMS Niels Juel" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }
 		ship = { name = "HDMS Peder Skram" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }
-		ship = { name = "HDMS Rota" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }			
-		ship = { name = "HDMS Bellona" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }		
-		ship = { name = "HDMS Flora" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
-		ship = { name = "HDMS Daphne" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
-		ship = { name = "HDMS Dryaden" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 	}				
 }
 

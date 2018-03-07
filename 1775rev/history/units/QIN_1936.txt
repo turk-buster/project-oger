@@ -1,0 +1,902 @@
+﻿division_template = {
+	name = "Mínbīng"				# 
+									# Militia-level training and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Bùbīng shī"				# 
+									# Militia-level training and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Qíbīng shī"			# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 11913
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 11913
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 11913
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 11913
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 11913
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 11913
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#####
+	#
+	#
+	division = {
+		name = "Mínbīng"
+		location = 1069
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 10000
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 1069
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 10000
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	division = {
+		name = "Mínbīng"
+		location = 1150
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 1150
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 1150
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 1150
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	division = {
+		name = "Mínbīng"
+		location = 8049
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 12732
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 7940
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 8049
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 12732
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 7940
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	#
+	division = {
+		name = "Bùbīng shī"
+		location = 10062
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 1047
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7137
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 10062
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 1047
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7137
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	division = {
+		name = "Bùbīng shī"
+		location = 4925
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 2045
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7418
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 4925
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 2045
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7418
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	#
+	division = {
+		name = "Mínbīng"
+		location = 11771
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 11771
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 11752
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 4572
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 10433
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 957
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 11913
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 11913
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 11913
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 11913
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 11913
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 11913
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7014
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#####
+	#
+	#
+	division = {
+		name = "Mínbīng"
+		location = 1069
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 10000
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 1069
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 10000
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	division = {
+		name = "Mínbīng"
+		location = 1150
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 1150
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 1150
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 1150
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 6999
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	division = {
+		name = "Mínbīng"
+		location = 8049
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 12732
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 7940
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 8049
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 12732
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 7940
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	#
+	division = {
+		name = "Bùbīng shī"
+		location = 10062
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 1047
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7137
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 10062
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 1047
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7137
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	division = {
+		name = "Bùbīng shī"
+		location = 4925
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 2045
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7418
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 4925
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 2045
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 7418
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	#
+	#
+	#
+	#
+	#
+	division = {
+		name = "Mínbīng"
+		location = 11771
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 11771
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Mínbīng"
+		location = 11752
+		division_template = "Mínbīng"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 4572
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 10433
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Qíbīng shī"
+		location = 957
+		division_template = "Qíbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Bùbīng shī"
+		location = 9843
+		division_template = "Bùbīng shī"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+}

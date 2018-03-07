@@ -1,0 +1,81 @@
+﻿division_template = {
+	name = "Musketier-Abteilung"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Gebirgsmusketier-Brigade"		# Gebirgsbrigade
+	#Note: precursor to Gebirgs-Divisions
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Kavallerie-Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	##### Oberkommando des Heeres #####
+	### 1. Armee (Wehrmacht-Gruppenkommando) ###
+	# II. Armeekorps
+	division= {	
+		name = "Musketier-Abteilung"
+		location = 321
+		division_template = "Musketier-Abteilung"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "Musketier-Abteilung"
+		location = 321
+		division_template = "Musketier-Abteilung"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "Musketier-Abteilung"
+		location = 321
+		division_template = "Musketier-Abteilung"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "Musketier-Abteilung"
+		location = 321
+		division_template = "Musketier-Abteilung"
+		start_experience_factor = 0.35
+	}
+	division= {	
+		name = "Musketier-Abteilung"
+		location = 321
+		division_template = "Musketier-Abteilung"
+		start_experience_factor = 0.35
+	}
+}

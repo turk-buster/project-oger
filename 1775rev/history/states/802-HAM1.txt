@@ -1,0 +1,28 @@
+state= {
+	id=802
+	name="Hamburg"
+	manpower = 848150 
+	state_category = city
+	
+	history=
+	{
+		victory_points = {
+			9347 15 
+		}
+		owner = HAM
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			dockyard = 1
+			industrial_complex = 3
+			9347 ={
+				naval_base = 8
+			}
+		}
+		add_core_of = HAM
+	}
+
+	provinces= {
+		9347 
+ 	}
+}

@@ -254,30 +254,6 @@ units = {
 		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SPR } } }
 	}
-	navy = {
-		name = "Grupo de Cartagena"
-		base = 4159
-		location = 4159  #Cartagena/Murcia
-		# S101 Flotilla
-		ship = { name = "B5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "B6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "C1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-		ship = { name = "C2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-		ship = { name = "C3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-		ship = { name = "C4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-		ship = { name = "C5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-		ship = { name = "C6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-	}
-	navy = {
-		name = "Grupo de Cádiz"
-		base = 4159
-		location = 4159  #Cádiz
-		# S103 Flotilla
-		ship = { name = "B1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "B2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "B3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "B4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-	}
 }
 
 ### Air Wings

@@ -416,26 +416,7 @@ units = {
 		ship = { name = "USS Colorado" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
 		ship = { name = "USS West Virginia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
 		ship = { name = "USS Maryland" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
-	}				
-	navy = {					
-		name = "Carrier Division"				
-		base = 1562
-		location = 1562 # San Diego
-		ship = { name = "USS Lexington" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } } 
-			air_wings = {
-				cv_fighter_equipment_0 =  { owner = "USA" amount = 8 } # historical: 16
-				cv_CAS_equipment_1 =  { owner = "USA" amount = 14 } # historical: 30
-				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 8 } # historical: 12
-			}
-		}
-		ship = { name = "USS Saratoga" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } } 
-			air_wings = {
-				cv_fighter_equipment_0 =  { owner = "USA" amount = 8 } # historical: 16
-				cv_CAS_equipment_1 =  { owner = "USA" amount = 14 } # historical: 30
-				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 8 } # historical: 12
-			}
-		}
-	}					
+	}								
 	navy = {					
 		name = "Cruiser Division 3"				
 		base = 1562
@@ -525,50 +506,6 @@ units = {
 		ship = { name = "USS Kennison" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
 		ship = { name = "USS Crosby" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
 	}					
-	navy = {					
-		name = "4th Submarine Squadron"				
-		base = 1562
-		location = 1562 # San Diego
-		# 41st Submarine Division				
-		ship = { name = "USS S-18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-23" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-27" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-28" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-34" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-35" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		# 42nd Submarine Division				
-		ship = { name = "USS Argonaut" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
-		ship = { name = "USS Narwhal" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
-		ship = { name = "USS Nautilus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
-		ship = { name = "USS Dolphin" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
-		ship = { name = "USS Cachalot" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
-		ship = { name = "USS Cuttlefish" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
-		# 43rd Submarine Division				
-		ship = { name = "USS Porpoise" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Pike" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Shark" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
-	}					
-	navy = {					
-		name = "6th Submarine Squadron"				
-		base = 1562
-		location = 1562 # San Diego
-		# 61st Submarine Division				
-		ship = { name = "USS R-11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-20" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-46" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-47" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-48" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		# 62nd Submarine Division				
-		ship = { name = "USS O-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-25" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-	}					
-
 	### ASIATIC FLEET -- Manilla, PHI
 	navy = {					
 		name = "Asiatic Fleet"				
@@ -593,26 +530,6 @@ units = {
 		ship = { name = "USS Pillsbury" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
 		ship = { name = "USS John D Ford" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
 	}					
-	navy = {					
-		name = "2nd Submarine Squadron"				
-		base = 10265
-		location = 10265 # Manilla
-		# 21st Submarine Division				
-		ship = { name = "USS S-36" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-37" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-38" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-39" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-40" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-41" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		# 22nd Submarine Division				
-		ship = { name = "USS R-12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-17" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-19" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-	}					
-
 	### ATLANTIC FLEET -- Norfolk
 	navy = {					
 		name = "Battleship Division 3"				
@@ -645,19 +562,7 @@ units = {
 		location = 788 # Norfolk
 		ship = { name = "USS Augusta" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
 		ship = { name = "USS Tuscaloosa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }				
-	}					
-	navy = {					
-		name = "USS Ranger"				
-		base = 788
-		location = 788 # Norfolk
-		ship = { name = "USS Ranger" definition = carrier equipment = { carrier_2 = { amount = 1 owner = USA } } 
-			air_wings = {
-				cv_fighter_equipment_0 =  { owner = "USA" amount = 8 } # historical: 36
-				cv_CAS_equipment_1 =  { owner = "USA" amount = 14 } # historical: 15
-				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 8 } # historical: 12
-			}
-		}
-	}					
+	}									
 	navy = {					
 		name = "Destroyer Flotilla  3"				
 		base = 788
@@ -744,66 +649,6 @@ units = {
 		ship = { name = "USS Howard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
 		ship = { name = "USS Stansbury" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
 	}					
-	navy = {					
-		name = "1st Submarine Squadron"				
-		base = 788
-		location = 788 # Norfolk
-		# 11th Submarine Division			
-		ship = { name = "USS O-2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS O-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS O-4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS O-6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS O-7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS O-8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS O-10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		# 12th Submarine Division			
-		ship = { name = "USS R-2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS R-10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-	}					
-	navy = {					
-		name = "3rd Submarine Squadron"				
-		base = 788
-		location = 788 # Norfolk
-		# 31st Submarine Division			
-		ship = { name = "USS S-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-17" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		# 32nd Submarine Division			
-		ship = { name = "USS Barracuda" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
-		ship = { name = "USS Bass" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
-		ship = { name = "USS Bonita" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
-	}					
-	navy = {					
-		name = "5th Submarine Squadron"				
-		base = 788
-		location = 788 # Norfolk
-		# 51st Submarine Division			
-		ship = { name = "USS S-20" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-21" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-22" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-24" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-29" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		# 52nd Submarine Division			
-		ship = { name = "USS S-30" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-31" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-33" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		# 53rd Submarine Division			
-		ship = { name = "USS S-42" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-43" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-44" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS S-45" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-	}					
-	
 	# CARRIBEAN FLEET -- Panama Canal
 	navy = {					
 		name = "Caribbean Fleet"				
@@ -925,85 +770,3 @@ air_wings = {
 		}
 	}
 }
-
-
-#########################
-## STARTING PRODUCTION ##
-#########################
-instant_effect = {
-		
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "USA"
-		}
-		requested_factories = 2
-		progress = 0.1
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = support_equipment_1
-			creator = "USA" 
-		}
-		requested_factories = 1
-		progress = 0.3
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = artillery_equipment_1
-			creator = "USA" 
-		}
-		requested_factories = 1
-		progress = 0.3
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = cv_fighter_equipment_0
-			creator = "USA" 
-		}
-		requested_factories = 1
-		progress = 0.15
-		efficiency = 50
-	}
-
-	### Under Construction Notes ###
-	# DD: Mahan class (x13) ("USS Porter" "USS Phelps" "USS Clark" "USS Moffett" "USS Mahan" "USS Cummings" "USS Flusser" "USS Case" "USS Conyngham" "USS Cassin" "USS Shaw" "USS Cushing" "USS Perkins")
-	add_equipment_production = {
-		equipment = {
-			type = destroyer_1
-			creator = "USA"
-			version_name = "Farragut Class"
-		}
-		requested_factories = 13
-		progress = 0.80
-		amount = 13
-	}
-	# SS: Porpoise class (x1) ("USS Tarpon")
-	add_equipment_production = {
-		equipment = {
-			type = submarine_2
-			creator = "USA"
-		}
-		requested_factories = 1
-		progress = 0.50
-		amount = 1
-	}
-	# CA: Quincy (New Orleans class, Comm. 9-Jun, 1936)
-	add_equipment_production = {
-		equipment = {
-			type = heavy_cruiser_1
-			creator = "USA"
-			version_name = "Portland Class"
-		}
-		requested_factories = 2
-		progress = 0.85
-		amount = 1
-	}
-}
-#####################

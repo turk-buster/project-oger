@@ -9,13 +9,12 @@ state={
 	state_category = large_town
 
 	history={
-		owner = CLD
+		owner = ENG
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		add_core_of = CLD
 		victory_points = {
 			6710 10 
 		}
