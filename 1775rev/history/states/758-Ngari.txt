@@ -1,0 +1,22 @@
+
+state={
+	id=758
+	name="Bresica"
+	manpower = 97704
+	state_category = city
+
+	history={
+		owner = VNC
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = VNC
+		add_core_of = MIL
+	}
+
+	provinces={
+		6631 11587 6661 11568 
+	}
+}

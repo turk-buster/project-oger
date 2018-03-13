@@ -1,0 +1,26 @@
+
+state={
+	id=756
+	name="Parma"
+	manpower = 1202401
+	
+	state_category = large_city
+	
+	resources={
+		aluminium=6
+	}
+
+	history={
+		owner = MIL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 3
+		}
+		add_core_of = MIL
+	}
+
+	provinces={
+		9752 6790 3773 
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=806
+	name="Breslau"
+	manpower = 552726
+	resources={
+		steel=110
+	}
+	
+	state_category = city
+
+	history={
+		owner = PRS
+		victory_points = {
+			9570 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+		add_core_of = PRS
+	}
+
+	provinces={
+		9570 6462 3283 3510 
+	}
+}

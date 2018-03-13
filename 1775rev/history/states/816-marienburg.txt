@@ -1,0 +1,22 @@
+
+state={
+	id=816
+	name="Marienburg"
+	manpower = 678108
+	state_category = rural
+
+	history={
+		owner = PRS
+		controller = PRS
+		
+		
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PRS
+	}
+
+	provinces={
+		9346 3351 3380 6402 11245 
+	}
+}

@@ -1,31 +1,24 @@
 
 state={
 	id=63
-	name="STATE_63"
-	manpower = 1724417
+	name="Neumark"
+	manpower = 324417
 	resources={
-		steel=36
 		aluminium=12
 	}
 	
-	state_category = large_town
+	state_category = rural
 
 	history={
 		owner = PRS
-		victory_points = {
-			6282 1
-		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			industrial_complex = 1
-			11372 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = PRS
 	}
 
 	provinces={
-		9252 9277 9306 9361 11260 11288 11316 11343 11372 6309 6334 9334 6390 6282 
+		9252 9306 11260 11288 
 	}
 }

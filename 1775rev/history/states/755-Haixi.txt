@@ -1,0 +1,25 @@
+
+state={
+	id=755
+	name="Lucca"
+	manpower = 384933
+	
+	state_category = large_city
+
+	history={
+		owner = LUC
+		victory_points = {
+			6973 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = LUC
+	}
+
+	provinces={
+		6973 
+	}
+}

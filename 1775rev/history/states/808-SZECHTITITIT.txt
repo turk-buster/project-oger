@@ -1,0 +1,26 @@
+
+state={
+	id=808
+	name="Stettin"
+	manpower = 624417
+	resources={
+	}
+	
+	state_category = large_town
+
+	history={
+		owner = PRS
+		victory_points = {
+			6282 1
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = PRS
+	}
+
+	provinces={
+		6282 6390 6334 
+	}
+}

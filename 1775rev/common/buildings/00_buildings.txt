@@ -14,7 +14,7 @@ buildings = {
 	}
 
 	arms_factory = {
-		show_on_map = 6
+		show_on_map = 2
 		base_cost = 720000
 		base_cost_conversion = 400000
 		military_production = 1
@@ -26,7 +26,7 @@ buildings = {
 	}
 
 	industrial_complex = {
-		show_on_map = 6
+		show_on_map = 2
 		base_cost = 1080000
 		base_cost_conversion = 900000
 		general_production = 1

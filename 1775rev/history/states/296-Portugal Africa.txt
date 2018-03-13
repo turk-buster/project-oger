@@ -9,7 +9,7 @@ state={
 		rubber=1
 	}
 	history={
-		owner = POR
+		owner = CLD
 		buildings = {
 			infrastructure = 2
 			12891 ={

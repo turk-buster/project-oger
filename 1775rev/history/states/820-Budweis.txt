@@ -1,0 +1,23 @@
+state=
+{
+	id=820
+	name="Budweis"
+	manpower = 730000
+	
+	state_category = town
+	
+	resources={
+	}
+	
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = BOH
+		add_core_of = AUS
+	}
+	provinces=
+	{	5283 543 9541 	}
+}

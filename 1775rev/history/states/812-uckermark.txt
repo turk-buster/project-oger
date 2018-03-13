@@ -1,0 +1,23 @@
+
+state={
+	id=812
+	name="Uckermark"
+	manpower = 165029
+	buildings_max_level_factor = 1
+
+	state_category = rural
+
+
+	history={
+		owner = PRS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = PRS
+	}
+
+	provinces={
+		3258 3312 3207 11444 
+	}
+}

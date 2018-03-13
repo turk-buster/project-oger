@@ -1,9 +1,9 @@
 
 state={
 	id=5
-	name="STATE_5"
-	manpower = 3378108
-	state_category = large_city
+	name="Konigsberg"
+	manpower = 1678108
+	state_category = large_town
 
 	history={
 		owner = PRS
@@ -11,26 +11,20 @@ state={
 		
 		
 		victory_points = {
-			6332 10 
+			6332 20 
 		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 			6332 = {
-				bunker = 1
-
-			}
-			anti_air_building = 2
-			6332 = {
 				naval_base = 5
 
 			}
-			air_base = 6
 		}
 		add_core_of = PRS
 	}
 
 	provinces={
-		266 281 348 395 3351 3380 3384 6332 6375 6402 9327 9346 9372 9398 11245 11265 11386 
+		348 395 6332 11265 
 	}
 }

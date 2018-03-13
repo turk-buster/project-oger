@@ -1,0 +1,22 @@
+
+state={
+	id=810
+	name="Kolberg"
+	manpower = 224417
+	resources={
+	}
+	
+	state_category = rural
+
+	history={
+		owner = PRS
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRS
+	}
+
+	provinces={
+		6309 9334 9277 9361 
+	}
+}

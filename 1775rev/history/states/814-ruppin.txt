@@ -1,0 +1,23 @@
+
+state={
+	id=814
+	name="Ruppin"
+	manpower = 235029
+	buildings_max_level_factor = 1
+
+	state_category = rural
+
+
+	history={
+		owner = PRS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = PRS
+	}
+
+	provinces={
+		375 11219 3367 
+	}
+}

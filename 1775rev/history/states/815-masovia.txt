@@ -1,0 +1,23 @@
+
+state={
+	id=815
+	name="Ortelsburg"
+	manpower = 1078108
+	state_category = town
+
+	history={
+		owner = PRS
+		controller = PRS
+		
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = PRS
+	}
+
+	provinces={
+		281 3384 9327 266 11386 9398 9372 6375 
+	}
+}

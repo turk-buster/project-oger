@@ -1,0 +1,23 @@
+state=
+{
+	id=818
+	name="Konigratz"
+	manpower = 430000
+	
+	state_category = rural
+	
+	resources={
+	}
+	
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = BOH
+		add_core_of = AUS
+	}
+	provinces=
+	{	11414 11401 445 494 3462 9414 	}
+}

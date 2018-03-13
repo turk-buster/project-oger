@@ -1,0 +1,23 @@
+state=
+{
+	id=817
+	name="Eger"
+	manpower = 230000
+	
+	state_category = rural
+	
+	resources={
+	}
+	
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = BOH
+		add_core_of = AUS
+	}
+	provinces=
+	{	9555 424 6470 3585 	}
+}
