@@ -4,9 +4,9 @@ state=
 	name="STATE_118"
 	manpower=21372
 	
-	state_category = enclave
+	state_category = rural
 	history={
-		owner = ENG
+		owner = GRA
 		victory_points = { 4135 10 }
 		buildings = {
 			infrastructure = 6
@@ -16,9 +16,9 @@ state=
 				coastal_bunker = 2
 			}
 		}
-		add_core_of = ENG
+		add_core_of = GRA
 	}
 	provinces={
-		4135
+		4135 10094 
 	}
 }

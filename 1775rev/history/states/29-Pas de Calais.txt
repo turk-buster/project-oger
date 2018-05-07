@@ -1,7 +1,7 @@
 
 state={
 	id=29
-	name="STATE_29"
+	name="Calais"
 	manpower = 2000000
 	
 	state_category = city
@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = ENG
 		victory_points = {
 			11548 20
 		}
@@ -22,6 +22,7 @@ state={
 				naval_base = 10
 			}
 		}
+		add_core_of = ENG
 		add_core_of = FRA
 	}
 

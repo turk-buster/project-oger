@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = TUR
+		owner = VNC
 		buildings = {
 			infrastructure = 4
 			dockyard = 1
@@ -23,7 +23,7 @@ state={
 			}
 		}
 		add_core_of = GRE
-		add_core_of = TUR
+		add_core_of = VNC
 	}
 
 	provinces={

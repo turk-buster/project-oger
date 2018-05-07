@@ -1,55 +1,34 @@
 ﻿division_template = {
-	name = "Piyade Tümeni"  			# Infantry Division
+	name = "Infantry"			
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Dag Tugayi" 				# Mountain Brigade
-
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-	}
-}
-division_template = {
-	name = "Bogazi Tugay" 				# Fortress Brigade - garrison brigade, lower experience and equipment
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	priority = 0
-}
-division_template = {
-	name = "Süvari Tümeni" 				# Cavalry Division
+	name = "Cavalry"
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 1 y = 3 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Artillery"
+
+	regiments = {
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -57,34 +36,34 @@ units = {
 	######## LAND UNITS ########
 	##### Türk Ordusu #####
 	division = {
-		name = "14. Süvari Tümeni"
+		name = "14. Infantry"
 		location = 3686
-		division_template = "Süvari Tümeni" 
+		division_template = "Infantry" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	## VI. Kolordu ##
 	division = {
-		name = "7. Piyade Tümeni"
+		name = "7. Cavalry"
 		location = 3686
-		division_template = "Piyade Tümeni" 
+		division_template = "Cavalry" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division = {
-		name = "17. Piyade Tümeni"
+		name = "17. Cavalry"
 		location = 3686
-		division_template = "Piyade Tümeni" 
+		division_template = "Cavalry" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division = {
-		name = "20. Piyade Tümeni"
+		name = "20. Cavalry"
 		location = 3686
-		division_template = "Piyade Tümeni" 
+		division_template = "Cavalry" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
@@ -92,34 +71,34 @@ units = {
 
 	### Birinci Ordu ###
 	division = {
-		name = "11. Piyade Tümeni"
+		name = "11. Cavalry"
 		location = 3686
-		division_template = "Piyade Tümeni" 
+		division_template = "Cavalry" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division = {
-		name = "2. Süvari Tümeni"
+		name = "2. Infantry"
 		location = 3686
-		division_template = "Süvari Tümeni" 
+		division_template = "Infantry" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	## III. Kolordu ##
 	division = {
-		name = "1. Piyade Tümeni"
+		name = "1. Cavalry"
 		location = 3686
-		division_template = "Piyade Tümeni" 
+		division_template = "Cavalry" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division = {
-		name = "23. Piyade Tümeni"
+		name = "23. Cavalry"
 		location = 3686
-		division_template = "Piyade Tümeni" 
+		division_template = "Cavalry" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 

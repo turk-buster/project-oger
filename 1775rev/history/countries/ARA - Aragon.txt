@@ -57,18 +57,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "José Díaz"
-	desc = "POLITICS_JOSE_DIAZ_DESC"
-	picture = "Portrait_Spain_Jose_Diaz.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Alfons V de Trastamara"
+	name = "Alfons V"
 	desc = "Alfons V, king of aragon"
 	picture = "Portrait_Spain_Francisco_Franco.dds"
 	expire = "1965.1.1"
@@ -78,37 +67,38 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Alejandro Lerroux"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
+set_autonomy = {
+	target = NAP
+	autonomous_state = autonomy_satellite
 }
 
-### Ship Variants ###
+NAP = {
+	set_politics = {
 
-create_equipment_variant = {
-	name = "C Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
+		parties = {
+			democratic = { 
+				popularity = 0
+			}
+
+			fascism = {
+				popularity = 100
+			}
+		
+			communism = {
+				popularity = 0
+			}
+		
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		ruling_party = fascism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-}
 
-create_equipment_variant = {
-	name = "Príncipe Alfonso Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 1
-		ship_anti_air_upgrade = 1
+	add_ideas = {
+		catholic
 	}
 }

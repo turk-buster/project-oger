@@ -1,66 +1,34 @@
-﻿##### Division Templates #####
-division_template = {
-	name = "División de Infantería" 		# Used for both regular infantry divisions and larger garrison divisions
-	# Note: Spanish divisions were 2x brigades of 2x2 rgts each, + support
+﻿division_template = {
+	name = "Infantry"			
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 0 y = 3 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 3 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
-		engineer = { x = 0 y = 1 }   # Eng Bn
+		infantry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "División de Caballería"  		# Only one Cavalry Division (3x bge of 2x2 Rgts)
+	name = "Cavalry"
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 1 y = 3 }
-		cavalry = { x = 2 y = 0 }
-		cavalry = { x = 2 y = 1 }
-		cavalry = { x = 2 y = 2 }
-		cavalry = { x = 2 y = 3 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }      # Recon consisted of motorcycles and ACs
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Brigada Montaña"  		# Mountain Brigades were 2x2 Rgts + support
+	name = "Artillery"
 
 	regiments = {
-		mountaineers = { x = 0 y = 0 }	
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
-	}
-}
-division_template = {
-	name = "Brigada de Infantería" 		# Infantry Brigade - Used for smaller garrison units
-	regiments = {
-		infantry = { x = 0 y = 0 }	
-		infantry = { x = 0 y = 1 }	
-		infantry = { x = 1 y = 0 }	
-		infantry = { x = 1 y = 1 }	
-	}
-	support = {
-		engineer = { x = 0 y = 0 }   # Eng Bn
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -69,181 +37,181 @@ units = {
 	#####LAND UNITS #####
 	### MAINLAND UNITS ###
 	division = {			
-		name = "1a División de Infantería"		
+		name = "1a Infantry"		
 		location = 3938  # Madrid
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "2a División de Infantería"		
+		name = "2a Infantry"		
 		location = 3938  # Sevilla
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "3a División de Infantería"		
+		name = "3a Infantry"		
 		location = 3938  # Valencia
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "4a División de Infantería"		
+		name = "4a Infantry"		
 		location = 3938  # Barcelona
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "5a División de Infantería"		
+		name = "5a Infantry"		
 		location = 3938  # Zaragosa
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "6a División de Infantería"		
+		name = "6a Infantry"		
 		location = 7183  # Burgos
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "7a División de Infantería"		
+		name = "7a Infantry"		
 		location = 7183  # Valladolid
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "8a División de Infantería"		
+		name = "8a Infantry"		
 		location = 7183  # La Coruña
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 
 	division = {			
-		name = "1a División de Caballería"		
+		name = "1a Cavalry"		
 		location = 758  # Barcelona
-		division_template = "División de Caballería"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "2a División de Infantería"		
+		name = "2a Infantry"		
 		location = 3816  # Sevilla
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "3a División de Infantería"		
+		name = "3a Infantry"		
 		location = 3816  # Valencia
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "4a División de Infantería"		
+		name = "4a Infantry"		
 		location = 3816  # Barcelona
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "5a División de Infantería"		
+		name = "5a Infantry"		
 		location = 9764  # Zaragosa
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "6a División de Infantería"		
+		name = "6a Infantry"		
 		location = 9764  # Burgos
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "7a División de Infantería"		
+		name = "7a Infantry"		
 		location = 9764  # Valladolid
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "8a División de Infantería"		
+		name = "8a Infantry"		
 		location = 9764  # La Coruña
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 
 	division = {			
-		name = "1a División de Caballería"		
+		name = "1a Cavalry"		
 		location = 758  # Barcelona
-		division_template = "División de Caballería"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 
 	division = {			
-		name = "1a Brigada Montaña"		
+		name = "1a Infantry"		
 		location = 758  # Canary Islands
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "2a Brigada Montaña"		
+		name = "2a Infantry"		
 		location = 758  #Bilbao
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}	
 	division = {			
-		name = "1a División de Caballería"		
+		name = "1a Cavalry"		
 		location = 758  # Barcelona
-		division_template = "División de Caballería"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 
 	division = {			
-		name = "1a Brigada Montaña"		
+		name = "1a Infantry"		
 		location = 758  # Canary Islands
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "2a Brigada Montaña"		
+		name = "2a Infantry"		
 		location = 758  #Bilbao
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -251,7 +219,7 @@ units = {
 	division = {			
 		name = "Brigada Mixta Montaña"		
 		location = 875  #Oviedo
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -260,7 +228,7 @@ units = {
 	division = {			
 		name = "Brigada de Arma de Infantería"		
 		location = 875  #Cádiz
-		division_template = "Brigada de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -268,7 +236,7 @@ units = {
 	division = {			
 		name = "Brigada Mixta Montaña"		
 		location = 875  #Oviedo
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -277,7 +245,7 @@ units = {
 	division = {			
 		name = "Brigada de Arma de Infantería"		
 		location = 875  #Cádiz
-		division_template = "Brigada de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -288,7 +256,7 @@ units = {
 	division = {			
 		name = "Comandancia de Baleares"		
 		location = 885  #Mallorca
-		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CAS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -297,7 +265,7 @@ units = {
 	division = {			
 		name = "Comandancia de Canarias"		
 		location = 885  # Canary Islands
-		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CAS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -309,7 +277,7 @@ units = {
 	division = {			
 		name = "Circunscripción Occidental"		
 		location = 885  #Ceuta
-		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 
@@ -317,122 +285,122 @@ units = {
 	division = {			
 		name = "Circunscripción Oriental"		
 		location = 885  #Melilla
-		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 
 	}		
 		division = {			
-		name = "1a División de Infantería"		
+		name = "1a Infantry"		
 		location = 3938  # Madrid
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "2a División de Infantería"		
+		name = "2a Infantry"		
 		location = 3938  # Sevilla
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "3a División de Infantería"		
+		name = "3a Infantry"		
 		location = 3938  # Valencia
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "4a División de Infantería"		
+		name = "4a Infantry"		
 		location = 3938  # Barcelona
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "5a División de Infantería"		
+		name = "5a Infantry"		
 		location = 3938  # Zaragosa
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "6a División de Infantería"		
+		name = "6a Infantry"		
 		location = 7183  # Burgos
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "7a División de Infantería"		
+		name = "7a Infantry"		
 		location = 7183  # Valladolid
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "8a División de Infantería"		
+		name = "8a Infantry"		
 		location = 7183  # La Coruña
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 
 	division = {			
-		name = "1a División de Caballería"		
+		name = "1a Cavalry"		
 		location = 758  # Barcelona
-		division_template = "División de Caballería"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 
 	division = {			
-		name = "1a Brigada Montaña"		
+		name = "1a Infantry"		
 		location = 758  # Canary Islands
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "2a Brigada Montaña"		
+		name = "2a Infantry"		
 		location = 758  #Bilbao
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}	
 	division = {			
-		name = "1a División de Caballería"		
+		name = "1a Cavalry"		
 		location = 758  # Barcelona
-		division_template = "División de Caballería"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 
 	division = {			
-		name = "1a Brigada Montaña"		
+		name = "1a Infantry"		
 		location = 758  # Canary Islands
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "2a Brigada Montaña"		
+		name = "2a Infantry"		
 		location = 758  #Bilbao
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -440,7 +408,7 @@ units = {
 	division = {			
 		name = "Brigada Mixta Montaña"		
 		location = 875  #Oviedo
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -449,7 +417,7 @@ units = {
 	division = {			
 		name = "Brigada de Arma de Infantería"		
 		location = 875  #Cádiz
-		division_template = "Brigada de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -457,7 +425,7 @@ units = {
 	division = {			
 		name = "Brigada Mixta Montaña"		
 		location = 875  #Oviedo
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -466,7 +434,7 @@ units = {
 	division = {			
 		name = "Brigada de Arma de Infantería"		
 		location = 875  #Cádiz
-		division_template = "Brigada de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -477,7 +445,7 @@ units = {
 	division = {			
 		name = "Comandancia de Baleares"		
 		location = 885  #Mallorca
-		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CAS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -486,7 +454,7 @@ units = {
 	division = {			
 		name = "Comandancia de Canarias"		
 		location = 885  # Canary Islands
-		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CAS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -498,7 +466,7 @@ units = {
 	division = {			
 		name = "Circunscripción Occidental"		
 		location = 885  #Ceuta
-		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 
@@ -506,7 +474,7 @@ units = {
 	division = {			
 		name = "Circunscripción Oriental"		
 		location = 885  #Melilla
-		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 
@@ -522,116 +490,116 @@ units = {
 	#
 	#	
 	division = {			
-		name = "1a División de Infantería"		
+		name = "1a Infantry"		
 		location = 3816  # Madrid
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "2a División de Infantería"		
+		name = "2a Infantry"		
 		location = 3816  # Sevilla
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "3a División de Infantería"		
+		name = "3a Infantry"		
 		location = 3816  # Valencia
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "4a División de Infantería"		
+		name = "4a Infantry"		
 		location = 3816  # Barcelona
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "5a División de Infantería"		
+		name = "5a Infantry"		
 		location = 9764  # Zaragosa
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "6a División de Infantería"		
+		name = "6a Infantry"		
 		location = 9764  # Burgos
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "7a División de Infantería"		
+		name = "7a Infantry"		
 		location = 9764  # Valladolid
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "8a División de Infantería"		
+		name = "8a Infantry"		
 		location = 9764  # La Coruña
-		division_template = "División de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 
 	division = {			
-		name = "1a División de Caballería"		
+		name = "1a Cavalry"		
 		location = 758  # Barcelona
-		division_template = "División de Caballería"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 
 	division = {			
-		name = "1a Brigada Montaña"		
+		name = "1a Infantry"		
 		location = 758  # Canary Islands
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "2a Brigada Montaña"		
+		name = "2a Infantry"		
 		location = 758  #Bilbao
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}	
 	division = {			
-		name = "1a División de Caballería"		
+		name = "1a Cavalry"		
 		location = 758  # Barcelona
-		division_template = "División de Caballería"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 
 	division = {			
-		name = "1a Brigada Montaña"		
+		name = "1a Infantry"		
 		location = 758  # Canary Islands
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}			
 	division = {			
-		name = "2a Brigada Montaña"		
+		name = "2a Infantry"		
 		location = 758  #Bilbao
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -639,7 +607,7 @@ units = {
 	division = {			
 		name = "Brigada Mixta Montaña"		
 		location = 875  #Oviedo
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -648,7 +616,7 @@ units = {
 	division = {			
 		name = "Brigada de Arma de Infantería"		
 		location = 875  #Cádiz
-		division_template = "Brigada de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -656,7 +624,7 @@ units = {
 	division = {			
 		name = "Brigada Mixta Montaña"		
 		location = 875  #Oviedo
-		division_template = "Brigada Montaña"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -665,7 +633,7 @@ units = {
 	division = {			
 		name = "Brigada de Arma de Infantería"		
 		location = 875  #Cádiz
-		division_template = "Brigada de Infantería"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -676,7 +644,7 @@ units = {
 	division = {			
 		name = "Comandancia de Baleares"		
 		location = 885  #Mallorca
-		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CAS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -685,7 +653,7 @@ units = {
 	division = {			
 		name = "Comandancia de Canarias"		
 		location = 885  # Canary Islands
-		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CAS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -697,7 +665,7 @@ units = {
 	division = {			
 		name = "Circunscripción Occidental"		
 		location = 885  #Ceuta
-		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 
@@ -705,7 +673,7 @@ units = {
 	division = {			
 		name = "Circunscripción Oriental"		
 		location = 885  #Melilla
-		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		division_template = "Infantry"		# garrison division, lower equipment, experience
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 

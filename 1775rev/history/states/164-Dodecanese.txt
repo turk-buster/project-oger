@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = TUR
+		owner = KNI
 		victory_points = {
 			10007 1 
 		}
@@ -24,8 +24,7 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = GRE
-		add_core_of = TUR
+		add_core_of = KNI
 	}
 	provinces=
 	{

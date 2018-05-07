@@ -10,9 +10,8 @@ state= {
 
 	history=
 	{
-		owner = TUR
+		owner = CYP
 		add_core_of = CYP
-		add_core_of = TUR
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 3

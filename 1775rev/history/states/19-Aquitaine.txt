@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = FRA
+		owner = ENG
 		victory_points = {
 			9737 20
 		}
@@ -25,6 +25,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
+		add_core_of = ENG
 		add_core_of = FRA
 	}
 

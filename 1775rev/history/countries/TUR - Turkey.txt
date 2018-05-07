@@ -60,114 +60,12 @@ set_national_unity = 0.55
 give_guarantee = RAG
 
 create_country_leader = {
-	name = "Abdul Hamid I"
+	name = "Mehmed II"
 	desc = ""
-	picture = "gfx/leaders/TUR/mehmed.dds"
+	picture = "gfx/leaders/TUR/mehsmed.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
 		#
 	}
-}
-
-set_autonomy = {
-	target = ROM
-	autonomous_state = autonomy_dominion
-}
-
-set_autonomy = {
-	target = WAL
-	autonomous_state = autonomy_dominion
-}
-
-ROM = {
-	set_politics = {
-
-	parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-		
-			communism = {
-				popularity = 0
-			}
-		
-			neutrality = { 
-				popularity = 0
-			}
-		}
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Grigore III Ghica"
-		desc = ""
-		picture = "Portrait_Romania_grigoria.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
-	}
-
-	add_ideas = {
-		orthodox
-	}
-
-	capital = 79
-
-	oob = "ROM_1936"
-}
-
-WAL = {
-	set_politics = {
-
-	parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-		
-			communism = {
-				popularity = 0
-			}
-		
-			neutrality = { 
-				popularity = 0
-			}
-		}
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Alexander Ypsilantis"
-		desc = ""
-		picture = "Portrait_Romania_Octavian_Goga.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
-	}
-
-	add_ideas = {
-		orthodox
-	}
-
-	capital = 79
-
-	oob = "WAL_1936"
 }

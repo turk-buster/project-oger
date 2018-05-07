@@ -4,23 +4,22 @@ state=
 	name="STATE_446"
 	manpower = 6586596
 	
-	state_category = town
+	state_category = large_city
 
 	history=
 	{
-		owner = TUR
+		owner = EGY
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
-			air_base = 5
+			industrial_complex = 3
+			arms_factory = 3
 		}
 		
 		victory_points = {
-			7011 5
+			7011 30
 		}
 
 		add_core_of = EGY
-		add_core_of = TUR
 
 	}
 

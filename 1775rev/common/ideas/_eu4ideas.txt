@@ -154,29 +154,40 @@ ideas = {
 		}
 	}
 
-	claims = { 
+	ArtInt = { 
 		law = yes
 
 		claimant = { 
-			cost = 150
+			cost = 45
+			available = {
+				is_ai  = yes
+			}
+			visible = {
+				is_ai  = yes
+			}
 			on_add = {
 				country_event = { id = eu4claims.1 }
 			}
+			ai_will_do = {
+   				factor = 60
+   			}
 		}
-	}
-
-	coress = { 
-		law = yes
-
 		core = { 
-			cost = 150
+			cost = 75
+			visible = {
+				is_ai  = yes
+			}
 			available = {
+				is_ai  = yes
 				any_owned_state = {
 					NOT = {
 						is_core_of = ROOT
 					}
 				}
 			}
+			ai_will_do = {
+   				factor = 40
+   			}
 			on_add = {
 				country_event = { id = eu4cores.1 }
 			}

@@ -9,14 +9,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = PRS
+		owner = POM
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = PRS
+		add_core_of = POM
 	}
 
 	provinces={
-		6309 9334 9277 9361 
+		6309 9334 9277 9361 9306 
 	}
 }

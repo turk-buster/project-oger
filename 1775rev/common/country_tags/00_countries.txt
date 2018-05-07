@@ -184,6 +184,17 @@ OLD = "countries/oldenburg.txt"
 HAM = "countries/hamburg.txt"
 LUB = "countries/lubeck.txt"
 MEC = "countries/mecklenburg.txt"
+#3/25/18
+TAB = "countries/Taberistan.txt"
+ZAN = "countries/Zands.txt"
+#4/1/18
+NAS = "countries/Nassau.txt"
+#4/25/19
+TEU = "countries/Teutonicorder.txt"
+MAG = "countries/Magdeburg.txt"
+#F
+POM = "countries/Pomerania.txt"
+GRA = "countries/Granada.txt"
 #
 #  N O T C O U N T R I E S 
 #

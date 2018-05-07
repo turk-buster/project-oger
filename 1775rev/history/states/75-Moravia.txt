@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = AUS
+		owner = BOH
 		victory_points = {
 			3569 1 
 		}
@@ -21,7 +21,6 @@ state={
 
 		}
 		add_core_of = BOH
-		add_core_of = AUS
 	}
 
 	provinces={

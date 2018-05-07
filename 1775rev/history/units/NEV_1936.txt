@@ -1,44 +1,34 @@
 ﻿division_template = {
-	name = "Infantry Division"					# Infantry Division
+	name = "Infantry"			
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
-
 division_template = {
-	name = "Mountaineers"					# Mountain Division
+	name = "Cavalry"
 
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 2 y = 0 }
-		mountaineers = { x = 2 y = 1 }
-		mountaineers = { x = 2 y = 2 }
-	}
-}
-
-division_template = {
-	name = "Cavalry Brigade"				# Cavalry Brigade -- precursor to Fast Divisions. Fast Divisions add 2nd regiment of 2x L tank, 2x mot 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
 	}
-	support = {
-		recon = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
+}
+division_template = {
+	name = "Artillery"
+
+	regiments = {
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -48,7 +38,7 @@ units = {
 	division = {
 		name = "1. Heavy Cavalry"
 		location = 9472  
-		division_template = "Mountaineers"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -56,7 +46,7 @@ units = {
 	division = {
 		name = "2. Heavy Cavalry"
 		location = 9472  
-		division_template = "Mountaineers"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -64,7 +54,7 @@ units = {
 	division = {
 		name = "12. Divize"
 		location = 9625  # Prague
-		division_template = "Infantry Division"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -72,7 +62,7 @@ units = {
 	division = {
 		name = "16. Divize"
 		location = 9625 # Brno
-		division_template = "Mountaineers"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 

@@ -1,0 +1,8 @@
+﻿l_english: 
+ CREATE_CORE_TOOLTIP:0 "§HCore Province§!\n\nThis action costs: §H75§!£pol_power\n\n"
+ CLAIM_STATE_TOOLTIP:0 "§HClaim Province§!\n\nThis action costs: §H45§!£pol_power\n\n"
+ # units
+ CREATE_INFANTRY_TOOLTIP:0 "§HCreate Infantry§!\n\nThis action costs: §H5§!£pol_power\n\n & §H5000 Manpower§!"
+ CREATE_CAVALRY_TOOLTIP:0 "§HCreate Cavalry§!\n\nThis action costs: §H5§!£pol_power\n\n & §H5000 Manpower§!"
+ CREATE_ARTY_TOOLTIP:0 "§HCreate Artillery§!\n\nThis action costs: §H5§!£pol_power\n\n & §H5000 Manpower§!"
+ 

@@ -3696,4 +3696,28 @@ spriteTypes = {
 		name = "GFX_idea_core"
 		texturefile = "gfx/interface/ideas/core.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_coresmall"
+		texturefile = "gfx/interface/eu4_big_add_core_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_interface_bigprovmain"
+		texturefile = "gfx/interface/provinceview_bg_large.dds"
+	}
+	spriteType = {
+		name = "GFX_interface_claim_state_main"
+		texturefile = "gfx/interface/claim_province_button.dds"
+	}
+	spriteType = {
+		name = "GFX_interface_infantry"
+		texturefile = "gfx/interface/infantry_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_interface_artillery"
+		texturefile = "gfx/interface/artillery_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_interface_cavalry"
+		texturefile = "gfx/interface/cavalry_icon.dds"
+	}
 }

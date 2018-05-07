@@ -1,0 +1,67 @@
+guiTypes = {
+	containerWindowType = {
+		name = "coring_button_powers_container"
+		position = {x=450 y=800}
+		size = { width=200 height=280 }
+
+		fade_time = 300
+		fade_type = linear
+		moveable = no
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_interface_bigprovmain"
+		}
+
+		instantTextboxType = {
+			name = "title"
+			position = {x=70 y=19}
+			font = "hoi_18mbs"
+			text = "[This.GetName]"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+		}
+		
+		buttonType = {
+			name = "create_core" 
+			position = {x=135 y=35}	
+			spriteType = "GFX_idea_coresmall"
+			pdx_tooltip = "CREATE_CORE_TOOLTIP"
+			scale = 1.1
+		}
+		
+		buttonType = {
+			name = "claim_province" 
+			position = {x=135 y=80}		
+			spriteType = "GFX_interface_claim_state_main"
+			pdx_tooltip = "CLAIM_STATE_TOOLTIP"
+			scale = 1.1
+		}
+
+		buttonType = {
+			name = "create_infantry" 
+			position = {x=140 y=210}		
+			spriteType = "GFX_interface_infantry"
+			pdx_tooltip = "CREATE_INFANTRY_TOOLTIP"
+			scale = 1.1
+		}
+
+		buttonType = {
+			name = "create_cavalry" 
+			position = {x=20 y=210}		
+			spriteType = "GFX_interface_cavalry"
+			pdx_tooltip = "CREATE_CAVALRY_TOOLTIP"
+			scale = 1.1
+		}
+
+		buttonType = {
+			name = "create_artillery" 
+			position = {x=76 y=210}		
+			spriteType = "GFX_interface_artillery"
+			pdx_tooltip = "CREATE_ARTY_TOOLTIP"
+			scale = 1.2
+		}
+	}
+}
+	

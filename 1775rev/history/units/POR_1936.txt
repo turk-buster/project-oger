@@ -1,36 +1,34 @@
 ﻿division_template = {
-	name = "Divisão de Infanteria"		# Infantry Division
-	# Note: each regiment could also mobilize a 3rd battalion if called up
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }  # Full howitzer regiment
-		engineer = { x = 0 y = 1 }   
-	}
-}
-division_template = {
-	name = "Força de Caçadores"		# Elite light infantry, always fully mobilized w best equipment
+	name = "Infantry"			
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
-	priority = 2
 }
 division_template = {
-	name = "Brigada de Cavalaria" 		# Cavalry Brigade
-	# Note: Cavalry regiments included about 5 squadrons/companies
+	name = "Cavalry"
+
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Artillery"
+
+	regiments = {
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -40,23 +38,23 @@ units = {
 	division = {
 		name = "Governo Militar Portugues"
 		location = 11805
-		division_template = "Divisão de Infanteria"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "2a Brigada de Cavalaria"
+		name = "2a Cavalry"
 		location = 11805
-		division_template = "Brigada de Cavalaria"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "5a Força de Caçadores"
+		name = "5a Infantry"
 		location = 11805
-		division_template = "Força de Caçadores"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -65,49 +63,49 @@ units = {
 
 	# 1a Distrito Militar #
 	division = {
-		name = "2a Força de Caçadores"
+		name = "2a Infantry"
 		location = 3798
-		division_template = "Força de Caçadores"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 	}
 
 	# 3a Distrito Militar #
 	division = {
-		name = "3a Divisão de Infanteria"
+		name = "3a Infantry"
 		location = 844
-		division_template = "Divisão de Infanteria"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "3a Força de Caçadores"
+		name = "3a Infantry"
 		location = 844
-		division_template = "Força de Caçadores"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 	}
 
 	# 4a Distrito Militar #
 	division = {
-		name = "4a Divisão de Infanteria"
+		name = "4a Infantry"
 		location = 9869
-		division_template = "Divisão de Infanteria"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "2a Brigada de Cavalaria"
+		name = "2a Cavalry"
 		location = 9869
-		division_template = "Brigada de Cavalaria"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "4a Força de Caçadores"
+		name = "4a Infantry"
 		location = 9869
-		division_template = "Força de Caçadores"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 	}
 

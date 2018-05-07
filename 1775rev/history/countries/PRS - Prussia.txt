@@ -39,14 +39,12 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Friedrich the Great"
+	name = "Friedrich the II"
 	desc = ""
-	picture = "Portrait_PRS_frederickthegreat.dds"
+	picture = "Portrait_PRS_fadasdasrederickthegreat.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		prince_of_terror
-		military_theorist
-		indomitable_perseverance
+		#
 	}
 }

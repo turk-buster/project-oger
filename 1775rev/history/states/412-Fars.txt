@@ -10,7 +10,7 @@ state={
 
 	state_category = rural
 	history={
-		owner = PER
+		owner = ZAN
 		victory_points = {
 			8117 1 
 		}
@@ -28,8 +28,10 @@ state={
 			12832 = {
 				naval_base = 2
 			}
+			arms_factory = 1
+			industrial_complex = 1
 		}
-		add_core_of = PER
+		add_core_of = ZAN
 	}
 
 	provinces={

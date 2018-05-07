@@ -109,7 +109,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1700"
+					text = "1400"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -122,7 +122,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1775"
+					text = "1446"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -134,7 +134,7 @@ guiTypes = {
 					position = { x = 410 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1777"
+					text = "1448"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -146,7 +146,7 @@ guiTypes = {
 					position = { x = 550 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1779"
+					text = "1449"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -158,7 +158,7 @@ guiTypes = {
 					position = { x = 690 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1781"
+					text = "1450"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -170,7 +170,7 @@ guiTypes = {
 					position = { x = 830 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1783"
+					text = "1451"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -182,7 +182,7 @@ guiTypes = {
 					position = { x = 970 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1785"
+					text = "1452"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -194,7 +194,7 @@ guiTypes = {
 					position = { x = 1110 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1787"
+					text = "1453"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -206,7 +206,7 @@ guiTypes = {
 					position = { x = 1250 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1789"
+					text = "1454"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -217,7 +217,7 @@ guiTypes = {
 					position = { x = 1390 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1791"
+					text = "1455"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -228,7 +228,7 @@ guiTypes = {
 					position = { x = 1530 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1793"
+					text = "1456"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -334,7 +334,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1700"
+					text = "1400"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -347,7 +347,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1775"
+					text = "1446"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -359,7 +359,7 @@ guiTypes = {
 #					position = { x = 370 y = 50 }
 #					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
-#					text = "1777"
+#					text = "1448"
 #					maxWidth = 170
 #					maxHeight = 32
 #					format = left
@@ -371,7 +371,7 @@ guiTypes = {
 					position = { x = 523 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1779"
+					text = "1449"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -383,7 +383,7 @@ guiTypes = {
 #					position = { x = 650 y = 50 }
 #					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
-#					text = "1781"
+#					text = "1450"
 #					maxWidth = 170
 #					maxHeight = 32
 #					format = left
@@ -395,7 +395,7 @@ guiTypes = {
 #					position = { x = 790 y = 50 }
 #					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
-#					text = "1783"
+#					text = "1451"
 #					maxWidth = 170
 #					maxHeight = 32
 #					format = left
@@ -407,7 +407,7 @@ guiTypes = {
 					position = { x = 943 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1787"
+					text = "1453"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -419,7 +419,7 @@ guiTypes = {
 #					position = { x = 1070 y = 50 }
 #					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
-#					text = "1787"
+#					text = "1453"
 #					maxWidth = 170
 #					maxHeight = 32
 #					format = left
@@ -431,7 +431,7 @@ guiTypes = {
 #					position = { x = 1210 y = 50 }
 #					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
-#					text = "1789"
+#					text = "1454"
 #					maxWidth = 170
 #					maxHeight = 32
 #					format = left
@@ -442,7 +442,7 @@ guiTypes = {
 					position = { x = 1363 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1791"
+					text = "1455"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -453,7 +453,7 @@ guiTypes = {
 #					position = { x = 1490 y = 50 }
 #					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
-#					text = "1793"
+#					text = "1456"
 #					maxWidth = 170
 #					maxHeight = 32
 #					format = left
@@ -526,7 +526,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = { 
-					width = 1781 height = 1090 
+					width = 1450 height = 1090 
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -555,7 +555,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1700"
+						text = "1400"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -581,7 +581,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1775"
+						text = "1446"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -594,7 +594,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1779"
+						text = "1449"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -607,7 +607,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1783"
+						text = "1451"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -620,7 +620,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1787"
+						text = "1453"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -633,7 +633,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1791"
+						text = "1455"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -667,7 +667,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1775"
+						text = "1446"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -680,7 +680,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1779"
+						text = "1449"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -693,7 +693,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1783"
+						text = "1451"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -706,7 +706,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1787"
+						text = "1453"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -719,7 +719,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1791"
+						text = "1455"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -900,7 +900,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1775"
+					text = "1446"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -913,7 +913,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1779"
+					text = "1449"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -926,7 +926,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1781"
+					text = "1450"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -939,7 +939,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1783"
+					text = "1451"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -952,7 +952,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1787"
+					text = "1453"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -965,7 +965,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1787"
+					text = "1453"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -978,7 +978,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1789"
+					text = "1454"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -991,7 +991,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1791"
+					text = "1455"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1023,7 +1023,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1775"
+						text = "1446"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1036,7 +1036,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1779"
+						text = "1449"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1049,7 +1049,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1781"
+						text = "1450"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1062,7 +1062,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1783"
+						text = "1451"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1075,7 +1075,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1787"
+						text = "1453"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1088,7 +1088,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1787"
+						text = "1453"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1101,7 +1101,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1789"
+						text = "1454"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1114,7 +1114,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1791"
+						text = "1455"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1180,7 +1180,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1775"
+					text = "1446"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1193,7 +1193,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1781"
+					text = "1450"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1206,7 +1206,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1789"
+					text = "1454"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1447,7 +1447,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "1775"
+				text = "1446"
 				maxWidth = 170
 				maxHeight = 32
 				format = left
@@ -1460,7 +1460,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "1781"
+				text = "1450"
 				maxWidth = 170
 				maxHeight = 32
 				format = left
@@ -1473,7 +1473,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "1789"
+				text = "1454"
 				maxWidth = 170
 				maxHeight = 32
 				format = left
@@ -1486,7 +1486,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "1791"
+				text = "1455"
 				maxWidth = 170
 				maxHeight = 32
 				format = left
@@ -1531,7 +1531,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1775"
+					text = "1446"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -1544,7 +1544,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1781"
+					text = "1450"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -1557,7 +1557,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1789"
+					text = "1454"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -1570,7 +1570,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1791"
+					text = "1455"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -1763,7 +1763,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1775"
+					text = "1446"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1789,7 +1789,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1776"
+					text = "1937"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1802,7 +1802,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1779"
+					text = "1449"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1815,7 +1815,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1783"
+					text = "1451"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1828,7 +1828,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1787"
+					text = "1453"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1841,7 +1841,7 @@ guiTypes = {
 #					textureFile = ""
 #					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
-#					text = "1787"
+#					text = "1453"
 #					maxWidth = 130
 #					maxHeight = 32
 #					format = left
@@ -1863,7 +1863,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1775"
+					text = "1446"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1889,7 +1889,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1776"
+					text = "1937"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1902,7 +1902,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1779"
+					text = "1449"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1915,7 +1915,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1783"
+					text = "1451"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1928,7 +1928,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1787"
+					text = "1453"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1941,7 +1941,7 @@ guiTypes = {
 #					textureFile = ""
 #					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
-#					text = "1787"
+#					text = "1453"
 #					maxWidth = 130
 #					maxHeight = 32
 #					format = left
@@ -2874,7 +2874,7 @@ guiTypes = {
 #					textureFile = ""
 #					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
-#					text = "1775"
+#					text = "1446"
 #					maxWidth = 130
 #					maxHeight = 32
 #					format = left
@@ -2887,7 +2887,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1781"
+					text = "1450"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2900,7 +2900,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1787"
+					text = "1453"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2913,7 +2913,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1789"
+					text = "1454"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2926,7 +2926,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1791"
+					text = "1455"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2939,7 +2939,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1793"
+					text = "1456"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2952,7 +2952,7 @@ guiTypes = {
 #					textureFile = ""
 #					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
-#					text = "1787"
+#					text = "1453"
 #					maxWidth = 130
 #					maxHeight = 32
 #					format = left
@@ -2965,7 +2965,7 @@ guiTypes = {
 #					textureFile = ""
 #					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
-#					text = "1789"
+#					text = "1454"
 #					maxWidth = 130
 #					maxHeight = 32
 #					format = left
@@ -2978,7 +2978,7 @@ guiTypes = {
 #					textureFile = ""
 #					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
-#					text = "1791"
+#					text = "1455"
 #					maxWidth = 130
 #					maxHeight = 32
 #					format = left
@@ -2999,7 +2999,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1775"
+					text = "1446"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -3025,7 +3025,7 @@ guiTypes = {
 #					textureFile = ""
 #					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
-#					text = "1775"
+#					text = "1446"
 #					maxWidth = 130
 #					maxHeight = 32
 #					format = left
@@ -3038,7 +3038,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1777"
+					text = "1448"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -3051,7 +3051,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1779"
+					text = "1449"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -3064,7 +3064,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1781"
+					text = "1450"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -3077,7 +3077,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1783"
+					text = "1451"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -3090,7 +3090,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1787"
+					text = "1453"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -3103,7 +3103,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1791"
+					text = "1455"
 					maxWidth = 130
 					maxHeight = 32
 					format = left

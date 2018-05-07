@@ -1,0 +1,23 @@
+
+state={
+	id=825
+	name="Farafreh"
+	manpower = 6539
+	
+	state_category = wasteland
+	impassable = no
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+		}
+
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		2064 12099 12816 7216 
+	}
+}

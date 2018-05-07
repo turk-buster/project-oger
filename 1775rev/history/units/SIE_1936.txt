@@ -1,58 +1,34 @@
-﻿##### Division Templates #####
-division_template = {
-	name = "Divisione di Fanteria"		
-	# Represents nearly all infantry divisions
-	# In later years, CCNN Brigade added to Inf Division (1x2 militia/inf regiment)
-	# Also represent semi-mountain divisions (1st, 2nd, 3rd, 4th, 6th Divisions)
+﻿division_template = {
+	name = "Infantry"			
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Divisione Alpina"					# Divisione Alpina
-	regiments = {
-		mountaineers = { x = 0 y = 0 }			# Elite Alpina Regiments
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }	
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
-	}
-	priority = 2
-}
-division_template = {
-	name = "Divisione Coloniale"		
-	# Represents lesser-equipped colonial units
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	priority = 0
-}
-division_template = {
-	name = "Raggruppamento Celere" 			# Raggruppamento Celere
-	# Note: these groups were gradually expanded to army-level supprt of cavalry rgts, bersaglieri rgts, and tankette bns.
+	name = "Cavalry"
+
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Artillery"
+
+	regiments = {
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -62,30 +38,30 @@ units = {
 	## Armata dell'Africa Orientale Italiana ##
 	# I Corpo d'Armata dell'A.O.I. #
 	division= {	
-		name = "24a Divisione di Fanteria 'Gran Sasso'"
+		name = "24a Infantry 'Gran Sasso'"
 		location = 11833
-		division_template = "Divisione di Fanteria"	
+		division_template = "Infantry"	
 		start_experience_factor = 0.2
 	}
 	division= {	
 		name = "3a Divisione CC.NN. '21 Aprile'"
 		location = 11833
-		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		division_template = "Infantry"		# CCNN militia, lower training and equipment
 		start_experience_factor = 0.2
 
 	}
 
 	# III Corpo d'Armata dell'A.O.I. #
 	division= {	
-		name = "27a Divisione di Fanteria 'Sila'"
+		name = "27a Infantry 'Sila'"
 		location = 11833
-		division_template = "Divisione di Fanteria"	
+		division_template = "Infantry"	
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "1a Divisione CC.NN. '23 Marzo'"
 		location = 11833
-		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+		division_template = "Infantry"		# CCNN militia, lower training and equipment
 		start_experience_factor = 0.2
 
 	}

@@ -2,9 +2,9 @@
 state={
 	id=799
 	name="Essen"
-	manpower = 1444743
+	manpower = 704743
 	resources={
-		steel=44
+		steel=10
 	}
 
 
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		529 9482 6570 6469 
+		6469 
 	}
 	
 }

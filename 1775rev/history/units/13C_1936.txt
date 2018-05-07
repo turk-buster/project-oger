@@ -1,47 +1,35 @@
 ﻿division_template = {
-	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+	name = "Infantry"			
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-        infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-       	engineer = { x = 0 y = 0 }
-       	artillery = { x = 0 y = 1 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Cavalry Brigade"
+	name = "Cavalry"
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
         cavalry = { x = 0 y = 3 }
-	}
-	support = {
-        recon = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Colonial Garrison"
+	name = "Artillery"
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
-	priority = 0
 }
 
 
@@ -50,37 +38,37 @@ units = {
 	division= {	
 		name = "1st Infantry Division"
 		location = 6845
-		division_template = "Infantry Division"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "2nd Infantry Division"
 		location = 3957
-		division_template = "Infantry Division"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 	}
 	#Scottish Command
 	division= {	
 		name = "51st 'Highland' Infantry Division"
 		location = 3957
-		division_template = "Infantry Division"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division= {	
-		name = "52nd 'Lowland' Infantry Division"
+		name = "Cavalry"
 		location = 3878
-		division_template = "Infantry Division"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	#Northern Command
 	division= {	
-		name = "5th Cavalry Brigade"
+		name = "Cavalry"
 		location = 6732
-		division_template = "Cavalry Brigade"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -88,7 +76,7 @@ units = {
 	division= {	
 		name = "5th Infantry Division"
 		location = 6732
-		division_template = "Infantry Division"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 	}								
 }

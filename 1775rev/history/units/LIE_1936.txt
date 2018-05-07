@@ -1,49 +1,35 @@
 ﻿division_template = {
-	name = "Division d'Infanterie"		# Same for "Active" and "Reserve" Infantry Divisions
+	name = "Infantry"			
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }  
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Division de Cavalerie"  	# Cavalry Division
+	name = "Cavalry"
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 2 y = 0 }
-		cavalry = { x = 2 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }      	# Actually, 2x bicycle cav bns
-		engineer = { x = 0 y = 1 }   
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Division Coloniale"			# Colonial militia, lower experience, equipment
+	name = "Artillery"
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
-	priority = 0
 }
 
 ### OOB ###
@@ -51,9 +37,9 @@ units = {
 	##### L'Armée Belge #####
 	# I Corps d'Armée
 	division= {	
-		name = "4ème Division d'Infanterie"
+		name = "4ème Infantry"
 		location = 11519  # Hoeselt
-		division_template = "Division d'Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -61,9 +47,9 @@ units = {
 
 	# II Corps d'Armée
 	division= {	
-		name = "6ème Division d'Infanterie"
+		name = "6ème Infantry"
 		location = 11519  # Leuven
-		division_template = "Division d'Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -71,17 +57,17 @@ units = {
 
 	# III Corps d'Armée
 	division= {	
-		name = "2ème Division d'Infanterie"
+		name = "2ème Infantry"
 		location = 11519  # Liege
-		division_template = "Division d'Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
 	}
 	division= {	
-		name = "3ème Division d'Infanterie"
+		name = "3ème Infantry"
 		location = 11519  # Liege
-		division_template = "Division d'Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -89,9 +75,9 @@ units = {
 
 	# IV Corps d'Armée
 	division= {	
-		name = "5ème Division d'Infanterie"
+		name = "5ème Infantry"
 		location = 11519  #Brussels
-		division_template = "Division d'Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 

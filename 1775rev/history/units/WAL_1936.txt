@@ -1,44 +1,34 @@
 ﻿division_template = {
-	name = "Divizia Infanterie"			# Infantry Division
-	# Note: also represents Guards, Fortress divisions
+	name = "Infantry"			
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }  # 2x 100mm howitzer bns, on average
-		engineer = { x = 0 y = 1 }   
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Munte Brigada"				# Mountain Brigade
+	name = "Cavalry"
 
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }   
-	}
-}
-division_template = {
-	name = "Cavalerie Brigada" 				# Cavalry Brigade
-	# Note: regiments within the brigade were battalion-sized units
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Artillery"
+
+	regiments = {
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -49,7 +39,7 @@ units = {
 	division = {
 		name = "Divizia 2 Infanterie"
 		location = 9617
-		division_template = "Divizia Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -57,7 +47,7 @@ units = {
 	division = {
 		name = "Divizia 3 Infanterie"
 		location = 9617
-		division_template = "Divizia Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -65,15 +55,15 @@ units = {
 	division = {
 		name = "Divizia 11 Infanterie"
 		location = 9617
-		division_template = "Divizia Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "5 Cavalerie Brigada"
+		name = "5 Cavalry"
 		location = 9617
-		division_template = "Cavalerie Brigada"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -83,13 +73,13 @@ units = {
 	division = {
 		name = "Divizia 1 Infanterie de Garda"
 		location = 3663
-		division_template = "Divizia Infanterie"			# Guards division: elite, latest equipment
+		division_template = "Infantry"			# Guards division: elite, latest equipment
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "Divizia 9 Infanterie"
 		location = 3663
-		division_template = "Divizia Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -97,23 +87,23 @@ units = {
 	division = {
 		name = "Divizia 10 Infanterie"
 		location = 11603
-		division_template = "Divizia Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "1 Cavalerie Brigada"
+		name = "1 Cavalry"
 		location = 6658
-		division_template = "Cavalerie Brigada"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "Cavalerie Brigada"
+		name = "Cavalry"
 		location = 6658
-		division_template = "Cavalerie Brigada"
+		division_template = "Cavalry"
 		start_experience_factor = 0.3
 		force_equipment_variants = { gw_tank_equipment = { owner = "ROM" creator = "FRA" amount = 72 } }
 
@@ -124,7 +114,7 @@ units = {
 	division = {
 		name = "Divizia 12 Infanterie"
 		location = 818
-		division_template = "Divizia Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -132,7 +122,7 @@ units = {
 	division = {
 		name = "Divizia 15 Infanterie"
 		location = 11588
-		division_template = "Divizia Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -140,7 +130,7 @@ units = {
 	division = {
 		name = "Divizia 21 Infanterie"
 		location = 3630
-		division_template = "Divizia Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -150,7 +140,7 @@ units = {
 	division = {
 		name = "Divizia 7 Infanterie"
 		location = 6677
-		division_template = "Divizia Infanterie"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 

@@ -6,7 +6,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = AUS
+		owner = MIL
 		victory_points = {
 			3780 30 
 		}
@@ -16,11 +16,10 @@ state={
 			industrial_complex = 6
 			air_base = 10
 		}
-		add_core_of = AUS
 		add_core_of = MIL
 	}
 
 	provinces={
-		607 773 969 3776 3780 9584 
+		607 773 969 3776 3780 9584 776 11726 
 	}
 }

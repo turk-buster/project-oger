@@ -1,0 +1,509 @@
+﻿division_template = {
+	name = "Infantry"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Cavalry"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Artillery"
+
+	regiments = {
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	######## LAND UNITS ########
+	##### Türk Ordusu #####
+	division = {
+		name = "14. Cavalry"
+		location = 1155
+		division_template = "Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## VI. Kolordu ##
+	division = {
+		name = "7. Infantry"
+		location = 1155
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "17. Infantry"
+		location = 1155
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "20. Infantry"
+		location = 1155
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	### Birinci Ordu ###
+	division = {
+		name = "11. Infantry"
+		location = 7030
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "2. Cavalry"
+		location = 7030
+		division_template = "Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## III. Kolordu ##
+	division = {
+		name = "1. Infantry"
+		location = 7030
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "23. Infantry"
+		location = 1130
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "24. Infantry"
+		location = 1130
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## IV. Kolordu ##
+	division = {
+		name = "8. Infantry"
+		location = 1130
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "22. Infantry"
+		location = 1130
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "1. Infantry"
+		location = 11954
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	### Ikinci Ordu Ordu ###
+	division = {
+		name = "39. Infantry"
+		location = 11954
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## I. Kolordu ##
+	division = {
+		name = "6. Infantry"
+		location = 11954
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "16. Infantry"
+		location = 12029
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "4. Infantry"
+		location = 12029
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "18. Infantry"
+		location = 7671
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## V. Kolordu ##
+	division = {
+		name = "5. Infantry"
+		location = 7671
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "25. Infantry"
+		location = 7671
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	### Üçüncüsü Ordu ###
+	## VII. Kolordu ##
+	division = {
+		name = "2. Infantry"
+		location = 7671
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "10. Infantry"
+		location = 12473
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## VIII. Kolordu ##
+	division = {
+		name = "12. Infantry"
+		location = 12473
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "15. Infantry"
+		location = 12473
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## IX. Kolordu ##
+	division = {
+		name = "3. Infantry"
+		location = 12473
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "9. Infantry"
+		location = 792
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "1. Cavalry"
+		location = 792
+		division_template = "Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "14. Cavalry"
+		location = 792
+		division_template = "Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## VI. Kolordu ##
+	division = {
+		name = "7. Infantry"
+		location = 792
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "17. Infantry"
+		location = 4111
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "20. Infantry"
+		location = 4111
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	### Birinci Ordu ###
+	division = {
+		name = "11. Infantry"
+		location = 4111
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "2. Cavalry"
+		location = 4111
+		division_template = "Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## III. Kolordu ##
+	division = {
+		name = "1. Infantry"
+		location = 7151
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "23. Infantry"
+		location = 7151
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "24. Infantry"
+		location = 7151
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## IV. Kolordu ##
+	division = {
+		name = "8. Infantry"
+		location = 7151
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "22. Infantry"
+		location = 4206
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "1. Infantry"
+		location = 4206
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	### Ikinci Ordu Ordu ###
+	division = {
+		name = "39. Infantry"
+		location = 4206
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## I. Kolordu ##
+	division = {
+		name = "6. Infantry"
+		location = 4206
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "16. Infantry"
+		location = 1086
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## II.  Kolordu ##
+	division = {
+		name = "4. Infantry"
+		location = 1086
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "18. Infantry"
+		location = 1071
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## V. Kolordu ##
+	division = {
+		name = "5. Infantry"
+		location = 1071
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "25. Infantry"
+		location = 1071
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	### Üçüncüsü Ordu ###
+	## VII. Kolordu ##
+	division = {
+		name = "2. Infantry"
+		location = 1071
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "10. Infantry"
+		location = 7011
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## VIII. Kolordu ##
+	division = {
+		name = "12. Infantry"
+		location = 7011
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "15. Infantry"
+		location = 7011
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	## IX. Kolordu ##
+	division = {
+		name = "3. Infantry"
+		location = 4076
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "9. Infantry"
+		location = 4076
+		division_template = "Infantry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "1. Cavalry"
+		location = 4076
+		division_template = "Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	##### NAVAL UNITS #####
+	### Türk Donanmasi ###
+	navy = {				
+		name = "Alexandria Fleet"			
+		base = 4076
+		location = 4076 # alex
+		ship = { name = "TCG Yavuz" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = TUR } } }			
+		ship = { name = "TCG Mecidiye" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "TCG Hamidiye" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "TCG Peyk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "TCG Berk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "TCG Kocatepe" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = TUR create_if_missing = yes } } }
+		ship = { name = "TCG Adatepe" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = TUR create_if_missing = yes } } }
+		ship = { name = "TCG Zafer" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = TUR create_if_missing = yes } } }
+		ship = { name = "TCG Tinaztepe" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = TUR create_if_missing = yes } } }
+		ship = { name = "TCG Yavuz" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = TUR } } }			
+		ship = { name = "TCG Mecidiye" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "TCG Hamidiye" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "TCG Peyk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "TCG Berk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "TCG Kocatepe" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = TUR create_if_missing = yes } } }
+		ship = { name = "TCG Adatepe" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = TUR create_if_missing = yes } } }
+		ship = { name = "TCG Zafer" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = TUR create_if_missing = yes } } }
+		ship = { name = "TCG Tinaztepe" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = TUR create_if_missing = yes } } }
+	}							
+}

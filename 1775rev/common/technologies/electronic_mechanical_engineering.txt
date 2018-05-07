@@ -14,7 +14,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1775
+		start_year = 1446
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 0 }
@@ -26,7 +26,7 @@ technologies = {
 			
 			modifier = {
 				factor = 3
-				date > "1747.1.1"
+				date > "1447.1.1"
 			}
 		}
 		
@@ -119,7 +119,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1777
+		start_year = 1448
 		
 		folder = {
 			name = electronics_folder
@@ -131,12 +131,12 @@ technologies = {
 			
 			modifier = {
 				factor = 3
-				date > "1777.1.6"
+				date > "1448.1.6"
 			}
 			
 			modifier = {
 				factor = 3
-				date > "1779.1.1"
+				date > "1449.1.1"
 			}
 		}
 		
@@ -167,7 +167,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1781
+		start_year = 1450
 		
 		folder = {
 			name = electronics_folder
@@ -179,12 +179,12 @@ technologies = {
 			
 			modifier = {
 				factor = 3
-				date > "1781.1.6"
+				date > "1450.1.6"
 			}
 			
 			modifier = {
 				factor = 3
-				date > "1783.1.1"
+				date > "1451.1.1"
 			}
 		}
 		
@@ -211,11 +211,11 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1785
+		start_year = 1452
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 2 y = 17 }
+			position = { x = 2 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -223,12 +223,12 @@ technologies = {
 			
 			modifier = {
 				factor = 3
-				date > "1785.1.6"
+				date > "1452.1.6"
 			}
 			
 			modifier = {
 				factor = 3
-				date > "1787.1.1"
+				date > "1453.1.1"
 			}
 		}
 		
@@ -246,7 +246,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1777
+		start_year = 1448
 		
 		folder = {
 			name = electronics_folder
@@ -269,7 +269,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1781
+		start_year = 1450
 		
 		folder = {
 			name = electronics_folder
@@ -292,11 +292,11 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1785
+		start_year = 1452
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 17 }
+			position = { x = 0 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -315,7 +315,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1777
+		start_year = 1448
 		
 		folder = {
 			name = electronics_folder
@@ -338,7 +338,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1781
+		start_year = 1450
 		
 		folder = {
 			name = electronics_folder
@@ -361,11 +361,11 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1785
+		start_year = 1452
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 17 }
+			position = { x = 4 y = 14 }
 		}
 		
 		ai_will_do = {

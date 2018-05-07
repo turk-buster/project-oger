@@ -1,26 +1,35 @@
 ﻿division_template = {
-	name = "Infanterie Divisie"
+	name = "Infantry"			
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Koloniale Garnizoen"		# miltia forces, lower experience and equipment
+	name = "Cavalry"
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
 	}
-	priority = 0
+}
+division_template = {
+	name = "Artillery"
+
+	regiments = {
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
+	}
 }
 
 units = {
@@ -30,7 +39,7 @@ units = {
 	division= {	
 		name = "1e Divisie"
 		location = 3314  # Amsterdam
-		division_template = "Infanterie Divisie"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -38,7 +47,7 @@ units = {
 	division= {	
 		name = "3e Divisie"
 		location = 3211 # The Hague
-		division_template = "Infanterie Divisie"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -48,7 +57,7 @@ units = {
 	division= {	
 		name = "2e Divisie"
 		location = 9498  # Rotterdam
-		division_template = "Infanterie Divisie"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -56,7 +65,7 @@ units = {
 	division= {	
 		name = "4e Divisie"
 		location = 9498  # Rotterdam
-		division_template = "Infanterie Divisie"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -66,7 +75,7 @@ units = {
 	division= {	
 		name = "5e Divisie"
 		location = 6500  # Venlo
-		division_template = "Infanterie Divisie"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -74,7 +83,7 @@ units = {
 	division= {	
 		name = "6e Divisie"
 		location = 11562  # Maastricht
-		division_template = "Infanterie Divisie"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -84,7 +93,7 @@ units = {
 	division= {	
 		name = "7e Divisie"
 		location = 9335  # Gronigen
-		division_template = "Infanterie Divisie"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -92,7 +101,7 @@ units = {
 	division= {	
 		name = "8e Divisie"
 		location = 9335  # Gronigen
-		division_template = "Infanterie Divisie"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 

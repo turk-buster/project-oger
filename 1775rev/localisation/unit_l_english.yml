@@ -120,7 +120,7 @@
  SERVICE_MANPOWER_HEADER:0 "Service Manpower"
  anti_tank:0 "Support Anti-Tank"
  anti_air:0 "Support Anti-Air"
- artillery:0 "Support Artillery"
+ artillery:0 "Artillery"
  rocket_artillery:0 "Support Rocket Artillery"
  rocket_artillery_brigade:0 "Rocket Artillery"
  anti_tank_brigade:0 "Anti-Tank"

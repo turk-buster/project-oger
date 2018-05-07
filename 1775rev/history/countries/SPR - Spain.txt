@@ -1,6 +1,6 @@
 ﻿capital = 41
 
-oob = "CAS_1936"
+oob = "SPR_1936"
 
 set_research_slots = 4
 
@@ -52,163 +52,13 @@ set_politics = {
 set_convoys = 150
 set_national_unity = 0.6
 
-set_autonomy = {
-	target = NSP
-	autonomous_state = autonomy_dominion
-}
-
-set_autonomy = {
-	target = NGR
-	autonomous_state = autonomy_dominion
-}
-
-set_autonomy = {
-	target = SPP
-	autonomous_state = autonomy_dominion
-}
-
 create_country_leader = {
-	name = "Carlos III de Bourbon"
+	name = "Juan II"
 	desc = ""
-	picture = "portrait_spain_carlos3.dds"
+	picture = "portrait_spain_carlosss3.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
 		#
 	}
-}
-
-NSP = {
-	set_politics = {
-
-	parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-		
-			communism = {
-				popularity = 0
-			}
-		
-			neutrality = { 
-				popularity = 0
-			}
-		}
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-	name = "Carlos III de Bourbon"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-
-	add_ideas = {
-		catholic
-	}
-
-	capital = 277
-
-	oob = "NSP_1936"
-}
-
-NGR = {
-	set_politics = {
-
-	parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-		
-			communism = {
-				popularity = 0
-			}
-		
-			neutrality = { 
-				popularity = 0
-			}
-		}
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-	name = "Carlos III de Bourbon"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-
-	add_ideas = {
-		catholic
-	}
-
-	capital = 307
-
-	oob = "NGR_1936"
-}
-
-SPP = {
-	set_politics = {
-
-	parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-		
-			communism = {
-				popularity = 0
-			}
-		
-			neutrality = { 
-				popularity = 0
-			}
-		}
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-	name = "Carlos III de Bourbon"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-
-	add_ideas = {
-		catholic
-	}
-
-	capital = 303
-
-	oob = "SPP_1936"
 }

@@ -1,64 +1,34 @@
 ﻿division_template = {
-	name = "Infanterie-Division"  
-	# Note: Swiss Infantry Divisions included both attached regiments and 
-	#	border/mtn. brigades in their TO&E. This represents all but the 
-	#	attached brigades
+	name = "Infantry"			
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }      # Recon bn mix of cav recon, ACs, and tankettes
-		engineer = { x = 0 y = 1 }   
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Gebirgs-Division"  
-	# Note: Mountain Divisions are same as Infantry Divisions above, but with mountain regiments
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 2 y = 0 }
-		mountaineers = { x = 2 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }      # Recon bn mix of cav recon, ACs, and tankettes
-		engineer = { x = 0 y = 1 }   
-	}
-}
-division_template = {
-	name = "Gebirgsbrigade" 	
-	# Independent Mountain Brigade, triangle organization
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-	}
-}
-division_template = {
-	name = "Grenzbrigade"  			# Border divisions are garrison units; lower equipment, experience
-	# Independent Border Brigade, binary organization
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-	}
-}
-division_template = {
-	name = "Leichte-Brigade" 			
-	# Independent Cavalry Brigade
+	name = "Cavalry"
+
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Artillery"
+
+	regiments = {
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -66,25 +36,25 @@ units = {
 	###### Schweizer Armee ######
 	### 1. Armeekorps ###
 	division = {
-		name = "Gebirgsbrigade 10"
+		name = "Infantry 10"
 		location = 9620
-		division_template = "Gebirgsbrigade"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "Grenzbrigade 10"
+		name = "Infantry 10"
 		location = 9620
-		division_template = "Gebirgsbrigade"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "Leichte-Brigade 1"
+		name = "Infantry 1"
 		location = 9620
-		division_template = "Leichte-Brigade"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -93,15 +63,15 @@ units = {
 	division = {
 		name = "Division 1"
 		location = 9620
-		division_template = "Grenzbrigade"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "Grenzbrigade 1"
+		name = "Infantry 1"
 		location = 9620
-		division_template = "Grenzbrigade"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -110,15 +80,15 @@ units = {
 	division = {
 		name = "Division 2"
 		location = 9620
-		division_template = "Grenzbrigade"
+		division_template = "Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "Grenzbrigade 2"
+		name = "Infantry 2"
 		location = 9620
-		division_template = "Grenzbrigade"
+		division_template = "Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 

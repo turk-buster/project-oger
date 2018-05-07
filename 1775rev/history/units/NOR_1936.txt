@@ -1,43 +1,34 @@
 ﻿division_template = {
-	name = "Infanteriet Divisjon"		
+	name = "Infantry"			
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }  
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
 division_template = {
-	name = "Binær Divisjon"		
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-	}
-}
-division_template = {
-	name = "Dragonregiment" 
+	name = "Cavalry"
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Artillery"
+
+	regiments = {
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -48,15 +39,15 @@ units = {
 	division = {
 		name = "1. Divisjon"
 		location = 6115
-		division_template = "Infanteriet Divisjon"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "1. Dragonregiment"
+		name = "1. Infantry"
 		location = 6115
-		division_template = "Dragonregiment"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -65,15 +56,15 @@ units = {
 	division = {
 		name = "2. Divisjon"
 		location = 9157
-		division_template = "Binær Divisjon"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "2. Dragonregiment"
+		name = "2. Infantry"
 		location = 9157
-		division_template = "Dragonregiment"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -82,7 +73,7 @@ units = {
 	division = {
 		name = "3. Divisjon"
 		location = 9296
-		division_template = "Binær Divisjon"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -91,7 +82,7 @@ units = {
 	division = {
 		name = "4. Divisjon"
 		location = 122
-		division_template = "Binær Divisjon"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -100,15 +91,15 @@ units = {
 	division = {
 		name = "5. Divisjon"
 		location = 3022
-		division_template = "Binær Divisjon"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "3. Dragonregiment"
+		name = "3. Infantry"
 		location = 3022
-		division_template = "Dragonregiment"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -117,7 +108,7 @@ units = {
 	division = {
 		name = "6. Divisjon"
 		location = 192
-		division_template = "Binær Divisjon"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -125,42 +116,9 @@ units = {
 	division = {
 		name = "Finnmark Brigaden"
 		location = 9116
-		division_template = "Binær Divisjon"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
-	}
-}
-
-air_wings = {
-	### Luftforsvaret -- Oslo
-	110 = {
-		# Had a handful of Fokker C-Vd bombers in both bomber and recon role, 
-		#   plus Tiger Moth trainers used in various roles. 
-		#   This represents what was active in a combat role
-		tac_bomber_equipment_0 =  {
-			owner = "NOR" 
-			amount = 18
-		}
-	}
-}
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "NOR"
-		}
-		requested_factories = 1
-		progress = 0.37
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = support_equipment_1
-			creator = "NOR"
-		}
-		requested_factories = 1
-		progress = 0.54
-		efficiency = 100
 	}
 }

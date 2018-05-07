@@ -2985,4 +2985,8 @@
  eu4cores.1.d:0 "Parts of our country are integrating into our culture nicely"
  eu4cores.1.a:0 "Perfect"
  eu4cores.1.b:0 "Lets core a differnt state"
+ #start
+ eu4start.1.t:0 "Welcome to Regnum Europa"
+ eu4start.1.d:0 "Welcome to Regnum Europa, bringing eu4 to hoi4! press the event button to complete the setup"
+ eu4start.1.a:0 "Aight"
 

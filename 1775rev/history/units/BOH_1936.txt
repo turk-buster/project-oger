@@ -1,44 +1,34 @@
 ﻿division_template = {
-	name = "Pesi Divize"					# Infantry Division
+	name = "Infantry"			
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
-
 division_template = {
-	name = "Horská Divize"					# Mountain Division
+	name = "Cavalry"
 
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 2 y = 0 }
-		mountaineers = { x = 2 y = 1 }
-		mountaineers = { x = 2 y = 2 }
-	}
-}
-
-division_template = {
-	name = "Jezdecká Brigáda"				# Cavalry Brigade -- precursor to Fast Divisions. Fast Divisions add 2nd regiment of 2x L tank, 2x mot 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 0 y = 4 }
 	}
-	support = {
-		recon = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
+}
+division_template = {
+	name = "Artillery"
+
+	regiments = {
+		artillery = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -46,9 +36,9 @@ units = {
 	#### Èeskoslovenská Vojenská Hednotka #####
 	# directly subordinate
 	division = {
-		name = "1. Jezdecká Brigáda"
+		name = "1. Infantry"
 		location = 11542  # Prague
-		division_template = "Jezdecká Brigáda"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -56,7 +46,7 @@ units = {
 	division = {
 		name = "4. Divize"
 		location = 11542  # Prague
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -64,7 +54,7 @@ units = {
 	division = {
 		name = "12. Divize"
 		location = 11542  # Prague
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -72,7 +62,7 @@ units = {
 	division = {
 		name = "16. Divize"
 		location = 3569 # Brno
-		division_template = "Horská Divize"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -81,7 +71,7 @@ units = {
 	division = {
 		name = "9. Divize"
 		location = 3569 # Brno
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -89,7 +79,7 @@ units = {
 	division = {
 		name = "15. Divize"
 		location = 9429  # Bratislava
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -97,7 +87,7 @@ units = {
 	division = {
 		name = "21. Divize"
 		location = 9429  # Bratislava
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -107,7 +97,7 @@ units = {
 	division = {
 		name = "18. Divize"
 		location = 11401
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -116,7 +106,7 @@ units = {
 	division = {
 		name = "2. Divize"
 		location = 469
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -124,7 +114,7 @@ units = {
 	division = {
 		name = "15. Divize"
 		location = 3418
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -133,7 +123,7 @@ units = {
 	division = {
 		name = "3. Divize"
 		location = 6470
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -141,7 +131,7 @@ units = {
 	division = {
 		name = "17. Divize"
 		location = 9555
-		division_template = "Horská Divize"
+		division_template = "Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -151,7 +141,7 @@ units = {
 	division = {
 		name = "8. Divize"
 		location = 3414
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -160,7 +150,7 @@ units = {
 	division = {
 		name = "7. Divize"
 		location = 9567
-		division_template = "Pesi Divize"
+		division_template = "Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 

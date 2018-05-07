@@ -1,4 +1,4 @@
-name="1775 - A Revolution"
+name="Regnum Europa - 1444"
 path="mod/1775rev/"
 tags={
 	"Alternative History"
@@ -6,4 +6,4 @@ tags={
 	"Gameplay"
 	"Historical"
 }
-supported_version="1.4.2"
+supported_version="1.5"

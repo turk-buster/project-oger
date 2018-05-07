@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 132 35 35 }
-	color_ui = rgb { 132 35 35 }
+	color = rgb { 151 72 65 }
+	color_ui = rgb { 151 72 65 }
 }
 SOV = {
 	color = rgb { 60 109 80 }
@@ -34,8 +34,8 @@ CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
 }
 POL = {
-	color = rgb { 158 30 55 }
-	color_ui = rgb { 158 30 55 }
+	color = rgb { 144 82 83 }
+	color_ui = rgb { 144 82 83 }
 }
 AUS = {
 	color = rgb { 216 216 216 }
@@ -54,8 +54,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 223 190 95 }
+	color_ui = rgb { 223 190 95 }
 }
 ITA = {
 	color = rgb { 67 127 63 }
@@ -78,8 +78,8 @@ TUR = {
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
-	color = rgb { 0  2  127 }
-	color_ui = rgb { 0  2  127 }
+	color = rgb { 135  51  67 }
+	color_ui = rgb { 135  51  67 }
 }
 ALB = {
 	color = rgb { 149 45 102 }
@@ -334,8 +334,8 @@ LBA = {
 }
 
 EGY = {
-	color = rgb { 230 230 70 }
-	color_ui = rgb { 230 230 70 }
+	color = rgb ( 255 220 104 )
+	color_ui = rgb ( 255 220 104 )
 }
 
 PAL = {
@@ -518,8 +518,8 @@ GEN = {
 }
 #
 FLO = {
-	color = rgb { 55  66  116 }
-	color_ui = rgb { 55  66  116 }
+	color = rgb { 190  82  79 }
+	color_ui = rgb { 190  82  79 }
 }
 #
 LUC = {
@@ -533,8 +533,8 @@ FER = {
 }
 #
 MIL = {
-	color = rgb { 143  85  99 }
-	color_ui = rgb { 143  85  99 }
+	color = rgb { 154  90  107 }
+	color_ui = rgb { 154  90  107 }
 }
 #
 MOT = {
@@ -756,8 +756,8 @@ SPP = {
 	color_ui = rgb { 255  213  74 }
 }
 PRS = {
-	color = rgb { 135  127  105 }
-	color_ui = rgb { 135  127  105 }
+	color = rgb { 101  73  69 }
+	color_ui = rgb { 101  73  69 }
 }
 CRI = {
 	color = rgb { 63  155  255 }
@@ -768,8 +768,8 @@ ALA = {
 	color_ui = rgb { 114  51  0 }
 }
 EZE = {
-	color = rgb { 65  70  160 }
-	color_ui = rgb { 65  70  160 }
+	color = rgb { 123  108  77 }
+	color_ui = rgb { 123  108  77 }
 }
 SAX = {
 	color = rgb { 102  47  205 }
@@ -822,6 +822,34 @@ MUN = {
 OLD = {
 	color = rgb { 63  60  49 }
 	color_ui = rgb { 63  60  49 }
+}
+TAB = {
+	color = rgb { 255  173  96 }
+	color_ui = rgb { 255  173  96 }
+}
+ZAN = {
+	color = rgb { 115  160  0 }
+	color_ui = rgb { 115  160  0 }
+}
+NAS = {
+	color = rgb { 95  78  122 }
+	color_ui = rgb { 95  78  122 }
+}
+TEU = {
+	color = rgb { 102  105  104 }
+	color_ui = rgb { 102  105  104 }
+}
+MAG = {
+	color = rgb { 189  115  99 }
+	color_ui = rgb { 189  115  99 }
+}
+GRA = {
+	color = rgb { 210 220 175 }
+	color_ui = rgb { 210 220 175 }
+}
+POM = {
+	color = rgb { 61 136 66 }
+	color_ui = rgb { 61 136 66 }
 }
 # N O T    C O U N T R I E S
 #

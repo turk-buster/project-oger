@@ -74,6 +74,8 @@ add_ideas = {
 	hre
 }
 
+give_military_access = NAS
+
 create_country_leader = {
 	name = "Frederick Charles Augustus"
 	desc = ""

@@ -79,9 +79,9 @@ add_ideas = {
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
-	name = "Louis XVI"
+	name = "Charles VII"
 	desc = ""
-	picture = "portrait_france_louiscunt.dds"
+	picture = "portrait_ftrrance_louiscunt.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {

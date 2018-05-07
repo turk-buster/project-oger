@@ -77,8 +77,8 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Pope Pius VI"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	name = "Pope Eugenius IV"
+	desc = "POLITICS_BENITO_MUsSSOLINI_DESC"
 	picture = "Portrait_Italy_Benito_Mussolini.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
