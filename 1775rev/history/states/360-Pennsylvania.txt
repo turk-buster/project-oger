@@ -12,8 +12,7 @@ state={
 
 
 	history={
-		owner = 13C
-		add_core_of = 13C
+		owner = CLD
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 3

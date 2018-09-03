@@ -1,0 +1,20 @@
+
+state={
+	id=871
+	name="Armor"
+	manpower = 146089
+	
+	state_category = large_town
+
+	history={
+		owner = BRI
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = BRI
+	}
+
+	provinces={
+		11508 9525 
+	}
+}

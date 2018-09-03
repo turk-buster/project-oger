@@ -1,7 +1,7 @@
 ﻿capital = 356
 
 #### ITS JAN - DAR!!!!!!!!!!!!!!!!!!!!!!!
-oob = "CDR_1936"
+oob = "BSE_1444"
 
 set_research_slots = 2
 

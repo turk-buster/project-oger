@@ -1,0 +1,22 @@
+
+state={
+	id=893
+	name="Scarborough" # Sussex
+	manpower = 282230
+	state_category = city
+	resources={
+		steel=10
+	}
+
+	history= {
+		owner = ENG
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+		}
+		add_core_of = ENG
+	}
+	provinces= {
+		9332 11317 9269 
+ 	}
+}

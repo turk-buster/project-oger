@@ -1,6 +1,6 @@
 ﻿capital = 806
 
-oob = "SIL_1936"
+oob = "BSE_1444"
 
 set_technology = {
 	infantry_weapons = 1

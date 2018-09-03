@@ -1,6 +1,6 @@
 ﻿capital = 55
 
-oob = "HEK_1936"
+oob = "BSE_1444"
 
 set_research_slots = 4
 

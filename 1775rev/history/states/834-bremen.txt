@@ -1,0 +1,32 @@
+
+state={
+	id=834
+	name="Bremen"
+	manpower = 238286
+	resources={
+		#
+	}
+	
+	state_category = town
+
+	history={
+		owner = BRE
+		victory_points = {
+			3326 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			3326 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = BRE
+	}
+
+	provinces={
+		3326 3271 
+	}
+}

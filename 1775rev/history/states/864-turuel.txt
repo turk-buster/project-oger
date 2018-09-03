@@ -1,0 +1,21 @@
+
+state={
+	id=864
+	name="Teruel"
+	manpower = 36306
+	
+	state_category = town
+
+	history={
+		owner = ARA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = ARA
+	}
+
+	provinces={
+		9812 871 798 7213 
+	}
+}

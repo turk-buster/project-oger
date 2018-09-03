@@ -1,0 +1,25 @@
+
+state={
+	id=880
+	name="Hampshire" # Sussex
+	manpower = 232230
+	state_category = town
+
+	history={
+		owner = ENG
+		victory_points = { 9458 15 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			9458 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		11471 6351 6489 9458 507 
+	}
+}

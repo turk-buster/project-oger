@@ -1,6 +1,6 @@
 ﻿capital = 752
 
-oob = "GEN_1936"
+oob = "BSE_1444"
 
 set_research_slots = 4
 
@@ -72,7 +72,7 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Doge Raffaele Adorno"
+	name = "Genoa"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "Portrait_Italy_Benito_Mussolini.dds"
 	expire = "1965.1.1"

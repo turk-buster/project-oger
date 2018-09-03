@@ -1,0 +1,21 @@
+
+state={
+	id=853
+	name="Toledo"
+	manpower = 83033
+	
+	state_category = large_town
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		6914 858 3986 9852 9757 11863 9881 6800 
+	}
+}

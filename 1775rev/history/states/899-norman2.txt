@@ -1,0 +1,19 @@
+
+state={
+	id=899
+	name="Alençon" # 
+	manpower = 98230
+	state_category = large_town
+
+	history= {
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = ENG
+		add_core_of = FRA
+	}
+	provinces= {
+		539 11521 553 3534 3523 3509 11463 
+ 	}
+}

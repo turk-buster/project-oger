@@ -1,0 +1,25 @@
+
+state={
+	id=830
+	name="Gelre"
+	manpower = 364000
+
+	state_category = town
+
+	history={
+		owner = GEL
+		add_core_of = GEL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			9363 = {
+				naval_base = 3
+			}
+		} 
+	}
+
+	provinces={
+		9363 9403 
+	}
+}

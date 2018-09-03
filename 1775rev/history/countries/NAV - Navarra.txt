@@ -1,6 +1,6 @@
 ﻿capital = 764
 
-oob = "NAV_1936"
+oob = "BSE_1444"
 
 set_research_slots = 4
 
@@ -56,7 +56,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Alfons V de Trastamara"
+	name = "Navarra"
 	desc = ""
 	picture = "Portrait_Spain_Francisco_Franco.dds"
 	expire = "1965.1.1"

@@ -2942,51 +2942,26 @@
  news.330.e:0 "Perhaps this brings stability?"
  excellent:0 "Excellent."
  unfortunate:0 "Unfortunate."
- # HOUREDUX events
- #genoa fell
- generic_peace.1.t:0 "Genoa has fell!"
- generic_peace.1.d:0 "The Genoese have lost their capital. and the oppritunity has risen to make peace and take our rightful land!"
- generic_peace.1.a:0 "Of course, we couldnt reach azov anyway!"
- generic_peace.1.b:0 "We fight to the end! OORAH!"
- # france takes france
- generic_peace.2.t:0 "We have taken Brittish france!"
- generic_peace.2.d:0 "The great french nation has taken back her rightful land! do we negotiate with the english, or not?"
- generic_peace.2.a:0 "Viva La France!"
- generic_peace.2.b:0  "Se battre jusqu'au bout! En avant!"
- # take venice balkans
- generic_peace.3.t:0 "Conquest of The Venetian Balkans"
- generic_peace.3.d:0 "We have taken the Venetian Balkans, what do we do now?"
- generic_peace.3.a:0 "For the nation!"
- generic_peace.3.b:0 "Keep the fight going."
- # genoacrime
- generic_peace.4.t:0 "Conquest of Genoese Crimea"
- generic_peace.4.d:0 "We have taken Genoese Crimea, what do we do now?"
- generic_peace.4.a:0 "For the nation!"
- generic_peace.4.b:0 "Keep the fight going."
- # frenchies take barcelone
- generic_peace.5.t:0 "Fall of Barcelona"
- generic_peace.5.d:0 "Advancing forces of our great nation have captured the Aragonese port of Barcelona, what shall we do now?"
- generic_peace.5.a:0 "Its in our interests to make peace with our newfound territory"
- generic_peace.5.b:0 "À l'envers! à Saragosse"
- #hist
  historical.1.t:0 "Historical Accuracy Settings"
  historical.1.d:0 "Do you want to have a historical game or no? Selecting no will lead to a crazy game! choose wisely."
  historical.1.a:0 "No!"
  historical.1.b:0 "Yes!"
- # claimzzzz
  eu4claims.1.t:0 "Claiming territory"
  eu4claims.1.d:0 "Do we want to claim this state?"
  eu4claims.1.a:0 "Claim this State"
  eu4claims.1.b:0 "How about another state"
  eu4claims.1.c:0 "Claim this State"
  eu4claims.1.f:0 "Claim this State"
- #corezzzzzz
  eu4cores.1.t:0 "Coring States"
  eu4cores.1.d:0 "Parts of our country are integrating into our culture nicely"
  eu4cores.1.a:0 "Perfect"
  eu4cores.1.b:0 "Lets core a differnt state"
- #start
- eu4start.1.t:0 "Welcome to Regnum Europa"
- eu4start.1.d:0 "Welcome to Regnum Europa, bringing eu4 to hoi4! press the event button to complete the setup"
- eu4start.1.a:0 "Aight"
-
+ eu4addunits.2.t:0 "Welcome to Regnum Europa"
+ eu4addunits.2.d:0 "Welcome to Regnum Europa, bringing eu4 to hoi4! This mod has been and currently is in development for more than a year, and has been made for the best possible user experience! Have fun, but not too much fun."
+ eu4addunits.2.a:0 "Im ready for the EU4 of HOI4 modding."
+ overextension.1.t:0 "We are overextended!"
+ overextension.1.d:0 "As we have bitten off more than we can chew, our nation is experiencing stability problems! until we core all of our states, we will continue to suffer the consequences! To avoid this in the future, take less states from nations to make coring easier. To remove this penalty, go to ideas, and overextension, and purchase the idea, remove overextension. Be warned, if you do this before all your states are cored, you will get back the penalty!"
+ overextension.1.a:0 "Oh no!"
+ overextension.2.t:0 "We are no longer overextended"
+ overextension.2.d:0 "As we have cored all of our states, we can resume normal functions as a nation"
+ overextension.2.a:0 "Great!"

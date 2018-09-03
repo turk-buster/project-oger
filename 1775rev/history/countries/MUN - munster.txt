@@ -1,6 +1,6 @@
 ﻿capital = 57
 
-oob = "MUN_1936"
+oob = "BSE_1444"
 
 set_research_slots = 4
 
@@ -34,5 +34,16 @@ set_politics = {
 set_national_unity = 0.80
 
 add_ideas = {
-	prodestant
+	catholic
+}
+
+create_country_leader = {
+	name = "Munster"
+	desc = #
+	picture = "portrait_HOL_wdfilliamoforange.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
 }

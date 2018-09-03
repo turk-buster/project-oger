@@ -1,0 +1,21 @@
+
+state={
+	id=873
+	name="West March"
+	manpower = 76089
+	
+	state_category = town
+
+	history={
+		owner = SCO
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = SCO
+	}
+
+	provinces={
+		9350 11218 
+	}
+}

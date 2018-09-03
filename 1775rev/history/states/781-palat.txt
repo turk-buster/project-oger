@@ -2,7 +2,7 @@
 state={
 	id=781
 	name="Pfalz"
-	manpower = 3027739
+	manpower = 927739
 	resources={
 		steel=50
 	}

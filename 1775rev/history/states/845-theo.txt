@@ -1,0 +1,29 @@
+
+state={
+	id=845
+	name="Theodoro"
+	manpower = 61607
+	
+	state_category = city
+
+	history={
+		owner = THE
+		victory_points = {
+			3686 20
+		}
+		buildings = {
+			infrastructure = 7
+			dockyard = 2
+			industrial_complex = 2
+			arms_factory = 2
+			3686 ={
+				naval_base = 8
+			}
+		}
+		add_core_of = THE
+	}
+
+	provinces={
+		3686 
+	}
+}

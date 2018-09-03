@@ -1,8 +1,8 @@
 ﻿capital = 41
 
-oob = "SPR_1936"
+oob = "BSE_1444"
 
-set_research_slots = 4
+set_research_slots = 3
 
 set_technology = {
 	infantry_weapons = 1
@@ -53,7 +53,7 @@ set_convoys = 150
 set_national_unity = 0.6
 
 create_country_leader = {
-	name = "Juan II"
+	name = "Castile"
 	desc = ""
 	picture = "portrait_spain_carlosss3.dds"
 	expire = "1965.1.1"

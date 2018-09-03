@@ -1,4 +1,4 @@
-﻿OOB = "GRA_1936"
+﻿OOB = "BSE_1444"
 
 capital = 173
 
@@ -37,7 +37,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Muhammad IX"
+	name = "Granada"
 	desc = ""
 	picture = "gfx/leaders/SAU/Pothgtytghrtrait_Arabia_ghggggGeneric_1.dds"
 	ideology = fascism_ideology

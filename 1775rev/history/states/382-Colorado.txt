@@ -10,11 +10,10 @@ state={
 	state_category = rural
 
 	history={
-		owner = NSP
+		owner = CLD
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = NSP
 	}
 
 	provinces={

@@ -3720,4 +3720,18 @@ spriteTypes = {
 		name = "GFX_interface_cavalry"
 		texturefile = "gfx/interface/cavalry_icon.dds"
 	}
+	#
+	spriteType = {
+		name = "GFX_idea_colonial_nation"
+		texturefile = "gfx/interface/colonists.dds"
+	}
+	spriteType = {
+		name = "GFX_int_colonize"
+		texturefile = "gfx/interface/button_colonize.dds"
+	}
+	# overextension
+	spriteType = {
+		name = "GFX_idea_overextension"
+		texturefile = "gfx/interface/ideas/icon_overextension.dds"
+	}ndofoverextension
 }

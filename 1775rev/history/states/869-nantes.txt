@@ -1,0 +1,25 @@
+
+state={
+	id=869
+	name="Nantes"
+	manpower = 66089
+	
+	state_category = town
+
+	history={
+		owner = BRI
+		victory_points = {
+			11465 5
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 1
+		}
+		add_core_of = BRI
+	}
+
+	provinces={
+		11465 11616 
+	}
+}

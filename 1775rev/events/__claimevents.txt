@@ -12,7 +12,7 @@ country_event = {
 	option = {
 		name = eu4claims.1.a
 		ai_chance = { 
-			factor = 10 
+			factor = 100 
 		}
 		random_state = {
 			limit = {
@@ -36,18 +36,6 @@ country_event = {
 		hidden_effect = {
 			remove_ideas = {
 				claimant
-			}
-		}
-	}
-	option = {
-		name = eu4claims.1.b
-		ai_chance = { 
-			factor = 90
-		}
-		ROOT = {
-			country_event = {
-				id = eu4claims.1
-				hours = 1
 			}
 		}
 	}

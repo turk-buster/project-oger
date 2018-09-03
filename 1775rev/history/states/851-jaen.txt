@@ -1,0 +1,27 @@
+
+state={
+	id=851
+	name="Jaen"
+	manpower = 78033
+	
+	state_category = rural
+
+	history={
+		owner = SPR
+		victory_points = {
+			1048 1 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			1048 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		1090 10111 950 12083 4095 1192 
+	}
+}

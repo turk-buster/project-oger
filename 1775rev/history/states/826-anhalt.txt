@@ -1,0 +1,26 @@
+
+state={
+	id=826
+	name="Anhalt"
+	manpower = 292576
+	resources={
+		#
+	}
+
+	state_category = rural
+
+
+	history={
+		owner = ANH
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = ANH
+	}
+
+	provinces={
+		11545 9560 6487 
+	}
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=901
+	name="Labourd" # 
+	manpower = 70933
+	state_category = town
+
+	history= {
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+		}
+		add_core_of = ENG
+		add_core_of = FRA
+	}
+	provinces= {
+		9710 743 
+ 	}
+}

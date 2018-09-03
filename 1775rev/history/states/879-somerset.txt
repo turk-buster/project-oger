@@ -1,0 +1,19 @@
+state= {
+	id=879
+	name="Somerset"
+	manpower = 70102
+	
+	state_category = rural
+
+	history= {
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = ENG
+	}
+
+	provinces= {
+		9484 
+ 	}
+}

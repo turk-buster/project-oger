@@ -11,8 +11,7 @@ state={
 	}
 
 	history={
-		owner = ENG
-		add_core_of = ENG
+		owner = CLD
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2

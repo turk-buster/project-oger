@@ -8,8 +8,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = 13C
-		add_core_of = 13C
+		owner = CLD
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2

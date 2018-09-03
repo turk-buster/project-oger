@@ -1,6 +1,6 @@
 ﻿capital = 195
 
-oob = "RSE_1936"
+oob = "BSE_1444"
 
 set_research_slots = 3
 
@@ -72,64 +72,13 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Catherine the Great"
+	name = "lol"
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
-	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
+	picture = "Portrait_Sosdfsdviet_Konstantin_Rodzaevsky.dds"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {
 		popular_figurehead
 		smooth_talking_charmer
 	}
-}
-
-set_autonomy = {
-	target = CRI
-	autonomous_state = autonomy_dominion
-}
-
-CRI = {
-	set_politics = {
-
-	parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-		
-			communism = {
-				popularity = 0
-			}
-		
-			neutrality = { 
-				popularity = 0
-			}
-		}
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Sahib II Giray"
-		desc = ""
-		picture = "Portrait_Romanisdsda_grigordfdfasaia.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
-	}
-
-	add_ideas = {
-		sunni
-	}
-
-	capital = 137
-
-	oob = "CRI_1936"
 }

@@ -2,7 +2,7 @@
 state={
 	id=788
 	name="Pale" # Leinster
-	manpower = 1000000
+	manpower = 340000
 	
 	state_category = town
 	
@@ -13,15 +13,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 3
-			air_base = 3
+			industrial_complex = 1
 			11293 = {
 				naval_base = 6
 			}
 		}
 		add_core_of = ENG
-		add_core_of = IRE
 	}
 
 	provinces={

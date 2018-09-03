@@ -1,0 +1,18 @@
+
+state={
+	id=905
+	name="Aut Poitou" # 
+	manpower = 51933
+	state_category = rural
+
+	history= {
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = FRA
+	}
+	provinces= {
+		629 11869 651 3626 
+ 	}
+}

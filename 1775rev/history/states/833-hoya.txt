@@ -1,0 +1,22 @@
+
+state={
+	id=833
+	name="Hoya"
+	manpower = 238286
+
+	state_category = rural
+
+	history={
+		owner = HAN
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = HAN
+	}
+
+	provinces={
+		3234 309 247 
+	}
+}

@@ -34,16 +34,16 @@ CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
 }
 POL = {
-	color = rgb { 144 82 83 }
-	color_ui = rgb { 144 82 83 }
+	color = rgb { 197  92  106 }
+	color_ui = rgb { 197  92  106 }
 }
 AUS = {
 	color = rgb { 216 216 216 }
 	color_ui = rgb { 216 216 216 }
 }
 LIT = {
-	color = rgb { 219 219 119 }
-	color_ui = rgb { 255 255 155 }
+	color = rgb { 154  69  116 }
+	color_ui = rgb { 154  69  116 }
 }
 EST = {
 	color = rgb { 50 135 175 }
@@ -110,8 +110,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 255 164 127 }
+	color = rgb { 152 85 92 }
+	color_ui = rgb { 152 85 92 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -784,8 +784,8 @@ JUL = {
 	color_ui = rgb { 198  57  69 }
 }
 HAN = {
-	color = rgb { 224  26  26 }
-	color_ui = rgb { 224  26  26 }
+	color = rgb { 116  92  39 }
+	color_ui = rgb { 116  92  39 }
 }
 HEK = {
 	color = rgb { 71  114  255 }
@@ -851,15 +851,80 @@ POM = {
 	color = rgb { 61 136 66 }
 	color_ui = rgb { 61 136 66 }
 }
+HLN = {
+	color = rgb { 156 96 100 }
+	color_ui = rgb { 156 96 100 }
+}
+UTR = {
+	color = rgb { 223 198 64 }
+	color_ui = rgb { 223 198 64 }
+}
+GEL = {
+	color = rgb { 139 66 97 }
+	color_ui = rgb { 139 66 97 }
+}
+OST = {
+	color = rgb { 190 32 16 }
+	color_ui = rgb { 190 32 16 }
+}
+FRI = {
+	color = rgb { 165 89 27 }
+	color_ui = rgb { 165 89 27 }
+}
+ANH = {
+	color = rgb { 203 93 124 }
+	color_ui = rgb { 203 93 124 }
+}
+DIT = {
+	color = rgb { 72 194 212 }
+	color_ui = rgb { 72 194 212 }
+}
+#
+VER = {
+	color = rgb { 227 211 34 }
+	color_ui = rgb { 227 211 34 }
+}
+BRE = {
+	color = rgb { 33  101  137 }
+	color_ui = rgb { 33  101  137 }
+}
+LUN = {
+	color = rgb { 135  109  147 }
+	color_ui = rgb { 135  109  147 }
+}
+SXE = {
+	color = rgb { 79 139 99 }
+	color_ui = rgb { 79 139 99 }
+}
+MAZ = {
+	color = rgb { 195  149  155 }
+	color_ui = rgb { 195  149  155 }
+}
+LIV = {
+	color = rgb { 125  30  100 }
+	color_ui = rgb { 125  30  100 }
+}
+RIG = {
+	color = rgb { 183  176  194 }
+	color_ui = rgb { 183  176  194 }
+}
+THE = {
+	color = rgb { 61 8 81 }
+	color_ui = rgb { 61 8 81 }
+}
+SLW = {
+	color = rgb { 220  150  158 }
+	color_ui = rgb { 220  150  158 }
+}
 # N O T    C O U N T R I E S
 #
-WAS = {
-	color = rgb { 40  40  40 }
-	color_ui = rgb { 40  40  40 }
-}
 CLD = {
-	color = rgb { 98  98  98 }
-	color_ui = rgb { 98  98  98 }
+	color = rgb { 120  120  120 }
+	color_ui = rgb { 120  120  120 }
+}
+WAS = {
+	color = rgb { 55  55  55 }
+	color_ui = rgb { 55  55  55 }
 }
 # mod
 D01 = {

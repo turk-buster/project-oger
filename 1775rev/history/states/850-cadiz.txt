@@ -1,0 +1,27 @@
+
+state={
+	id=850
+	name="Cadiz"
+	manpower = 88033
+	
+	state_category = town
+
+	history={
+		owner = SPR
+		victory_points = {
+			1048 1 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			1048 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		1048 4080 7153 
+	}
+}

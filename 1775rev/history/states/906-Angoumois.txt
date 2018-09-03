@@ -1,0 +1,19 @@
+
+state={
+	id=906
+	name="Angoumois" # 
+	manpower = 63933
+	state_category = town
+
+	history= {
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+		add_core_of = FRA
+	}
+	provinces= {
+		625 3598 
+ 	}
+}

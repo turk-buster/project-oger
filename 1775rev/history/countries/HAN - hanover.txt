@@ -1,6 +1,6 @@
 ﻿capital = 59
 
-oob = "HAN_1936"
+oob = "BSE_1444"
 
 # Starting tech
 set_technology = {
@@ -76,7 +76,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "King George III"
+	name = "Brunswick"
 	desc = ""
 	picture = "jewfag.dds"
 	expire = "1965.1.1"

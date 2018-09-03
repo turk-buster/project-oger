@@ -30,7 +30,7 @@ guiTypes = {
 			pdx_tooltip = "CREATE_CORE_TOOLTIP"
 			scale = 1.1
 		}
-		
+
 		buttonType = {
 			name = "claim_province" 
 			position = {x=135 y=80}		

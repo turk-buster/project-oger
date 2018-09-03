@@ -1,0 +1,25 @@
+
+state={
+	id=828
+	name="Utrecht"
+	manpower = 864000
+
+	state_category = town
+
+	history={
+		owner = UTR
+		add_core_of = UTR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			6241 = {
+				naval_base = 5
+			}
+		} 
+	}
+
+	provinces={
+		6241 
+	}
+}

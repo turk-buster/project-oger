@@ -1,0 +1,21 @@
+
+state={
+	id=895
+	name="Isle of Man" # Sussex
+	manpower = 33230
+	state_category = rural
+
+	history= {
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			3311 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ENG
+	}
+	provinces= {
+		3311 
+ 	}
+}

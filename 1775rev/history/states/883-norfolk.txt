@@ -1,0 +1,23 @@
+
+state={
+	id=883
+	name="Norfolk" # Sussex
+	manpower = 102230
+	state_category = rural
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			271 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		322 3287 271 
+	}
+}

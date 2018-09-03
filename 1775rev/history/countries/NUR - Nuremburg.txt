@@ -1,6 +1,6 @@
 ﻿capital = 789
 
-oob = "NUR_1936"
+oob = "BSE_1444"
 
 # Starting tech
 set_technology = {
@@ -76,7 +76,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Patriziat"
+	name = "Nuremburg"
 	desc = ""
 	picture = "Portrait_Germany_Adolf_Hitler.dds"
 	expire = "1965.1.1"

@@ -1,0 +1,2900 @@
+add_namespace = eu4addunits
+
+country_event = {
+	id = eu4addunits.2
+	title = eu4addunits.2.t
+	desc = eu4addunits.2.d
+	picture = GFX_eu4event_alphaone
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = eu4addunits.2.a
+				if = {
+					limit = {
+						num_of_military_factories > 0
+						num_of_military_factories < 2
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}			
+					}
+				}
+				if = {
+					limit = {
+						num_of_military_factories > 1
+						num_of_military_factories < 3
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}	
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}		
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 2
+							num_of_military_factories < 5
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}				
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 4
+							num_of_military_factories < 7
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}				
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 6
+							num_of_military_factories < 9
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}				
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 8
+							num_of_military_factories < 11
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}					
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 10
+							num_of_military_factories < 13
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 12
+							num_of_military_factories < 15
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 14
+							num_of_military_factories < 17
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 16
+							num_of_military_factories < 19
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 18
+							num_of_military_factories < 21
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 20
+							num_of_military_factories < 23
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 22
+							num_of_military_factories < 25
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 24
+							num_of_military_factories < 27
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 26
+							num_of_military_factories < 29
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 28
+							num_of_military_factories < 31
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 30
+							num_of_military_factories < 33
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 32
+							num_of_military_factories < 35
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 34
+							num_of_military_factories < 37
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 36
+							num_of_military_factories < 39
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 38
+							num_of_military_factories < 41
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 40
+							num_of_military_factories < 43
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 42
+							num_of_military_factories < 45
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 44
+							num_of_military_factories < 47
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 46
+							num_of_military_factories < 49
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							num_of_military_factories > 48
+							num_of_military_factories < 51
+						}
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						num_of_military_factories > 50
+					}
+					random_owned_state = {
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}
+						create_unit = { 
+							division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+							owner = ROOT
+						}	
+					}
+				}
+			}	
+		}
+	}
+}

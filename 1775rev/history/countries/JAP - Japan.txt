@@ -1,6 +1,6 @@
 ﻿capital = 282
 
-oob = "JAP_19dfd36"
+oob = "BSE_1444"
 
 set_national_unity = 0.65
 

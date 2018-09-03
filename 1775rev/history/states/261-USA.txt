@@ -9,7 +9,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = ENG
+		owner = CLD
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

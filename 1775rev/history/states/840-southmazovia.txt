@@ -1,0 +1,20 @@
+state={
+	id=840
+	name="Zamosc"
+	manpower = 364600
+	
+	state_category = rural
+	
+	history={
+		owner = MAZ
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = MAZ
+	}
+
+	provinces={
+		536 6580 11399 9452 
+	}
+}

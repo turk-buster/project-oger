@@ -1,0 +1,22 @@
+
+state={
+	id=912
+	name="Bourbonnais" # 
+	manpower = 197436
+	state_category = rural
+
+	history= {
+		owner = FRA
+		victory_points = {
+			3594 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+	}
+	provinces= {
+		6644 9607 3594 11576 6648 
+ 	}
+}

@@ -9,11 +9,10 @@ state=
 
 	history=
 	{
-		owner = ENG
+		owner = CLD
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = IRE
 	}
 
 	provinces=

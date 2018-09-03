@@ -1,0 +1,22 @@
+
+state={
+	id=867
+	name="Urgell"
+	manpower = 76089
+	
+	state_category = rural
+
+	history={
+		owner = ARA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = ARA
+	}
+
+	provinces={
+		872 897 9797 
+	}
+}

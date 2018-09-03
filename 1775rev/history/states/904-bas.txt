@@ -1,0 +1,19 @@
+
+state={
+	id=904
+	name="Bas Poitou" # 
+	manpower = 91933
+	state_category = rural
+
+	history= {
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+		add_core_of = FRA
+	}
+	provinces= {
+		11600 9631 655 
+ 	}
+}

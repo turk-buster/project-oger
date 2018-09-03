@@ -1,0 +1,21 @@
+state={
+	id=841
+	name="Mansur"
+	
+	state_category = town
+
+	history={
+		owner = CRI
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = CRI
+
+	}
+
+	provinces={
+		6530 11461 3531 3508 472 453 486 11452 9479 9463 
+	}
+	manpower=129564
+	buildings_max_level_factor=1.000
+}

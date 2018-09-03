@@ -1,0 +1,21 @@
+
+state={
+	id=862
+	name="Marriya"
+	manpower = 73306
+	
+	state_category = rural
+
+	history={
+		owner = GRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = GRA
+	}
+
+	provinces={
+		11956 4065 12038 
+	}
+}

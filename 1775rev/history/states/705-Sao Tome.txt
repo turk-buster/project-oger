@@ -1,11 +1,11 @@
 state={
 	id=705
 	name="STATE_705"
-	manpower=24725	
+	manpower=1625	
 	state_category = tiny_island
 
 	history={
-		owner = POR
+		owner = CLD
 		buildings = {
 			infrastructure = 2
 			13015 ={

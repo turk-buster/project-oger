@@ -1,27 +1,22 @@
 
 state={
 	id=125
-	name="STATE_125"
-	manpower = 1363174
+	name="Essex"
+	manpower = 77195
 	
-	state_category = city
+	state_category = large_town
 
 	history={
 		owner = ENG
 		victory_points = { 11253 5 }
 		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 3
-			air_base = 10
-			271 = {
-				naval_base = 3
-			}
+			infrastructure = 6
+			industrial_complex = 1
 		}
 		add_core_of = ENG
 	}
 
 	provinces={
-		221 271 296 322 3287 11221 11253 
+		221 11253 
 	}
 }

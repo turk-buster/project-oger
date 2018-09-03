@@ -13,7 +13,7 @@ state={
 
 
 	history={
-		owner = SPR
+		owner = CLD
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

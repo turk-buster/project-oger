@@ -7,16 +7,16 @@ state={
 	state_category = town
 
 	history={
-		owner = POL
+		owner = LIT
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 3
 		}
-		add_core_of = POL
+		add_core_of = LIT
 	}
 
 	provinces={
-		462 3430 3457 3511 6429 6509 
+		3457 3511 6509 
 	}
 }

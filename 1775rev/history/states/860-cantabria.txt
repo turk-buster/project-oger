@@ -1,0 +1,20 @@
+
+state={
+	id=860
+	name="Cantabria"
+	manpower = 67042
+	
+	state_category = rural
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		11688 738 9703 
+	}
+}

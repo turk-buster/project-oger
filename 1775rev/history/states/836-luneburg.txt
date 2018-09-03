@@ -1,0 +1,25 @@
+
+state={
+	id=836
+	name="Luneburg"
+	manpower = 338286
+	resources={
+		#
+	}
+	
+	state_category = town
+
+	history={
+		owner = LUN
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = LUN
+	}
+
+	provinces={
+		9375 6218 9238 9264 6298 
+	}
+}

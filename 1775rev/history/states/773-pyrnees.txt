@@ -1,23 +1,22 @@
 
 state={
 	id=773
-	name="pyrenees"
-	manpower = 111344
+	name="Pyrenees"
+	manpower = 343
 	
 	
 	state_category = wasteland
 	impassable = yes
 	
 	resources={
-		steel=24
+		#
 	}
 
 	history={
-		owner = ARA
+		owner = WAS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		}
-		add_core_of = ARA
 	}
 
 	provinces={

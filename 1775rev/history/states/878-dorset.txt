@@ -1,0 +1,20 @@
+state= {
+	id=878
+	name="Dorset"
+	manpower = 63502
+	
+	state_category = rural
+
+	history= {
+		owner = ENG
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+		}
+		add_core_of = ENG
+	}
+
+	provinces= {
+		3463 3422 
+ 	}
+}

@@ -10,7 +10,7 @@ state={
 
 
 	history={
-		owner = NGR
+		owner = CLD
 		buildings = {
 			infrastructure = 3
 			3284 = {

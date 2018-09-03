@@ -1,6 +1,6 @@
 ﻿capital = 166
 
-oob = "ARA_1936"
+oob = "BSE_1444"
 
 set_research_slots = 4
 
@@ -57,7 +57,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Alfons V"
+	name = "Aragon"
 	desc = "Alfons V, king of aragon"
 	picture = "Portrait_Spain_Francisco_Franco.dds"
 	expire = "1965.1.1"

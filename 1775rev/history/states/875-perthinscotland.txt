@@ -1,0 +1,20 @@
+
+state={
+	id=875
+	name="Perth"
+	manpower = 38089
+	
+	state_category = rural
+
+	history={
+		owner = SCO
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SCO
+	}
+
+	provinces={
+		159 11306 
+	}
+}

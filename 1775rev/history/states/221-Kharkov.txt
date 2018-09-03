@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = LIT
 		victory_points = {
 			418 10
 		}
@@ -20,15 +20,10 @@ state={
 			arms_factory = 2
 			air_base = 5
 		}
-		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-			}
-		}
+		add_core_of = LIT
 	}
 
 	provinces={
-		418 3409 3508 3531 6530 6554 9531 9556 11397 11461 11541 
+		418 3409 6554 9531 9556 11397 11541 
 	}
 }

@@ -2566,3 +2566,7 @@
  foureign:1 "Foreign Policy"
  #eu4_ideas
  religions:1 "Relgious"
+ colonial_nation:0 "Colonial Nation"
+ overextension:0 "Overextension"
+ remove_overextension:0 "Remove our Overextension"
+ overextension:0 "Overextension"

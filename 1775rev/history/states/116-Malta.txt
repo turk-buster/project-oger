@@ -2,8 +2,8 @@ state=
 {
 	id=116
 	name="STATE_116"
-	manpower = 241621
-	state_category = small_island
+	manpower = 40270
+	state_category = rural
 	history= {
 		owner = ARA
 		add_core_of = ARA
@@ -12,10 +12,8 @@ state=
 		}
 		buildings = {
 			infrastructure = 3
-			air_base = 3
 			12003 = {
-				naval_base = 3
-				coastal_bunker = 1
+				naval_base = 6
 			}
 		}
 	}

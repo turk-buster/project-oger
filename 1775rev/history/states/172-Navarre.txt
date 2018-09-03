@@ -1,10 +1,10 @@
 
 state={
 	id=172
-	name="STATE_172"
-	manpower = 1794880
+	name="Vizcaya"
+	manpower = 119146
 	
-	state_category = city
+	state_category = large_town
 	
 	resources={
 		steel=12
@@ -28,6 +28,6 @@ state={
 	}
 
 	provinces={
-		738 740 3735 6756 9703 11688 
+		740 3735 6756 
 	}
 }

@@ -1,7 +1,7 @@
 ﻿## YOU DONT KNOW HOW MANY TIMES IVE PUT CRIMES INSTEAD OF CRIMEA! dont make fun ok B T W you found an easteregg, find them all and @ me wiv em all and ##ill shout u out!
 capital = 137
 
-oob = "CRI_1936"
+oob = "BSE_1444"
 
 set_research_slots = 3
 

@@ -1,10 +1,10 @@
 
 state={
 	id=754
-	name="East Caffa"
-	manpower = 103371
+	name="Matrega"
+	manpower = 13371
 	
-	state_category = city
+	state_category = rural
 	resources={
 		oil=18
 	}

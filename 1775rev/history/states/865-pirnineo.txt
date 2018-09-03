@@ -1,0 +1,21 @@
+
+state={
+	id=865
+	name="Pirineo"
+	manpower = 36306
+	
+	state_category = rural
+
+	history={
+		owner = ARA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ARA
+	}
+
+	provinces={
+		9842 9840 11821 11819 
+	}
+}

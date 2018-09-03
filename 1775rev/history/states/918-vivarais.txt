@@ -1,0 +1,19 @@
+
+state={
+	id=918
+	name="Montpellier" # 
+	manpower = 145218
+	state_category = town
+
+	history= {
+		owner = FRA
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+		}
+		add_core_of = FRA
+	}
+	provinces= {
+		9732 11716 9728 11711 6770 
+ 	}
+}

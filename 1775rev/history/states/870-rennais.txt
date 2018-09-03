@@ -1,0 +1,23 @@
+
+state={
+	id=870
+	name="Rennais"
+	manpower = 46089
+	
+	state_category = rural
+
+	history={
+		owner = BRI
+		victory_points = {
+			9495 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BRI
+	}
+
+	provinces={
+		9495 
+	}
+}

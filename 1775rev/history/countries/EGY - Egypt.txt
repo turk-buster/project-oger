@@ -1,4 +1,4 @@
-﻿OOB = "EGY_1936"
+﻿OOB = "BSE_1444"
 
 capital = 446
 

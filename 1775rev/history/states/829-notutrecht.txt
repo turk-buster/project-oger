@@ -1,0 +1,24 @@
+
+state={
+	id=829
+	name="Oversticht"
+	manpower = 364000
+
+	state_category = town
+
+	history={
+		owner = UTR
+		add_core_of = UTR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			6286 = {
+				naval_base = 2
+			}
+		} 
+	}
+
+	provinces={
+		6286 9309 
+	}
+}

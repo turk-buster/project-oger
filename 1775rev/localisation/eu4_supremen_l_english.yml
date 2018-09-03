@@ -5,4 +5,4 @@
  CREATE_INFANTRY_TOOLTIP:0 "§HCreate Infantry§!\n\nThis action costs: §H5§!£pol_power\n\n & §H5000 Manpower§!"
  CREATE_CAVALRY_TOOLTIP:0 "§HCreate Cavalry§!\n\nThis action costs: §H5§!£pol_power\n\n & §H5000 Manpower§!"
  CREATE_ARTY_TOOLTIP:0 "§HCreate Artillery§!\n\nThis action costs: §H5§!£pol_power\n\n & §H5000 Manpower§!"
- 
+ #

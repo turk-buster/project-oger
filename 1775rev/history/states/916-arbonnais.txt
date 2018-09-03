@@ -1,0 +1,22 @@
+
+state={
+	id=916
+	name="Arbonnais" # 
+	manpower = 51418
+	state_category = town
+
+	history= {
+		owner = FRA
+		buildings = {
+			infrastructure = 5
+			3946 = {
+				naval_base = 5
+			}
+			dockyard = 1
+		}
+		add_core_of = FRA
+	}
+	provinces= {
+		3946 9853 
+ 	}
+}

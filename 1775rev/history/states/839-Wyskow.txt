@@ -1,0 +1,19 @@
+state={
+	id=839
+	name="Wyszkow"
+	manpower = 164600
+	
+	state_category = rural
+	
+	history={
+		owner = LIT
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = LIT
+	}
+
+	provinces={
+		402 9544 11466 
+	}
+}

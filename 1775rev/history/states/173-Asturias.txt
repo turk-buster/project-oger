@@ -2,7 +2,7 @@
 state={
 	id=173
 	name="STATE_173" # Granada
-	manpower = 1662292
+	manpower = 227048
 	
 	state_category = city
 	
@@ -13,14 +13,14 @@ state={
 	history={
 		owner = GRA
 		victory_points = {
-			9979 1 
+			9979 15 
 		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
-			arms_factory = 1
+			arms_factory = 2
 			9979 = {
-				naval_base = 2
+				naval_base = 5
 			}
 			747 = {
 				naval_base = 1
@@ -30,6 +30,6 @@ state={
 	}
 
 	provinces={
-		747 1090 1176 4065 4095 7068 7196 7198 9979 10009 10063 11956 12038 
+		747 1176 7068 9979 10009 10063 
 	}
 }

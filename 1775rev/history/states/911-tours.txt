@@ -1,0 +1,22 @@
+
+state={
+	id=911
+	name="Touraine" # MARTEL
+	manpower = 197436
+	state_category = city
+
+	history= {
+		owner = FRA
+		victory_points = {
+			3671 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 6
+		}
+		add_core_of = FRA
+	}
+	provinces= {
+		6533 9492 3671 
+ 	}
+}

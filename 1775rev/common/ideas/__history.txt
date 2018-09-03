@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		historical = {
+		#historical = {
 			removal_cost = -1
 			allowed = {
 				always = no

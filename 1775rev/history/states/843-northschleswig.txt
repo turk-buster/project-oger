@@ -1,0 +1,20 @@
+state= {
+	id=843
+	name="North Schleswig"
+	manpower = 472235
+	
+	state_category = rural
+
+	history=
+	{
+		owner = SLW
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+		}
+		add_core_of = SLW
+	}
+	provinces={
+		332 11251 	
+	}
+}

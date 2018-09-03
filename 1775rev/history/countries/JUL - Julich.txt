@@ -1,6 +1,6 @@
 ﻿capital = 51 #FUCK i am too lazy 4 statten. ud tiy x'b ew's rgua m a't gu~~~~~~
 
-oob = "JUL_1936"
+oob = "BSE_1444"
 
 # Starting tech
 set_technology = {

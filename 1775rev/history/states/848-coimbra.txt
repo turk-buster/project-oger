@@ -1,0 +1,21 @@
+
+state={
+	id=848
+	name="Coimbra"
+	manpower = 148033
+	
+	state_category = town
+
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		6924 799 3798 9787 889 
+	}
+}

@@ -1,6 +1,6 @@
 ﻿capital = 361
 
-oob = "USA_1936"
+oob = "BSE_1444"
 
 set_research_slots = 4
 

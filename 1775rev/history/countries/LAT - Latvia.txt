@@ -1,6 +1,6 @@
 ﻿capital = 12
 
-oob = "LAT_1936"
+oob = "BSE_1444"
 
 add_ideas = {
 	limited_conscription

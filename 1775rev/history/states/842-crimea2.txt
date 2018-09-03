@@ -1,0 +1,27 @@
+
+state={
+	id=842
+	name="Kuban"
+	manpower = 303371
+	
+	state_category = town
+	resources={
+		tungsten=26
+	}
+
+	history={
+		owner = CRI
+		add_core_of = CRI
+		victory_points = {
+			3734 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+	}
+
+	provinces={
+		11729 3734 6768 9709 6781 3765 3752 750 6755 765 9744 6783 3587 426 11403 
+	}
+}

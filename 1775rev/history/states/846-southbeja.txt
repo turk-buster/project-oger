@@ -1,0 +1,23 @@
+
+state={
+	id=846
+	name="Algarve"
+	manpower = 47033
+	
+	state_category = rural
+
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 6
+			3790 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		3790 6880 
+	}
+}

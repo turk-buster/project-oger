@@ -14,7 +14,7 @@ state={
 
 
 	history={
-		owner = NSP
+		owner = CLD
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 4
@@ -26,7 +26,6 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = NSP
 		victory_points = {
 			10337 10
 		}

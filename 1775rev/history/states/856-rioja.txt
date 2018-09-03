@@ -1,0 +1,20 @@
+
+state={
+	id=856
+	name="Rioja"
+	manpower = 42960
+	
+	state_category = rural
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		932 6903 3887 3902 884 11852 
+	}
+}

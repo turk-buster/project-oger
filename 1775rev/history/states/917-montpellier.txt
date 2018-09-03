@@ -1,0 +1,26 @@
+
+state={
+	id=917
+	name="Montpellier" # 
+	manpower = 169218
+	state_category = rural
+	resources={
+		steel=86
+		aluminium=45
+	}
+
+	history= {
+		owner = FRA
+		victory_points = {
+			9898 5 
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+		}
+		add_core_of = FRA
+	}
+	provinces= {
+		6960 9898 11877 
+ 	}
+}

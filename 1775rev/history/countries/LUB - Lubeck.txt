@@ -1,6 +1,6 @@
 ﻿capital = 803
 
-oob = "LUB_1936"
+oob = "BSE_1444"
 
 set_research_slots = 4
 
@@ -35,4 +35,14 @@ set_national_unity = 0.80
 
 add_ideas = {
 	prodestant
+}
+
+create_country_leader = {
+	name = "Lubeck"
+	desc = ""
+	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+	}
 }

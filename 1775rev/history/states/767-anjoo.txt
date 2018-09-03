@@ -2,7 +2,7 @@
 state={
 	id=767
 	name="Anjou"
-	manpower = 388400
+	manpower = 64733
 
 	state_category = town
 

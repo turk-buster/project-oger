@@ -33,7 +33,6 @@ scripted_gui = {
 					owner = ROOT
 				}
 				set_division_template_lock = { division_template = Infantry is_locked = yes }
-				add_equipment_to_stockpile = { type = infantry_equipment  amount = 500  }
 			}
 			create_cavalry_click = {
 				ROOT = { 
@@ -45,7 +44,6 @@ scripted_gui = {
 					owner = ROOT
 				}
 				set_division_template_lock = { division_template = Cavalry is_locked = yes }
-				add_equipment_to_stockpile = { type = infantry_equipment  amount = 500  }
 			}
 			create_artillery_click = {
 				ROOT = { 
@@ -57,7 +55,21 @@ scripted_gui = {
 					owner = ROOT
 				}
 				set_division_template_lock = { division_template = Artillery is_locked = yes }
-				add_equipment_to_stockpile = { type = artillery_equipment_1  amount = 180  }
+				add_equipment_to_stockpile = { type = artillery_equipment_1  amount = 10  }
+			}
+			select_state_click = {
+				FROM.FROM = { 
+					set_state_flag = marked_for_transfer
+					#set_demilitarized_zone = yes
+				}
+				add_to_variable = { ROOT.marked_states = 1 }
+			}
+			deselect_state_click = {
+				FROM.FROM = { 
+					clr_state_flag = marked_for_transfer 
+					#set_demilitarized_zone = no
+				}
+				subtract_from_variable = { ROOT.marked_states = 1 }
 			}
 		}
 		triggers = {
@@ -70,47 +82,43 @@ scripted_gui = {
 			claim_province_click_enabled = {
 				check_variable = { ROOT.political_power > 44.99 }
 				any_neighbor_state = {
-						is_owned_by = ROOT
+					is_owned_by = ROOT
 				}
+				NOT = { is_owned_by = ROOT }
 				NOT = { is_owned_by = ROOT }
 			}
 			create_infantry_click_enabled = {
-				check_variable = { ROOT.manpower > 4999.99 }
+				OR = {
+					check_variable = { ROOT.num_of_military_factories > ROOT.num_divisions }
+					check_variable = { ROOT.num_of_military_factories = ROOT.num_divisions }
+				}
 				check_variable = { ROOT.political_power > 4.99 }
 				is_owned_by = ROOT
 				is_core_of = ROOT
+				check_variable = { ROOT.manpower > 4999 }
 			}
 			create_cavalry_click_enabled = {
-				check_variable = { ROOT.manpower > 4999.99 }
+				OR = {
+					check_variable = { ROOT.num_of_military_factories > ROOT.num_divisions }
+					check_variable = { ROOT.num_of_military_factories = ROOT.num_divisions }
+				}
 				check_variable = { ROOT.political_power > 4.99 }
 				is_owned_by = ROOT
 				is_core_of = ROOT
+				check_variable = { ROOT.manpower > 4999 }
 			}
 			create_artillery_click_enabled = {
-				check_variable = { ROOT.manpower > 4999.99 }
+				OR = {
+					check_variable = { ROOT.num_of_military_factories > ROOT.num_divisions }
+					check_variable = { ROOT.num_of_military_factories = ROOT.num_divisions }
+				}
 				check_variable = { ROOT.political_power > 4.99 }
 				is_owned_by = ROOT
 				is_core_of = ROOT
+				check_variable = { ROOT.manpower > 4999 }
 			}
-		}
-		        
-		#ai_check = {
-		#	check_variable = { ROOT.political_power > 44.99 }
-		#}
-
-		create_infantry_click = {
-			ai_will_do = {
-				factor = 120
-			}
-		}
-		create_cavalry_click = {
-			ai_will_do = {
-				factor = 120
-			}
-		}
-		create_artillery_click = {
-			ai_will_do = {
-				factor = 120
+			colonize_state_click_enabled = {
+	
 			}
 		}
 	}

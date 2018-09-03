@@ -1,0 +1,20 @@
+
+state={
+	id=858
+	name="Salamanca"
+	manpower = 107042
+	
+	state_category = town
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		11756 9770 794 6867 3874 874 
+	}
+}

@@ -6,7 +6,7 @@ buildings = {
 
 
 	infrastructure = {
-		base_cost = 30000
+		base_cost = 3000
 		icon_frame = 3
 		infrastructure = yes
 		max_level = 10
@@ -15,7 +15,7 @@ buildings = {
 
 	arms_factory = {
 		show_on_map = 2
-		base_cost = 720000
+		base_cost = 8800
 		base_cost_conversion = 400000
 		military_production = 1
 		icon_frame = 2
@@ -27,7 +27,7 @@ buildings = {
 
 	industrial_complex = {
 		show_on_map = 2
-		base_cost = 1080000
+		base_cost = 8800
 		base_cost_conversion = 900000
 		general_production = 1
 		icon_frame = 1
@@ -41,7 +41,7 @@ buildings = {
 		show_on_map = 1
 		show_on_map_meshes = 3
 		always_shown = yes
-		base_cost = 30000
+		base_cost = 1800
 		provincial = yes
 		only_costal = yes
 		is_port = yes
@@ -80,7 +80,7 @@ buildings = {
 	dockyard = {
 		show_on_map = 1
 		show_on_map_meshes = 3
-		base_cost = 640000
+		base_cost = 8800
 		only_costal = yes
 		naval_production = 1
 		icon_frame = 4

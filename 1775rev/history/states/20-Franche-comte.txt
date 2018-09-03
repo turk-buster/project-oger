@@ -1,13 +1,13 @@
 
 state={
 	id=20
-	name="STATE_20" # Rhone
-	manpower = 1973200
+	name="Lyonnais" # Rhone
+	manpower = 323200
 	resources={
 		aluminium=72
 	}
 
-	state_category = city
+	state_category = large_town
 
 	history={
 		owner = FRA
@@ -16,14 +16,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 2
-			air_base = 4
+			arms_factory = 2
+			industrial_complex = 1
 		}
 		add_core_of = FRA
 	}
 
 	provinces={
-		3770 6613 6786 9728 9732 11593 11716 
+		3770 6613 6786 11593 
 	}
 }

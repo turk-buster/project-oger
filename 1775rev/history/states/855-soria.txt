@@ -1,0 +1,20 @@
+
+state={
+	id=855
+	name="Soria"
+	manpower = 33960
+	
+	state_category = rural
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		9785 11766 3859 857 
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=903
+	name="Nice" # 
+	manpower = 91933
+	state_category = city
+
+	history= {
+		owner = SAV
+		victory_points = {
+			9909 20 
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			arms_factory = 2
+			9909 = {
+				naval_base = 2
+			}	
+		}
+		add_core_of = SAV
+	}
+	provinces= {
+		9909 
+ 	}
+}

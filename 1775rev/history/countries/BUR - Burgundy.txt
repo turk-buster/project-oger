@@ -1,8 +1,8 @@
 ﻿capital = 769
 
-oob = "BUR_1936"
+oob = "BSE_1444"
 
-set_research_slots = 4
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
@@ -90,26 +90,20 @@ set_autonomy = {
 	autonomous_state = autonomy_dominion
 }
 
+set_autonomy = {
+	target = HLN
+	autonomous_state = autonomy_dominion
+}
+
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
-	name = "Phillipe III de Bourgoune"
+	name = "Burgundy"
 	desc = ""
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
 		
-	}
-}
-
-create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		stout_defender
 	}
 }
 
@@ -143,24 +137,13 @@ set_convoys = 0
 set_national_unity = 0.8
 
 create_country_leader = {
-	name = "Charles I de Bourgoune"
+	name = "Nevers"
 	desc = ""
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
 		
-	}
-}
-
-create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		stout_defender
 	}
 }
 
@@ -194,24 +177,13 @@ set_convoys = 0
 set_national_unity = 0.8
 
 create_country_leader = {
-	name = "Charles I de Bourgoune"
+	name = "Brabant"
 	desc = ""
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
 		
-	}
-}
-
-create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		stout_defender
 	}
 }
 
@@ -245,7 +217,7 @@ set_convoys = 20
 set_national_unity = 0.75
 
 create_country_leader = {
-	name = "Phillipe III"
+	name = "Flanders"
 	desc = ""
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
 	expire = "1965.1.1"
@@ -255,13 +227,42 @@ create_country_leader = {
 	}
 }
 
+HLN = {
+	set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 100
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = { 
+			popularity = 0
+		}
+	}
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 20
+set_national_unity = 0.75
+
 create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
+	name = "Holland"
+	desc = ""
+	picture = "Portrait_France_Charles_De_Gaulle.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = nazism
 	traits = {
-		stout_defender
+		
 	}
 }

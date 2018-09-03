@@ -11,11 +11,10 @@ state={
 	}
 
 	history={
-		owner = NSP
+		owner = CLD
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = NSP
 		victory_points = {
 			13089 1
 		}

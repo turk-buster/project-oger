@@ -7,8 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = 13C
-		add_core_of = 13C
+		owner = CLD
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

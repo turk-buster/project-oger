@@ -2,7 +2,7 @@
 state={
 	id=176
 	name="STATE_176"
-	manpower = 1343760
+	manpower = 103960
 	
 	state_category = large_town
 
@@ -20,8 +20,14 @@ state={
 		}
 		add_core_of = SPR
 	}
+	#Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	#tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	#quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	#consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	#cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	#proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 	provinces={
-		857 884 885 903 3820 3859 3887 3902 6903 6936 9700 9800 9827 9846 9870 9872 11684 11766 11806 11809 11825 11852 11854 
+		3820 6936 9800 9827 9846 9870 11806 11809 11825 
 	}
 }

@@ -60,7 +60,65 @@ ideas = {
 		}
 	}
 
+	overextension = {
+		law = yes
+
+		remove_overextension = {
+			cost = 50
+			available = {
+				has_idea = overextension
+				is_ai = no
+			}
+			on_add = {
+				country_event = { id = overextension.2 }
+			}
+		}
+	}
+
+	colonization = {
+		law = yes
+
+		invest_in_colonies = {
+			cost = 50
+			available = {
+				has_idea = colonizer
+			}
+			on_add = {
+				country_event = { id = eu4colonies.1 }
+			}
+		}
+
+		colonizer = {
+			cost = 300
+			ai_will_do = {
+				factor = 45
+			}
+			available = {
+				AND = {
+					NOT = {
+						has_idea = colonizer
+					}
+					OR = {
+						tag = FRA
+						tag = ENG
+						tag = SPR
+						tag = POR
+						tag = NOR
+						#has_idea = colonization_idea
+					}
+					any_owned_state = { is_coastal = yes }
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.04
+			}
+		}
+	}
+
 	gov_type = {
+		law = yes
+
 		duchy = {
 			cost = 150
 			removal_cost = -1
@@ -98,7 +156,6 @@ ideas = {
 				local_resources_factor = 0.10
 				conscription = 0.02
 			}
-
 		}
 
 		kingdom = {
@@ -154,11 +211,48 @@ ideas = {
 		}
 	}
 
+	Colonization = {
+		colonizer = { 
+			cost = 200
+			ai_will_do = {
+   				factor = 5
+   				modifier = {
+   					factor = 40
+   					OR = {
+   						tag = ENG
+   						tag = POR
+   						tag = SPR
+   						tag = FRA
+   					}
+   				}
+   				modifier = {
+   					factor = 20
+   					OR = {
+   						tag = ARA
+   						tag = BRI
+   						tag = HLN
+   						tag = NOR
+   					}
+   				}
+   			}
+		}
+
+		colonize = { 
+			cost = 50
+			available = {
+				has_idea = colonizer
+			}
+			on_add = {
+				country_event = { id = eu4colonies.2 }
+			}
+		}
+	} 
+
 	ArtInt = { 
 		law = yes
 
 		claimant = { 
-			cost = 45
+			cost = 55
 			available = {
 				is_ai  = yes
 			}
@@ -168,12 +262,9 @@ ideas = {
 			on_add = {
 				country_event = { id = eu4claims.1 }
 			}
-			ai_will_do = {
-   				factor = 60
-   			}
 		}
 		core = { 
-			cost = 75
+			cost = 45
 			visible = {
 				is_ai  = yes
 			}
@@ -186,10 +277,96 @@ ideas = {
 				}
 			}
 			ai_will_do = {
-   				factor = 40
+   				factor = 15
+   				modifier = {
+   					factor = 35
+
+
+   					has_idea = overextension
+   				}
    			}
 			on_add = {
 				country_event = { id = eu4cores.1 }
+			}
+		}
+		add_inf = { 
+			cost = 5
+			visible = {
+				is_ai  = yes
+			}
+			available = {
+				is_ai  = yes
+				OR = {
+					check_variable = { ROOT.num_of_military_factories > ROOT.num_divisions }
+					check_variable = { ROOT.num_of_military_factories = ROOT.num_divisions }
+				}
+			}
+			ai_will_do = {
+   				factor = 15
+   			}
+			on_add = {
+				country_event = { id = eu4aiunits.1 }
+			}
+		}
+		add_cav = { 
+			cost = 5
+			visible = {
+				is_ai  = yes
+			}
+			available = {
+				is_ai  = yes
+				OR = {
+					check_variable = { ROOT.num_of_military_factories > ROOT.num_divisions }
+					check_variable = { ROOT.num_of_military_factories = ROOT.num_divisions }
+				}
+			}
+			ai_will_do = {
+   				factor = 10
+   			}
+			on_add = {
+				country_event = { id = eu4aiunits.2 }
+			}
+		}
+		add_arty = { 
+			cost = 5
+			visible = {
+				is_ai  = yes
+			}
+			available = {
+				is_ai  = yes
+				OR = {
+					check_variable = { ROOT.num_of_military_factories > ROOT.num_divisions }
+					check_variable = { ROOT.num_of_military_factories = ROOT.num_divisions }
+				}
+			}
+			ai_will_do = {
+   				factor = 5
+   			}
+			on_add = {
+				country_event = { id = eu4aiunits.3 }
+			}
+		}
+		start = { 
+			cost = 0
+			visible = {
+				is_ai  = yes
+				NOT = {
+					tag = CLD
+					tag = WAS
+				}
+			}
+			available = {
+				is_ai  = yes
+				NOT = {
+					tag = CLD
+					tag = WAS
+				}
+			}
+			#ai_will_do = {
+   			#	factor = 60
+   			#}
+			on_add = {
+				country_event = { id = eu4addunits.2 }
 			}
 		}
 	}

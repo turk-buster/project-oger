@@ -1,0 +1,59 @@
+add_namespace = overextension
+
+country_event = {
+	id = overextension.1
+	title = overextension.1.t	
+	desc = overextension.1.d
+	#picture = GFX_					#
+	
+	hidden = no
+
+	trigger = {
+		ROOT = {
+			NOT = {
+				has_idea = overextension
+			}
+			any_owned_state = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			is_ai = no
+		}
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+	option = {
+		name = overextension.1.a #from 0
+		ai_chance = { 
+			factor = 100 
+		}
+		add_ideas = overextension
+	}
+}
+
+country_event = {
+	id = overextension.2
+	title = overextension.2.t	
+	desc = overextension.2.d
+	#picture = GFX_					#
+	
+	hidden = no
+	is_triggered_only = yes
+
+	option = {
+		name = overextension.2.a #from 1
+		ai_chance = { 
+			factor = 100 
+		}
+		remove_ideas = overextension
+
+		hidden_effect = {
+			remove_ideas = {
+				remove_overextension
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+#add_namespace = eu4tests
+
+#country_event = {
+	id = eu4tests.1
+	title = eu4tests.1.t
+	desc = eu4tests.1.d
+	#picture = eu4claims
+
+	fire_only_once = no
+	is_triggered_only = no
+	mean_time_to_happen = { days = 5 }
+
+	trigger = {
+		num_of_owned_states > 0
+	}
+
+	option = {
+		name = eu4overextension.1.a #from 0
+		ai_chance = { 
+			factor = 100 
+		}
+	}
+}

@@ -1,8 +1,8 @@
 
 state={
 	id=23
-	name="STATE_23"
-	manpower = 1603100
+	name="Saintogne"
+	manpower = 197183
 	
 	state_category = town
 	
@@ -18,6 +18,7 @@ state={
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
+			arms_factory = 1
 			6657 = {
 				naval_base = 3
 			}
@@ -26,6 +27,6 @@ state={
 	}
 
 	provinces={
-		629 655 6657 9631 11582 11600 
+		6657 11582 9597 595 
 	}
 }

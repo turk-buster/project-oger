@@ -1,6 +1,6 @@
 ﻿capital = 2
 
-oob = "xxx"
+oob = "BSE_1444"
 
 set_research_slots = 1
 

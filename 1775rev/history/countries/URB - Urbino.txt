@@ -1,6 +1,6 @@
 ﻿capital = 751
 
-oob = "URB_1936"
+oob = "BSE_1444"
 
 set_research_slots = 4
 

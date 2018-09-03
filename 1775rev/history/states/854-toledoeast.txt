@@ -1,0 +1,21 @@
+
+state={
+	id=854
+	name="Cuenca"
+	manpower = 52433
+	
+	state_category = town
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		9933 11870 6879 3945 11742 3891 888 
+	}
+}

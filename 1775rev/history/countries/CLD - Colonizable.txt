@@ -2,6 +2,8 @@
 
 oob = "gaggagagaga_1936"
 
+set_research_slots = 0
+
 set_politics = {
 
 	parties = {

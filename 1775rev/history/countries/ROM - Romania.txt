@@ -1,6 +1,6 @@
 ﻿capital = 79
 
-oob = "ROM_1936"
+oob = "BSE_1444"
 
 set_research_slots = 3
 
@@ -53,9 +53,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Grigore III Ghica"
+	name = "Moldavia"
 	desc = ""
-	picture = "Portrait_Romania_grigoria.dds"
+	picture = "Portrait_Romania_grasdasdigoria.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

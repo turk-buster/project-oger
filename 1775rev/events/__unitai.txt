@@ -1,0 +1,82 @@
+add_namespace = eu4aiunits
+
+country_event = {
+	id = eu4aiunits.1
+	title = eu4aiunits.1.t
+	desc = eu4aiunits.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = eu4aiunits.1.a
+		ai_chance = { 
+			factor = 100 
+		}
+		random_owned_state = {
+			create_unit = { 
+				division = "name = \"Infantry\" division_template = \"Infantry\" start_experience_factor = 0.2" 
+				owner = ROOT
+			}			
+		}
+		add_manpower = -5000
+		hidden_effect = {
+			remove_ideas = {
+				add_inf
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eu4aiunits.2
+	title = eu4aiunits.2.t
+	desc = eu4aiunits.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = eu4aiunits.2.a
+		ai_chance = { 
+			factor = 100 
+		}
+		random_owned_state = {
+			create_unit = { 
+				division = "name = \"Cavalry\" division_template = \"Cavalry\" start_experience_factor = 0.2" 
+				owner = ROOT
+			}			
+		}
+		add_manpower = -5000
+		hidden_effect = {
+			remove_ideas = {
+				add_cav
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eu4aiunits.3
+	title = eu4aiunits.3.t
+	desc = eu4aiunits.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = eu4aiunits.3.a
+		ai_chance = { 
+			factor = 100 
+		}
+		random_owned_state = {
+			create_unit = { 
+				division = "name = \"Artillery\" division_template = \"Artillery\" start_experience_factor = 0.2" 
+				owner = ROOT
+			}			
+		}
+		add_manpower = -5000
+		hidden_effect = {
+			remove_ideas = {
+				add_arty
+			}
+		}
+	}
+}

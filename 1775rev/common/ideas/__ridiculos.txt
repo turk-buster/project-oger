@@ -50,5 +50,41 @@ ideas = {
 				army_morale_factor = 0.05
 			}
 		}
+
+		colonial_nation = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		
+			modifier = {
+				consumer_goods_factor = -0.01
+			}
+		}
+
+		overextension = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		
+			modifier = {
+				consumer_goods_factor = 0.2
+				enemy_justify_war_goal_time = -0.5
+				conscription_factor = -0.25
+				defence = -0.2
+				offence = -0.2
+				political_power_factor = -0.4
+				stability_weekly = -0.02
+			}
+		}
 	}
 }

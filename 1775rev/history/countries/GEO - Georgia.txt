@@ -1,6 +1,6 @@
 ﻿capital = 231 #Tbilisi
 
-oob = "GEO_1936"
+oob = "BSE_1444"
 
 set_research_slots = 3
 

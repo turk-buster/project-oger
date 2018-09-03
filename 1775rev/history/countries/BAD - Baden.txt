@@ -1,6 +1,6 @@
 ﻿capital = 780
 
-oob = "BAD_1936"
+oob = "BSE_1444"
 
 # Starting tech
 set_technology = {
@@ -76,7 +76,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Jakob I"
+	name = "Baden"
 	desc = ""
 	picture = "Portrait_Germany_Adolf_Hitler.dds"
 	expire = "1965.1.1"

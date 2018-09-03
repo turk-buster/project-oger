@@ -2,7 +2,7 @@
 state={
 	id=290
 	name="Ceuta"
-	manpower = 744000
+	manpower = 124000
 	
 	
 	state_category = rural

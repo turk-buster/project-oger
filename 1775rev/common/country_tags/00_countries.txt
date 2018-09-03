@@ -195,6 +195,28 @@ MAG = "countries/Magdeburg.txt"
 #F
 POM = "countries/Pomerania.txt"
 GRA = "countries/Granada.txt"
+#5/27/18 germany done
+ANH = "countries/Anhalt.txt"
+DIT = "countries/Dithmarschen.txt"
+#locont
+HLN = "countries/Holland1.txt"
+UTR = "countries/Utrecht.txt"
+GEL = "countries/Gelre.txt"
+OST = "countries/ostfrisia.txt"
+FRI = "countries/Friesland.txt"
+#5/28/18
+VER = "countries/Verden.txt"
+BRE = "countries/Bremen.txt"
+LUN = "countries/Luneburg.txt"
+SXE = "countries/Saxe-Lauenburg.txt"
+#5/30/18 commonwealth update
+MAZ = "countries/Mazovia.txt"
+#6/10/18
+LIV = "countries/Livonia.txt"
+RIG = "countries/Riga.txt"
+THE = "countries/Theodoro.txt"
+#6/11/18
+SLW = "countries/SchleswigHolstein"
 #
 #  N O T C O U N T R I E S 
 #

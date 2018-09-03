@@ -1,0 +1,22 @@
+
+state={
+	id=896
+	name="Argyll" # Sussex
+	manpower = 28230
+	state_category = rural
+
+	resources={
+		aluminium=12
+	}
+
+	history= {
+		owner = SCO
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SCO
+	}
+	provinces= {
+		6385 284 3373 11161  
+ 	}
+}

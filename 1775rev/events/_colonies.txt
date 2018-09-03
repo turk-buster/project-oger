@@ -1,0 +1,64 @@
+add_namespace = eu4colonies 
+
+country_event = {
+	id = eu4colonies.1 #white peace
+	title = eu4colonies.1.t
+	desc = eu4colonies.1.d
+	#picture = john cena
+
+	is_triggered_only = no
+
+	trigger = {
+		ROOT = {
+			has_war_with = CLD
+		}
+		CLD = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		hours = 1
+	}
+
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = eu4colonies.1.a
+		every_state ={
+			limit = {
+				owner = CLD
+				is_controlled_by = ROOT
+			}
+			ROOT = { transfer_state = PREV }
+			add_core_of = ROOT
+		}
+		ROOT = { white_peace = CLD }
+	}
+}
+
+country_event = {
+	id = eu4colonies.2 #white peace
+	title = eu4colonies.2.t
+	desc = eu4colonies.2.d
+	#picture = john cena
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = eu4colonies.2.a
+		ROOT = {
+			declare_war_on = {
+				target = CLD
+				type = annex_everything
+			}
+			remove_ideas = colonize
+		}
+	}
+}
